@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_WF_Node">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_WF_Node">
  <row id="116" trl="Y">
   <value column="Name" original="Accounting Schema">Schema contabile</value>
   <value column="Description" original="Project as Account Segment">Progetto come Segmento contabile</value>
@@ -21,8 +21,8 @@
   <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">I Riferimenti sono usati come predefiniti in una lista di selezione. Devi solo tradurre gli Elementi della Lista!!!!</value>
  </row>
  <row id="121" trl="Y">
-  <value column="Name" original="Window &amp; Tab"><![CDATA[Finestra & Tab]]></value>
-  <value column="Description" original="Translate Windows and Tabs"><![CDATA[Traduci Finestre (Windows) & Tabulatori]]></value>
+  <value column="Name" original="Window &amp; Tab" xml:space="preserve"><![CDATA[Finestra & Tab]]></value>
+  <value column="Description" original="Translate Windows and Tabs" xml:space="preserve"><![CDATA[Traduci Finestre (Windows) & Tabulatori]]></value>
   <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">Traduci il Nome, Descrizione e Aiuto per Finestre e Tabulatori. La maggior parte dei Campi sono già tradotti, se gestiti centralmente.</value>
  </row>
  <row id="122" trl="Y">
@@ -31,7 +31,7 @@
   <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">Le Maschere sono Finestre speciali e devo tradurne il nome, la descrizione e l'aiuto.</value>
  </row>
  <row id="123" trl="Y">
-  <value column="Name" original="Report &amp; Process"><![CDATA[Report & Processi]]></value>
+  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Report & Processi]]></value>
   <value column="Description" original="Translate Reports and Processes">Traduci Report e Processi</value>
   <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">Traduci il Nome, Descrizione e Aiuto per i Processi e i Reports. Non devi tradurre i Parametri, se gestiti centralmente.</value>
  </row>
@@ -51,9 +51,9 @@
   <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">Traduce Nome, Descrizione e Aiuto del Workflows e i suoi nodi.</value>
  </row>
  <row id="152" trl="Y">
-  <value column="Name" original="Check Client Setup">Controllo Setup del Client</value>
-  <value column="Description" original="Check Client setup for Requests">Controllare Client setup per Richieste</value>
-  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Hai bisogno di una mail server e di un indirizzo email dal quale le richieste e le notifiche vengono inviate.  Altrimente, se definisci una mail Utente e la password, le richieste vengono lette dalla cartella della posta utenti e importate nel sistema.</value>
+  <value column="Name" original="Check Tenant Setup">Controllo Setup del Client</value>
+  <value column="Description" original="Check Tenant setup for Requests">Controllare Client setup per Richieste</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Hai bisogno di una mail server e di un indirizzo email dal quale le richieste e le notifiche vengono inviate. Altrimente, se definisci una mail Utente e la password, le richieste vengono lette dalla cartella della posta utenti e importate nel sistema.</value>
  </row>
  <row id="153" trl="Y">
   <value column="Name" original="Check Users">Controllo Utenti</value>
@@ -68,33 +68,28 @@
  <row id="166" trl="N">
   <value column="Name" original="Tax Category">Tax Category</value>
   <value column="Description" original="Maintain Tax Categories">Maintain Tax Categories</value>
-  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">The Tax Category Window is used to enter and maintain Tax Categories. Each product is associated with a tax category which facilitates reacting changing tax rates.</value>
  </row>
  <row id="167" trl="N">
   <value column="Name" original="Product">Product</value>
   <value column="Description" original="Maintain Products">Maintain Products</value>
-  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">The Product Window defines all products used by an organization. These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.</value>
  </row>
  <row id="168" trl="N">
   <value column="Name" original="Charge">Charge</value>
   <value column="Description" original="Maintain Charges">Maintain Charges</value>
-  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">The Charges Window defines the different charges that may be incurred. These can include Bank Charges, Vendor Charges and Handling Charges.</value>
  </row>
  <row id="169" trl="N">
   <value column="Name" original="Tax Rate">Tax Rate</value>
   <value column="Description" original="Maintain Taxes and their Rates">Maintain Taxes and their Rates</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">The Tax Rate Window defines the different taxes used for each tax category. For example Sales Tax must be defined for each State in which it applies.</value>
  </row>
  <row id="170" trl="Y">
   <value column="Name" original="Accounting Schema">Schema Contabile</value>
   <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Maintain Accounting Schema - For changes to become effective you must re-login</value>
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.
 Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.</value>
- </row>
- <row id="180" trl="N">
-  <value column="Name" original="Verify completed Requisition">Verify completed Requisition</value>
-  <value column="Description" original="Just a test case for a manual interaction.">Just a test case for a manual interaction.</value>
-  <value column="Help" original="Enter and maintain Material Requisitions">Enter and maintain Material Requisitions</value>
  </row>
  <row id="50000" trl="N">
   <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
@@ -112,8 +107,8 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original=""/>
  </row>
  <row id="50003" trl="N">
-  <value column="Name" original="Warehouse &amp; Locators"><![CDATA[Warehouse & Locators]]></value>
-  <value column="Description" original="Warehouse &amp; Locators"><![CDATA[Warehouse & Locators]]></value>
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Warehouse & Locators]]></value>
+  <value column="Description" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Warehouse & Locators]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50004" trl="N">
@@ -257,12 +252,12 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original=""/>
  </row>
  <row id="50049" trl="N">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[Multi Level BOM & Formula Detail]]></value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
   <value column="Help" original=""/>
  </row>
  <row id="50050" trl="N">
-  <value column="Name" original="BOM &amp; Formula Info"><![CDATA[BOM & Formula Info]]></value>
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve"><![CDATA[BOM & Formula Info]]></value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
   <value column="Help" original=""/>
  </row>
@@ -297,13 +292,13 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original=""/>
  </row>
  <row id="50057" trl="N">
-  <value column="Name" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
-  <value column="Description" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
+  <value column="Name" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
+  <value column="Description" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50058" trl="N">
-  <value column="Name" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
-  <value column="Description" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50059" trl="N">

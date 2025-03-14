@@ -25,7 +25,7 @@
   <value column="Title" original="Powerfull Plum Tree">Powerfull Plum Tree</value>
  </row>
  <row id="103" trl="Y">
-  <value column="Meta_Description" original="This is  short summary of the advantages of our wonderfull oak tree">This is  short summary of the advantages of our wonderfull oak tree</value>
+  <value column="Meta_Description" original="This is  short summary of the advantages of our wonderfull oak tree">This is short summary of the advantages of our wonderfull oak tree</value>
   <value column="Meta_Keywords" original="oak tree gardenworld">oak tree gardenworld</value>
   <value column="Name" original="Oak Tree">Oak Tree</value>
   <value column="ContainerXML" original=""/>

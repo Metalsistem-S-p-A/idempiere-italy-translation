@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_FieldGroup">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_FieldGroup">
  <row id="101" trl="Y">
   <value column="Name" original="Status">Stato</value>
  </row>
@@ -202,9 +202,108 @@
   <value column="Name" original="Technical">Tecnico</value>
  </row>
  <row id="200016" trl="Y">
-  <value column="Name" original="Foreign Key">Chave Esterna</value>
+  <value column="Name" original="Foreign Key">Chiave Esterna</value>
  </row>
  <row id="200018" trl="Y">
   <value column="Name" original="Background Job">Background Job</value>
+ </row>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Placeholders">Segnaposto</value>
+ </row>
+ <row id="200024" trl="Y">
+  <value column="Name" original="FROM BANK ACCOUNT">DA CONTO BANCARIO</value>
+ </row>
+ <row id="200025" trl="Y">
+  <value column="Name" original="TO BANK ACCOUNT">A CONTO BANCARIO</value>
+ </row>
+ <row id="200027" trl="Y">
+  <value column="Name" original="EMail">EMail</value>
+ </row>
+ <row id="200028" trl="Y">
+  <value column="Name" original="TOTP">TOTP</value>
+ </row>
+ <row id="200029" trl="Y">
+  <value column="Name" original="Source">Origine</value>
+ </row>
+ <row id="200030" trl="Y">
+  <value column="Name" original="Printing">Stampa</value>
+ </row>
+ <row id="200031" trl="Y">
+  <value column="Name" original="( None )">( Nessuno )</value>
+ </row>
+ <row trl="Y" uuid="64d9ab59-43b4-4323-8782-967c8416df0c">
+  <value column="Name" original="Document Description">Descrizione Documento</value>
+ </row>
+ <row trl="Y" uuid="a5a3386b-4128-4801-8e68-79d21dea64fb">
+  <value column="Name" original="Withholding Information">Informazione Ritenuta</value>
+ </row>
+ <row trl="Y" uuid="2a7e526f-e49b-4b30-8e5e-45995f40ed0a">
+  <value column="Name" original="NextCloud Configuration">NextCloud Configurazioni</value>
+ </row>
+ <row trl="Y" uuid="7f29042a-8ab2-4773-ae5b-b6642015838d">
+  <value column="Name" original="iTop Configuration">iTop Configurazioni</value>
+ </row>
+ <row trl="Y" uuid="1ef951f1-23ba-4126-b616-19f61df3f641">
+  <value column="Name" original="Gestione Separata">Gestione Separata</value>
+ </row>
+ <row trl="Y" uuid="f986a244-f9dc-4172-aa04-dafec0fadce0">
+  <value column="Name" original="Customer/Vendor Information">Informazioni Cliente/Fornitore</value>
+ </row>
+ <row trl="Y" uuid="e58db383-f714-4e94-9259-089047df5d8a">
+  <value column="Name" original="Subcontracting Information">Informazioni Conto Lavoro</value>
+ </row>
+ <row trl="Y" uuid="b5792991-b82d-4eeb-8251-1f3aeb1793ae">
+  <value column="Name" original="LIT VAT">Dati IVA</value>
+ </row>
+ <row trl="Y" uuid="bcf91871-1f4d-4c2a-aaf8-09205b54652c">
+  <value column="Name" original="Resource Assignment">Gestione con Assegnazione Risorsa</value>
+ </row>
+ <row trl="Y" uuid="d5bd2c5a-08b2-4648-b6dd-e0ee48e9aeae">
+  <value column="Name" original="6-Pack">6-Pack</value>
+ </row>
+ <row trl="Y" uuid="671dcea4-f171-4953-8a75-9e279b4bb31b">
+  <value column="Name" original="Call Data">Dati Bando</value>
+ </row>
+ <row trl="Y" uuid="4ae23a62-0cbb-450f-a53d-f1ce8aadf04e">
+  <value column="Name" original="Report Parameter - Sales Order">Parametrizzazione Report - Offerta/Ordine di Vendita</value>
+ </row>
+ <row trl="Y" uuid="c2fa1508-1112-4176-b0ed-716ad0b99cb3">
+  <value column="Name" original="Report Parameter - Shipment">Parametrizzazione Report - Documento di Trasporto</value>
+ </row>
+ <row trl="Y" uuid="27a17288-59a4-4d9e-98a5-f27da0ae723f">
+  <value column="Name" original="Report Parameter - Invoice (Customer)">Parametrizzazione Report - Fattura di Vendita</value>
+ </row>
+ <row trl="Y" uuid="01bbe495-f05c-4b21-a8e8-24c2b0e0d6cf">
+  <value column="Name" original="Report Parameter - Purchase Order">Parametrizzazione Report - Ordine di Acquisto</value>
+ </row>
+ <row trl="Y" uuid="97250c40-3d7a-4ff1-8afd-02ba0230c91b">
+  <value column="Name" original="Report Parameter Material Receipt">Parametrizzazione Report - Entrata Merce</value>
+ </row>
+ <row trl="Y" uuid="414c5142-2690-4943-a501-8167460f68cf">
+  <value column="Name" original="Report Parameter Invoice (Vendor)">Parametrizzazione Report - Fattura di Acquisto</value>
+ </row>
+ <row trl="Y" uuid="676da211-1442-4408-94db-e95d4c8ea46b">
+  <value column="Name" original="Report Parameter Language">Parametrizzazione Lingua Report</value>
+ </row>
+ <row trl="Y" uuid="fb9f8751-2f2e-44bd-9794-ee3905038c44">
+  <value column="Name" original="IAS">Gestione IAS</value>
+ </row>
+ <row trl="Y" uuid="db9847a7-ae81-4b8f-ba51-b49f11bdf754">
+  <value column="Name" original="Product category">Categoria Prodotto</value>
+ </row>
+ <row trl="Y" uuid="bba83d51-1506-4f99-8f90-03c667bff781">
+  <value column="Name" original="Upper Product Category">Categoria Superiore</value>
+ </row>
+ <row trl="Y" uuid="dbcf3d62-60ee-419e-b691-e58e5e2822e7">
+  <value column="Name" original="- Statistics Info">Informazioni Statistiche</value>
+ </row>
+ <row trl="Y" uuid="46d59074-736c-4499-ada8-953403bc70cc">
+  <value column="Name" original="- Reference">Riferimento</value>
+ </row>
+ <row trl="Y" uuid="725ee129-b664-4b60-a414-daae22984649">
+  <value column="Name" original="- Default Value">Valori di Default</value>
+ </row>
+ <row trl="Y" uuid="b12eb708-2f82-4126-b734-28d1d702e7f5">
+  <value column="Name" original="- Non-business Day Config">Calendario Giorni Festivi</value>
  </row>
 </idempiereTrl>

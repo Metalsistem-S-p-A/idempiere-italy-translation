@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Reference">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Reference">
  <row id="1" trl="Y">
   <value column="Name" original="AD_Reference Data Types">AD_Reference Tipi di Dato</value>
   <value column="Description" original="Data Type selection">Selezione Tipo di Dato</value>
@@ -147,7 +147,7 @@
  </row>
  <row id="34" trl="N">
   <value column="Name" original="Memo">Memo</value>
-  <value column="Description" original="Large Text Editor - Character String up to 2000 characters">Editor di Testo  Esteso - Stringa di Caratteri fino a 2000 caratteri</value>
+  <value column="Description" original="Large Text Editor - Character String up to 2000 characters">Editor di Testo Esteso - Stringa di Caratteri fino a 2000 caratteri</value>
   <value column="Help" original=""/>
  </row>
  <row id="35" trl="N">
@@ -157,7 +157,7 @@
  </row>
  <row id="36" trl="Y">
   <value column="Name" original="Text Long">Testo Lungo</value>
-  <value column="Description" original="Text (Long) - Text &gt; 2000 characters"><![CDATA[Testo (Lungo) Testo > 2000 caratteri]]></value>
+  <value column="Description" original="Text (Long) - Text &gt; 2000 characters" xml:space="preserve"><![CDATA[Testo (Lungo) Testo > 2000 caratteri]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="37" trl="Y">
@@ -317,7 +317,7 @@
  </row>
  <row id="129" trl="N">
   <value column="Name" original="AD_Client">AD_Client</value>
-  <value column="Description" original="Client selection">Selezione Azienda</value>
+  <value column="Description" original="Tenant selection">Selezione Azienda</value>
   <value column="Help" original=""/>
  </row>
  <row id="130" trl="N">
@@ -602,7 +602,7 @@
  </row>
  <row id="195" trl="Y">
   <value column="Name" original="_Payment Rule">_Payment Regola</value>
-  <value column="Description" original="In &amp; Out Payment Options"><![CDATA[Opzioni di Pagamento In & Out]]></value>
+  <value column="Description" original="In &amp; Out Payment Options" xml:space="preserve"><![CDATA[Opzioni di Pagamento In & Out]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="196" trl="Y">
@@ -621,7 +621,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="199" trl="Y">
-  <value column="Name" original="M_PriceList_Version for Client">M_PriceList_Version dell'Azienda</value>
+  <value column="Name" original="M_PriceList_Version for Tenant">M_PriceList_Version dell'Azienda</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -686,7 +686,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="212" trl="Y">
-  <value column="Name" original="M_InventoryCount QtyRange">M_InventoryCount QtàIntervallo</value>
+  <value column="Name" original="M_InventoryCount QtyRange">M_InventoryCount Q.tàIntervallo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1252,7 +1252,7 @@
  </row>
  <row id="331" trl="Y">
   <value column="Name" original="Account_ID">Account_ID</value>
-  <value column="Description" original="Account selection based on Client">Selezione del Conto in base all'Azienda</value>
+  <value column="Description" original="Account selection based on Tenant">Selezione del Conto in base all'Azienda</value>
   <value column="Help" original=""/>
  </row>
  <row id="332" trl="Y">
@@ -1421,7 +1421,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="366" trl="Y">
-  <value column="Name" original="R_Request TaskStatus">R_Request StatoCompito</value>
+  <value column="Name" original="R_Request TaskStatus">R_Request StatoAttività</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1583,7 +1583,7 @@
  <row id="50003" trl="Y">
   <value column="Name" original="AD_Package_Exp_DB">AD_Package_Exp_DB</value>
   <value column="Description" original="List of database types">Elenco Tipi di Database</value>
-  <value column="Help" original="This is a list of database types used by the inbound packaging processing to determine if the sql statement is fired.">Questo è un elenco dei  Tipi di Database usato dall'elaboratore di importazione dei Package per stabilire quale istruzione SQL eseguire.</value>
+  <value column="Help" original="This is a list of database types used by the inbound packaging processing to determine if the sql statement is fired.">Questo è un elenco dei Tipi di Database usato dall'elaboratore di importazione dei Package per stabilire quale istruzione SQL eseguire.</value>
  </row>
  <row id="50004" trl="Y">
   <value column="Name" original="AD_Package_Build_Type">AD_Package_Build_Type</value>
@@ -2006,8 +2006,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="53316" trl="Y">
-  <value column="Name" original="PA_DashboardContent GoalDisplay">PA_DashboardContent VisualizzazioneObbiettivo</value>
-  <value column="Description" original="Type of goal display on dashboard">Tipo di Visualizzazione Obbiettivo nel Cruscotto</value>
+  <value column="Name" original="PA_DashboardContent GoalDisplay">PA_DashboardContent Visualizzazioneobiettivo</value>
+  <value column="Description" original="Type of goal display on dashboard">Tipo di Visualizzazione obiettivo nel Cruscotto</value>
   <value column="Help" original=""/>
  </row>
  <row id="53317" trl="Y">
@@ -2056,13 +2056,13 @@
   <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">Per ora esistono solo tipi di relazione Implicita, ovvero le coppie di record sono definite dalla regola stessa. In futuro avremo anche tipi Espliciti. Un Tipo Esplicito definisce un modello, le coppie reali possono essere aggiunte dall'Utente o dal Sistema</value>
  </row>
  <row id="53333" trl="Y">
-  <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)"><![CDATA[RelType C_Order (Vendite) <= C_Invoice_ID (Cliente)]]></value>
+  <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)" xml:space="preserve"><![CDATA[RelType C_Order (Vendite) <= C_Invoice_ID (Cliente)]]></value>
   <value column="Description" original="Finds C_Order_IDs for a given C_Invoice_ID">Trova C_Order_ID per una data C_Invoice_ID</value>
   <value column="Help" original=""/>
  </row>
  <row id="53334" trl="Y">
-  <value column="Name" original="RelType C_Invoice (Customer) &lt;= C_Order_ID (Sales)"><![CDATA[RelType C_Invoice (Cliente) <= C_Order_ID (Vendite)]]></value>
-  <value column="Description" original="Finds C_Invoice_IDs for a given C_C_Order_ID">Trova C_Invoice_ID  per un dato C_C_Order_ID</value>
+  <value column="Name" original="RelType C_Invoice (Customer) &lt;= C_Order_ID (Sales)" xml:space="preserve"><![CDATA[RelType C_Invoice (Cliente) <= C_Order_ID (Vendite)]]></value>
+  <value column="Description" original="Finds C_Invoice_IDs for a given C_C_Order_ID">Trova C_Invoice_ID per un dato C_C_Order_ID</value>
   <value column="Help" original=""/>
  </row>
  <row id="53335" trl="Y">
@@ -2076,22 +2076,22 @@
   <value column="Help" original=""/>
  </row>
  <row id="53345" trl="Y">
-  <value column="Name" original="RelType M_InOut (Shipment) &lt;= C_Invoice_ID (Customer)"><![CDATA[RelType M_InOut (Spedizione) <= C_Invoice_ID (Cliente)]]></value>
+  <value column="Name" original="RelType M_InOut (Shipment) &lt;= C_Invoice_ID (Customer)" xml:space="preserve"><![CDATA[RelType M_InOut (Spedizione) <= C_Invoice_ID (Cliente)]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53347" trl="Y">
-  <value column="Name" original="RelType M_InOut (Shipment) &lt;=  C_Order_ID"><![CDATA[RelType M_InOut (Spedizione) <= C_Order_ID]]></value>
+  <value column="Name" original="RelType M_InOut (Shipment) &lt;=  C_Order_ID" xml:space="preserve"><![CDATA[RelType M_InOut (Spedizione) <= C_Order_ID]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53348" trl="Y">
-  <value column="Name" original="RelType C_Invoice (Customer) &lt;= M_InOut_ID (Shipment)"><![CDATA[RelType C_Invoice (Cliente) <= M_InOut_ID (Spedizione)]]></value>
+  <value column="Name" original="RelType C_Invoice (Customer) &lt;= M_InOut_ID (Shipment)" xml:space="preserve"><![CDATA[RelType C_Invoice (Cliente) <= M_InOut_ID (Spedizione)]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53349" trl="Y">
-  <value column="Name" original="RelType C_Order (Sales) &lt;=  M_InOut_ID (Shipment)"><![CDATA[RelType C_Order (Vendite) <= M_InOut_ID (Spedizione)]]></value>
+  <value column="Name" original="RelType C_Order (Sales) &lt;=  M_InOut_ID (Shipment)" xml:space="preserve"><![CDATA[RelType C_Order (Vendite) <= M_InOut_ID (Spedizione)]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2106,17 +2106,17 @@
   <value column="Help" original=""/>
  </row>
  <row id="53352" trl="Y">
-  <value column="Name" original="RelType C_BPartner &lt;= Vendor/Customer Return"><![CDATA[RelType C_BPartner <= Reso Fornitore/Cliente]]></value>
+  <value column="Name" original="RelType C_BPartner &lt;= Vendor/Customer Return" xml:space="preserve"><![CDATA[RelType C_BPartner <= Reso Fornitore/Cliente]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53353" trl="Y">
-  <value column="Name" original="RelType Customer Return &lt;= C_BPartner_ID"><![CDATA[RelType Reso Cliente <= C_BPartner_ID]]></value>
+  <value column="Name" original="RelType Customer Return &lt;= C_BPartner_ID" xml:space="preserve"><![CDATA[RelType Reso Cliente <= C_BPartner_ID]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53354" trl="Y">
-  <value column="Name" original="RelType Vendor Return &lt;= C_BPartner_ID"><![CDATA[RelType Reso Fornitore <= C_BPartner_ID]]></value>
+  <value column="Name" original="RelType Vendor Return &lt;= C_BPartner_ID" xml:space="preserve"><![CDATA[RelType Reso Fornitore <= C_BPartner_ID]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2322,7 +2322,7 @@
  </row>
  <row id="200022" trl="N">
   <value column="Name" original="AD_BroadcastMessage_Target">AD_BroadcastMessag_Target</value>
-  <value column="Description" original="Target Client">Target Client</value>
+  <value column="Description" original="Target Tenant">Target Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="200023" trl="N">
@@ -2540,6 +2540,16 @@
   <value column="Description" original="Type of preference WEditor lie on (process, info window, window)">Type of preference WEditor lie on (process, info window, window)</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="DocSource Generate Shipments/Invoices (manual)">DocType Generate Shipments (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200087" trl="N">
+  <value column="Name" original="DocType Generate Invoices (manual)">DocType Generate Invoices (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200092" trl="N">
   <value column="Name" original="Country Group">Country Group</value>
   <value column="Description" original=""/>
@@ -2553,6 +2563,16 @@
  <row id="200099" trl="N">
   <value column="Name" original="IsToolbarButton">IsToolbarButton</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200115" trl="N">
+  <value column="Name" original="AttributeSet Type">AttributeSet Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200117" trl="N">
+  <value column="Name" original="TabTypeList">TabTypeList</value>
+  <value column="Description" original="List of tab type">List of tab type</value>
   <value column="Help" original=""/>
  </row>
  <row id="200121" trl="N">
@@ -2580,14 +2600,1079 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200133" trl="N">
+  <value column="Name" original="Timestamp With Time Zone">Timestamp With Time Zone</value>
+  <value column="Description" original="Date and time with time zone">Date and time with time zone</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200135" trl="N">
+  <value column="Name" original="Time Zone">Time Zone</value>
+  <value column="Description" original="Time Zone">Time Zone</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200137" trl="N">
+  <value column="Name" original="AD_Tree_Favorite_Node list">AD_Tree_Favorite_Node list</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200144" trl="N">
-  <value column="Name" original="AD_Client All Clients">AD_Client All Clients</value>
-  <value column="Description" original="Client selection">Client selection</value>
+  <value column="Name" original="AD_Client All Tenants">AD_Client All Clients</value>
+  <value column="Description" original="Tenant selection">Client selection</value>
   <value column="Help" original=""/>
  </row>
  <row id="200145" trl="N">
-  <value column="Name" original="AD_User Users from all Clients">AD_User Users from all Clients</value>
-  <value column="Description" original="Users from all clients">Users from all clients</value>
+  <value column="Name" original="AD_User Users from all Tenants">AD_User Users from all Clients</value>
+  <value column="Description" original="Users from all tenants">Users from all clients</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200152" trl="N">
+  <value column="Name" original="Radio Group List">Radio Group List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200157" trl="N">
+  <value column="Name" original="AD_Process Execution Type">AD_Process Execution Type</value>
+  <value column="Description" original="Report/Process Execution Type">Report/Process Execution Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200158" trl="N">
+  <value column="Name" original="AD_Process Multiple Execution">AD_Process Multiple Execution</value>
+  <value column="Description" original="Multiple execution rule list">Multiple execution rule list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200160" trl="N">
+  <value column="Name" original="C_Tax Posting Indicator">C_Tax Posting Indicator</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200161" trl="N">
+  <value column="Name" original="Chosen Multiple Selection List">Chosen Multiple Selection List</value>
+  <value column="Description" original="Chosen multiple selection box for reference list">Chosen multiple selection box for reference list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200162" trl="N">
+  <value column="Name" original="Chosen Multiple Selection Table">Chosen Multiple Selection Table</value>
+  <value column="Description" original="Chosen multiple selection box for table list">Chosen multiple selection box for table list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200163" trl="N">
+  <value column="Name" original="Chosen Multiple Selection Search">Chosen Multiple Selection Search</value>
+  <value column="Description" original="Chosen multiple selection box for search">Chosen multiple selection box for search</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200165" trl="N">
+  <value column="Name" original="AD_Table with ID Column">AD_Table with ID Column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200166" trl="N">
+  <value column="Name" original="AD_Role RoleType">AD_Role RoleType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200167" trl="N">
+  <value column="Name" original="Activate/Deactivate/Delete">Activate/Deactivate/Delete</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200169" trl="N">
+  <value column="Name" original="ReportOutputType">ReportOutputType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200170" trl="N">
+  <value column="Name" original="ViewFindResult">ViewFindResult</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200171" trl="N">
+  <value column="Name" original="RelType C_Invoice -&gt; C_Invoice (CM)" xml:space="preserve"><![CDATA[RelType C_Invoice -> C_Invoice (CM)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200173" trl="N">
+  <value column="Name" original="Scheduler State">Scheduler State</value>
+  <value column="Description" original="View and change the state of a scheduler">View and change the state of a scheduler</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200174" trl="N">
+  <value column="Name" original="PA_ReportLine Line Stroke Type">PA_ReportLine Line Stroke Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200175" trl="N">
+  <value column="Name" original="C_BPartner (all)">C_BPartner (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200176" trl="N">
+  <value column="Name" original="M_Product (all)">M_Product (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200178" trl="N">
+  <value column="Name" original="ImportOrExport">ImportOrExport</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200179" trl="N">
+  <value column="Name" original="AD_Table Trl">AD_Table Trl</value>
+  <value column="Description" original="Translated Tables">Translated Tables</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200180" trl="N">
+  <value column="Name" original="M_AttributeSetInstance">M_AttributeSetInstance</value>
+  <value column="Description" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200181" trl="N">
+  <value column="Name" original="S_ResourceAssignment">S_ResourceAssignment</value>
+  <value column="Description" original="Resource Assignment">Resource Assignment</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200182" trl="N">
+  <value column="Name" original="AD_Image">AD_Image</value>
+  <value column="Description" original="Image">Image</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200183" trl="N">
+  <value column="Name" original="AD_Chart">AD_Chart</value>
+  <value column="Description" original="Chart">Chart</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200184" trl="N">
+  <value column="Name" original="AD_AuthorizationType">AD_AuthorizationType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200185" trl="N">
+  <value column="Name" original="AD_AuthorizationScope">AD_AuthorizationScope</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200186" trl="N">
+  <value column="Name" original="HTML Attachment Type List">HTML Attachment Type List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200187" trl="N">
+  <value column="Name" original="MFA_Method">MFA_Method</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200188" trl="N">
+  <value column="Name" original="MFAType">MFAType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200189" trl="N">
+  <value column="Name" original="MFATimeProvider">MFATimeProvider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200190" trl="N">
+  <value column="Name" original="AD_Element">AD_Element</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200191" trl="N">
+  <value column="Name" original="MFA_Method - on tenant rule">MFA_Method - on client rule</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200194" trl="N">
+  <value column="Name" original="M_WarehouseTo of Tenant">M_WarehouseTo of Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200198" trl="N">
+  <value column="Name" original="FinReport ExcludeAdjustmentPeriods">FinReport ExcludeAdjustmentPeriods</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200202" trl="N">
+  <value column="Name" original="Record ID">Record ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200208" trl="N">
+  <value column="Name" original="C_DocType S.Order + RMA">C_DocType S.Order + RMA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200213" trl="N">
+  <value column="Name" original="SSO Provider List">SSO Provider List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200215" trl="N">
+  <value column="Name" original="AD_Role RoleType - WebService">AD_Role RoleType - WebService</value>
+  <value column="Description" original="Roles with RoleType NULL or WebService">Roles with RoleType NULL or WebService</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200217" trl="N">
+  <value column="Name" original="DateSelectionMode">DateSelectionMode</value>
+  <value column="Description" original="Date Selection Mode">Date Selection Mode</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200221" trl="N">
+  <value column="Name" original="Months">Months</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200222" trl="N">
+  <value column="Name" original="Quarters">Quarters</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200224" trl="N">
+  <value column="Name" original="S_ResourceType">S_ResourceType</value>
+  <value column="Description" original="Resource Type">Resource Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200227" trl="N">
+  <value column="Name" original="PrintFormatItemSync Source">PrintFormatItemSync Source</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200228" trl="N">
+  <value column="Name" original="Date Range Option">Date Range Option</value>
+  <value column="Description" original="Options, how the date editor will be displayed.">Options, how the date editor will be displayed.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200230" trl="N">
+  <value column="Name" original="AD_Reference Show Inactive">AD_Reference Show Inactive</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200231" trl="N">
+  <value column="Name" original="UUID">UUID</value>
+  <value column="Description" original="Universally unique identifier">Universally unique identifier</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200232" trl="N">
+  <value column="Name" original="AD_Table Name">AD_Table Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200233" trl="N">
+  <value column="Name" original="Table (UU)">Table (UU)</value>
+  <value column="Description" original="Table List based on UUID">Table List based on UUID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200234" trl="N">
+  <value column="Name" original="Table Direct (UU)">Table Direct (UU)</value>
+  <value column="Description" original="Direct Table Access based on UUID">Direct Table Access based on UUID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200235" trl="N">
+  <value column="Name" original="Search (UU)">Search (UU)</value>
+  <value column="Description" original="Search Field based on UUID">Search Field based on UUID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200236" trl="N">
+  <value column="Name" original="Test UU">Test UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200237" trl="N">
+  <value column="Name" original="AD_Table with ID or UU Column">AD_Table with ID or UU Column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200239" trl="N">
+  <value column="Name" original="Authentication Type List">Authentication Type List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200240" trl="N">
+  <value column="Name" original="Record UUID">Record UUID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200241" trl="N">
+  <value column="Name" original="GL_Category (all)">GL_Category (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200242" trl="N">
+  <value column="Name" original="AD_PInstance_Log PInstanceLogType">AD_PInstance_Log PInstanceLogType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200247" trl="N">
+  <value column="Name" original="C_UOM Weight Type">C_UOM Weight Type</value>
+  <value column="Description" original="Unit of Measure selection for Weight UOM Type">Unit of Measure selection for Weight UOM Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200248" trl="N">
+  <value column="Name" original="C_UOM Length Type">C_UOM Length Type</value>
+  <value column="Description" original="Unit of Measure selection for Length UOM Type">Unit of Measure selection for Length UOM Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200261" trl="N">
+  <value column="Name" original="AD_Column PartitioningMethod">AD_Column PartitioningMethod</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0e7f040f-bb8b-462d-a104-f4b2cbd25ca5">
+  <value column="Name" original="LIT_TablesList">LIT_TableList</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c39acae0-d474-41b9-9a20-cf2e758a0a6e">
+  <value column="Name" original="LIT_DeliveryTime">LIT_DeliveryTime</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8addc0be-4bcd-4170-914d-da8a5f94f6d2">
+  <value column="Name" original="LIT_Exclusion">LIT_Exclusion</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7cef63cb-8750-4d66-a69f-0ee8925743a6">
+  <value column="Name" original="LIT_TermsAndConditions">LIT_TermsAndConditions</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2b7fe6fd-4a18-489f-8adc-10e070765dda">
+  <value column="Name" original="LIT_OfferValidityTime">LIT_OfferValidityTime</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a9b390c0-76c6-43ff-b8da-0e2e0262509c">
+  <value column="Name" original="LIT_RowGroup">LIT_RowGroup</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="85d7f8de-e87d-48e1-85cc-97fcb35efb73">
+  <value column="Name" original="LIT_PackageType">LIT_PackageType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d21e9d7e-015b-43e7-a246-dd21ce6c4b07">
+  <value column="Name" original="LIT_ContactTypeGroup">Gruppo Tipo Contatto</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="feeb8c84-9766-4d9f-a01d-e0b28cf581e1">
+  <value column="Name" original="LIT_TaxTypeBPPartner_ID">TaxTypeBPPartner_ID</value>
+  <value column="Description" original="TaxTypeBPPartner_ID">TaxTypeBPPartner_ID</value>
+  <value column="Help" original="TaxTypeBPPartner_ID">TaxTypeBPPartner_ID</value>
+ </row>
+ <row trl="Y" uuid="7df62122-a041-4793-85b6-57f539734f79">
+  <value column="Name" original="LIT_PartType_ID">Tipo Parte</value>
+  <value column="Description" original="Part Type">Tipo Parte</value>
+  <value column="Help" original="Part Type"/>
+ </row>
+ <row trl="N" uuid="bf09328c-cd29-42a9-9d8e-6cef7a4b7de1">
+  <value column="Name" original="LIT_RelType C_Order (Sales) &lt;= C_Order_ID (Purchase)" xml:space="preserve"><![CDATA[RelType C_Order (Sales) <= C_Order_ID (Purchase)]]></value>
+  <value column="Description" original="Finds C_Order_IDs for a given C_Order_ID">Finds C_Order_IDs for a given C_Order_ID</value>
+  <value column="Help" original="Link di collegamento Sales Order con Purchase Order (utilizzato nel Zoom Across della window Sales Order)"/>
+ </row>
+ <row trl="N" uuid="2fece20f-6066-4cdc-8bc7-a0e1f36c9c94">
+  <value column="Name" original="LIT_RelType C_Order (Purchase) &lt;= C_Order_ID (Sales)" xml:space="preserve"><![CDATA[LIT_RelType C_Order (Purchase) <= C_Order_ID (Sales)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Link di collegamento Purchase Order con Sales Order (utilizzato nel Zoom Across della window Purchase Order)"/>
+ </row>
+ <row trl="N" uuid="a17a53d7-663b-485f-b8e3-1d4e503f8aec">
+  <value column="Name" original="Type_PaymentTerm">Ref_PaySchedule</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="90e86972-7398-411c-90b6-a2a359ee01e7">
+  <value column="Name" original="LIT RIBA Payment Selection">LIT RIBA Payment Selection</value>
+  <value column="Description" original="payment selection - just type Debit, with checks generated, but still checks without payments generated"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4d3708dd-50f2-485b-8bda-934768e94d43">
+  <value column="Name" original="LCO_ISIC_ID">LCO_ISIC_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="dab10b92-1daf-4e1b-b1d3-f91f9e954ec7">
+  <value column="Name" original="LCO_GenerateWithdHolding on DocType">LCO_GenerateWithdHolding on DocType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3884d73d-1cba-44f2-88f4-a94a49bbb54f">
+  <value column="Name" original="LCO_TaxPayerType_ID">LCO_TaxPayerType_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="70254406-0230-4378-8354-6131658e585a">
+  <value column="Name" original="LCO_C_City_ID">LCO_C_City_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1cc8a6db-37e5-48f5-9f64-b059ce762e13">
+  <value column="Name" original="LCO_WithholdingType BaseType">LCO_WithholdingType BaseType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6f991e1d-447c-47ae-9f7e-d41510690c2c">
+  <value column="Name" original="AD_Column">AD_Column</value>
+  <value column="Description" original="AD_Column">AD_Column</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c9dbf4a7-fac5-47a6-8279-42f794f9c99a">
+  <value column="Name" original="M_Product">M_Product</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6821afa4-4bda-4c55-b73f-d146c9008b21">
+  <value column="Name" original="Val_Start_Stop">Val_Start_Stop</value>
+  <value column="Description" original="Val_Start_Stop">Val_Start_Stop</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="429ba166-f828-4487-acc2-314f5dbb9e6a">
+  <value column="Name" original="LIT_NumberWeek">LIT_NumberWeek</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0619bb18-5943-49d8-9110-0ff6dec4bd82">
+  <value column="Name" original="LIT_TemplateResAttendance">LIT_TemplateResAttendance</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2e86d875-088a-40ac-96a1-148ca9857d78">
+  <value column="Name" original="LIT_ROUNDINGTYPE">LIT_ROUNDTYPE</value>
+  <value column="Description" original="List of rounding">Lista degli arrotondamenti</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6377b297-c949-4eee-9f29-af89d4ff9647">
+  <value column="Name" original="LIT_S_Resource_No_Manufacturing">LIT_S_Resource_Att</value>
+  <value column="Description" original="Resource of ResourceAtendance">Resource of ResourceAtendance</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3200a08d-ef82-46d7-a226-2eb3863f6db3">
+  <value column="Name" original="C_OrderSODraft">C_OrderResource</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9ab1ded8-a4ff-4ea3-9e1c-ac0d09cba173">
+  <value column="Name" original="LIT_IsPaid">JP IsPaid</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d861f34c-c661-47da-9a82-505e958df670">
+  <value column="Name" original="AD_Field">AD_Field</value>
+  <value column="Description" original="AD_Field">AD_Field</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8e8b95dc-bdfb-4e8f-9757-d13977291ec7">
+  <value column="Name" original="MethodOfPDF">MethodOfPDF</value>
+  <value column="Description" original="MethodOfPDF">MethodOfPDF</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d67cca59-72dd-4fab-b8f0-13e081effaf9">
+  <value column="Name" original="PositionAdditPDF">PositionAdditPDF</value>
+  <value column="Description" original="PositionAdditPDF">PositionAdditPDF</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="cc71f32b-fe6d-45fa-abba-6a6f4f92a64f">
+  <value column="Name" original="Sex_Person">Sex_Person</value>
+  <value column="Description" original="Sex of person">Sex of person</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b3fbdf52-0556-462a-9d08-4ec63b8b266c">
+  <value column="Name" original="NationalIDNumber">Codice Fiscale</value>
+  <value column="Description" original="NationalIDNumber">NationalIDNumber</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b3055105-ec14-4170-bfe8-4a587e94f313">
+  <value column="Name" original="TaxIDNumber">TaxIDNumber</value>
+  <value column="Description" original="TaxIDNumber">TaxIDNumber</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="55ac7f3b-6543-44d1-9017-d98cb0fa5a46">
+  <value column="Name" original="LIT_FrequencyVAT">Frequenza IVA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="74ff93f7-dccf-4a75-9d77-14c07cc46a6c">
+  <value column="Name" original="C_Bank_BP Open Quick Entry">C_Bank Open Window</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="cabe9417-602c-4165-ad84-6ddcc4b1658c">
+  <value column="Name" original="LIT_M_PromotionPreCondition">M_PromotionPreCondition</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="78fdc692-4b66-4835-b33d-b34d99a73e26">
+  <value column="Name" original="C_OrderPODraft">C_OrderPODraft</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1a2237db-1d26-48e7-bba0-fdfd30669c31">
+  <value column="Name" original="S_Resource_Employee Card">S_Resource_Employee Card</value>
+  <value column="Description" original="S_Resource_Employee Card">S_Resource_Employee Card</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f454d5c1-575d-462b-a143-4c82de2623d6">
+  <value column="Name" original="LIT_Status Order">Stato dell'Ordine</value>
+  <value column="Description" original="Stato dell'Ordine">Stato dell'Ordine</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b5dd159f-67d8-44e6-ac5d-1c9edc22b399">
+  <value column="Name" original="LIT_TypePriceList">LIT_TypePriceList</value>
+  <value column="Description" original="LIT_Type Price List">LIT_Type Price List</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b9d577a3-e632-40dc-8776-6ce289719690">
+  <value column="Name" original="RelType C_Invoice (Customer) =&gt; GL Journal" xml:space="preserve"><![CDATA[RelType C_Invoice (Customer) <=prima nota]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ee3de13f-37b3-4e38-9eea-0d651b4e8b0a">
+  <value column="Name" original="RelType GL Journal =&gt; Invoice (customer)" xml:space="preserve"><![CDATA[RelType ptima nota <= customer]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9fcd36d3-9dee-4416-8a2d-08a41b1a2dc5">
+  <value column="Name" original="RelType GL Journal =&gt; C_Payment (Incassi)" xml:space="preserve"><![CDATA[RelType GL Journal => C_Payment (Incassi)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="402812fa-1490-4b9f-a5fd-63c92d7607d0">
+  <value column="Name" original="RelType C_Payment(Incassi) =&gt; GL Journal" xml:space="preserve"><![CDATA[RelType C_Payment(Incassi) => GL Journal]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="890cf7ff-f556-43d0-aec7-6e580cd44c2c">
+  <value column="Name" original="JP Delete Client">JP Delete Client</value>
+  <value column="Description" original="JPIERE-0158">JPIERE-0158</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="eb373d79-611d-447f-884e-91b6d1d5eb77">
+  <value column="Name" original="JP Treat of Foreign Key">JP Treat of Foreign Key</value>
+  <value column="Description" original="JPIERE-0158:JPPS">JPIERE-0158:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="349edc77-2ca4-46be-bf37-080da1b84a66">
+  <value column="Name" original="R_InterestArea Name">R_InterestArea Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="92afa22c-eb9f-4756-91bc-f5b1f99b1aed">
+  <value column="Name" original="JP C_BPartner-Simple Search">JP C_BPartner-Simple Search</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Simple Business Partner Search">Simple Business Partner Search</value>
+ </row>
+ <row trl="N" uuid="caa88ee3-7e33-40fe-9c65-fbd73cffa1e7">
+  <value column="Name" original="JP AD_User - SalesRep">JP AD_User - SalesRep</value>
+  <value column="Description" original="JPIERE-0115:JPCS">JPIERE-0115:JPCS</value>
+  <value column="Help" original="">SalesRep User Search</value>
+ </row>
+ <row trl="N" uuid="3740d631-c653-43ed-9bfa-3579dfcd9961">
+  <value column="Name" original="RelType C_Order (Purchase) &lt;=  M_InOut_ID (Material Recipt)" xml:space="preserve"><![CDATA[RelType C_Order (Purchase) <= M_InOut_ID (Material Recipt)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="579410e9-103a-4d3a-9505-a01550d836ab">
+  <value column="Name" original="RelType M_InOut (Material Recipt) &lt;=  C_Order_ID (Purchase)" xml:space="preserve"><![CDATA[RelType M_InOut (Material Recipt) <= C_Order_ID (Purchase)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f12f61de-964f-4da6-91ca-f47c4bbdc36e">
+  <value column="Name" original="RelType C_Order (Purchase) &lt;= C_Invoice_ID (Vendor)" xml:space="preserve"><![CDATA[RelType C_Order (Purchase) <= C_Invoice_ID (Vendor)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1a03b6d8-3061-4a98-a05c-70d4f5aca259">
+  <value column="Name" original="RelType C_Invoice (Vendor) &lt;= C_Order_ID (Purchase)" xml:space="preserve"><![CDATA[RelType C_Invoice (Vendor) <= C_Order_ID (Purchase)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="942b7bc7-7b5a-4ed0-b545-0d625fa66d7c">
+  <value column="Name" original="RelType C_Invoice (Vendor) &lt;= M_InOut_ID (Material Recipt)" xml:space="preserve"><![CDATA[RelType C_Invoice (Vendor) <= M_InOut_ID (Material Recipt)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="583f9944-b0a5-46f9-9dcb-c9052bbce158">
+  <value column="Name" original="LIT_DocType_DynamicVal">LIT_DocType_DynamicVal</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a2eebddf-927a-44f8-9796-ff3cdccc93e4">
+  <value column="Name" original="LIT_C_Year_ID">YEAR</value>
+  <value column="Description" original="Periods Sorted by Date">Periods Sorted by Date</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="df194f8b-8a7b-4fb6-aa9c-4690a73b6e16">
+  <value column="Name" original="crosstab_type">crosstab_type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1ca6339b-f8c3-49ba-adbd-8ce20e946bbf">
+  <value column="Name" original="LIT_TaxRegime">LIT_TaxRegime</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="32a42d01-c8b9-4b3f-bcf9-2243e8745601">
+  <value column="Name" original="LIT_FreightCost">LIT_FreightCost</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ed5d5443-03e2-4a0b-b3af-df5dfa5e8957">
+  <value column="Name" original="RelType M_InOut (Material Recipt) &lt;= C_Invoice_ID (Vendor)" xml:space="preserve"><![CDATA[RelType M_InOut (Material Recipt) <= C_Invoice_ID (Vendor)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ed5c256a-5d25-4581-b2d1-77f79135f971">
+  <value column="Name" original="RelType - From Invoice --&gt; to Payment" xml:space="preserve"><![CDATA[Da FDV/FDA --> a Pagamento/Incasso]]></value>
+  <value column="Description" original="Da FDV/FDA --&gt; a Pagamento/Incasso"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f7c0c5ab-8d08-4fc8-ac67-0f56552061ea">
+  <value column="Name" original="RelType - From Payment --&gt; to Invoice (Customer)" xml:space="preserve"><![CDATA[Da Incasso --> FDV]]></value>
+  <value column="Description" original="Da Incasso --&gt;  FDV"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="45b3caaf-1bd0-4b11-aaa8-2e7a66bb5ec9">
+  <value column="Name" original="RelType - From Payment --&gt; to Invoice (Vendor)" xml:space="preserve"><![CDATA[Da Pagamenti --> a FDA]]></value>
+  <value column="Description" original="Da Pagamenti --&gt; a FDA"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="318e214b-473c-4f9d-83f6-0802d16af75d">
+  <value column="Name" original="LIT_MIPAAF_Category">LIT_MIPAAF_Category</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3d285eed-9ae5-4809-b7ab-de07b28bfd4a">
+  <value column="Name" original="LIT_ServiceType_Ref">LIT_ServiceType_Ref</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bd1dba5e-fd1b-4fdc-be7f-1bc00f2ac906">
+  <value column="Name" original="MIPAF_CodOperazione">MIPAF_CodOperazione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c3a95668-ceed-4c95-b47c-61a93f263b8c">
+  <value column="Name" original="LIT_BP_Group">LIT_BP_Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="af3d63db-4efc-4493-8b95-5db1b30a36b5">
+  <value column="Name" original="LIT_BP_Group_OpenWindow">LIT_BP_Group_OpenWindow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0dbcfe3c-9208-4b19-87c2-4996d171e202">
+  <value column="Name" original="LIT Payment/Receipt">LIT Payment/Receipt</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="716c7159-708b-408c-8a15-402fb83163b1">
+  <value column="Name" original="RelType - From Invoice --&gt; to Payment Selection Line" xml:space="preserve"><![CDATA[RelType - From Invoice --> to Payment Selection Line]]></value>
+  <value column="Description" original="Da FDV/FDA --&gt; a Seleziona Fatture per Pagamento" xml:space="preserve"><![CDATA[Da FDV/FDA --> a Seleziona Fatture per Pagamento]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="39400b18-4938-4b64-aef1-9675a09db4ed">
+  <value column="Name" original="RelType - From Payment Selection Line --&gt; to  Invoice " xml:space="preserve"><![CDATA[RelType - From Payment Selection Line --> to Invoice]]></value>
+  <value column="Description" original="Da Seleziona Fatture per Pagamento --&gt; a FDV/FDA" xml:space="preserve"><![CDATA[Da FDV/FDA --> a Seleziona Fatture per Pagamento]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="366388d0-3ea8-4d7f-9d2d-ec059be164ce">
+  <value column="Name" original="RelType DD_Order  &lt;=  Movement (DDT)" xml:space="preserve"><![CDATA[RelType DD_Order  <= Movement (DDT)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d119c471-8c61-4256-b7f4-751b2bd27898">
+  <value column="Name" original="RelType Movement (DDT)  &lt;= DD_Order" xml:space="preserve"><![CDATA[RelType  Movement (DDT) <= DD_Order]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6db414b3-f4c6-437c-8f2d-b245fffd9b21">
+  <value column="Name" original="C_Contract">C_Contract</value>
+  <value column="Description" original="C_Contract">C_Contract</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="cdb0e089-43a0-4a93-85ed-fb1c8ba2438a">
+  <value column="Name" original="C_ContractLine">C_ContractLine</value>
+  <value column="Description" original="C_ContractLine">C_ContractLine</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="41d4d33c-5cd2-4d2d-a314-201e63f3397d">
+  <value column="Name" original="LIT  C_Period - all, acct, sysdate, desc">LIT C_Period - all, acct, sysdate, desc</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="dab0a635-492a-444f-9d64-ef9a66ec27d0">
+  <value column="Name" original="LIT_NCTypeArea_L">LIT_NCTypeArea_L</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="acb0306b-1d64-4f4a-9ea8-b0412ea8261f">
+  <value column="Name" original="LIT_RMAType_L">LIT_RMAType_L</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2f66b4ea-45a7-4767-9794-29fa29c20725">
+  <value column="Name" original="RelType Production  &lt;=  Movement (DDTM)" xml:space="preserve"><![CDATA[RelType Production  <= Movement (DDT)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e7d77f40-cb46-4ac5-8187-163b1d59153e">
+  <value column="Name" original="RelType Movement (DDTM)  &lt;= Production" xml:space="preserve"><![CDATA[RelType Movement (DDTM) <= DD_Order]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a4f86cb9-aeda-4e23-b549-e1ef5b19e2d9">
+  <value column="Name" original="RelType M_InOut (Customer Return) &lt;= C_Invoice_ID (Customer)" xml:space="preserve"><![CDATA[RelType M_InOut (Customer Return) <= C_Invoice_ID (Customer)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c2aff4b9-e8ff-4ba4-8558-28c8aa4270f8">
+  <value column="Name" original="LIT_CompetenceType_Accrual">LIT_CompetenceType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e71d4b47-2635-41a2-b112-4fbe73cac6ae">
+  <value column="Name" original="LIT_CompetenceType_Deferred">LIT_CompetenceType_Deferred</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e5beeea4-4807-4a44-b6f9-d2152330e222">
+  <value column="Name" original="RelType DD_Order  &lt;=  Order (Purchase)" xml:space="preserve"><![CDATA[RelType DD_Order  <= Order (Purchase)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c176f7bc-ae88-443e-8ba1-faee66018dab">
+  <value column="Name" original="RelType Order (Purchase)  &lt;= DD_Order" xml:space="preserve"><![CDATA[RelType Order (Purchase) <= DD_Order]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1608799b-9092-410c-a9c2-242cd01e5c3d">
+  <value column="Name" original="LIT_ExcludeProductIntercompany">LIT_ExcludeProductIntercompany</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="69989230-2122-4e03-a03b-27f6b4f937e8">
+  <value column="Name" original="LIT_TypeDepositList">LIT_TypeDepositList</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="88af7084-9178-4168-a673-a77eee15b17a">
+  <value column="Name" original="RelType Production  &lt;= Physical Inventory (IF00)" xml:space="preserve"><![CDATA[RelType Production  <= Inventory (IF00)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bf715029-b160-4512-93d1-a4225dc9e320">
+  <value column="Name" original="RelType Physical Inventory (IF00)  &lt;= Production" xml:space="preserve"><![CDATA[RelType Inventory (IF00) <= ProductionK]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="54c749d8-d9a5-4132-8495-b63f19279ec2">
+  <value column="Name" original="RelType C_Order &lt;= User Mail" xml:space="preserve"><![CDATA[RelType C_Order <= User Mail]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="685bab80-0e79-4904-85d8-24d60227781f">
+  <value column="Name" original="RelType User Mail &lt;= Order" xml:space="preserve"><![CDATA[RelType User Mail <= Order]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="54d8d6d8-1478-43a6-91d7-9ea3f698df94">
+  <value column="Name" original="RelType Invoice &lt;= User Mail" xml:space="preserve"><![CDATA[RelType Invoice <= User Mail]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d8f6d5da-6963-480e-bc25-50e28a730814">
+  <value column="Name" original="RelType User Mail &lt;= Invoice" xml:space="preserve"><![CDATA[RelType User Mail <= Invoice]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c09abc76-8378-46a8-ad6d-eca1529dfa3b">
+  <value column="Name" original="RelType Payment &lt;= User Mail" xml:space="preserve"><![CDATA[RelType Payment <= User Mail]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="feb67087-0289-4950-825f-357a28decf00">
+  <value column="Name" original="RelType User Mail &lt;= Payment" xml:space="preserve"><![CDATA[RelType User Mail <= Payment]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7e5e9722-39bb-4dd5-9eee-2c69d36e5f7a">
+  <value column="Name" original="LIT_Rule_CategoryType">LIT_Rule_CategoryType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9d9420c8-3dee-46ff-a030-c300e2f0e7c9">
+  <value column="Name" original="LIT_NextcloudACL">LIT_NextcloudACL</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5886acb8-fb5e-493d-970b-9513886e4b3a">
+  <value column="Name" original="AttivoPassivo">AttivoPassivo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8c05f60a-8f89-4271-b2b0-684819d18206">
+  <value column="Name" original="LIT_Status Invoice">Stato della Fattura</value>
+  <value column="Description" original="Stato della Fattura">Stato dell'Ordine</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9b88c4ed-e5e6-43fb-b9ac-db65682ad975">
+  <value column="Name" original="LIT_FiscalCategory">LIT_FiscalCategory</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="626b34dc-a04c-489a-80ab-043e190ae395">
+  <value column="Name" original="LIT_M_Product Category 2">Categoria Merceologica</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0a522ea8-0bbe-4265-83ec-bccb79ca67cd">
+  <value column="Name" original="LIT_PRICELISTTYPE">LIT_PRICELISTTYPE</value>
+  <value column="Description" original="LIT_PRICELISTTYPE">LIT_PRICELISTTYPE</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fd6d03ed-18bb-4a15-a6de-2ce2df08a15e">
+  <value column="Name" original="LIT_Model_Type">LIT_Model_Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9845029a-1858-4cbc-b01f-43d737460f29">
+  <value column="Name" original="LIT_ResourceAssignment_ID">LIT_ResourceAssignment_ID</value>
+  <value column="Description" original="LIT_ResourceAssignment_ID">LIT_ResourceAssignment_ID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b6f7632d-b722-411a-8ae6-dc39952212e3">
+  <value column="Name" original="M_InOutSODraft">M_InOutSODraft</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0227675a-c4c8-4ff6-b502-9e58efea4a80">
+  <value column="Name" original="LIT_LetterIntentProviderType_L">LIT_LetterIntentProviderType_L</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="73381424-6332-4490-ba98-c329b8b44d1f">
+  <value column="Name" original="LIT Promotion CODE SO">LIT Promotion CODE</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="ATTENZIONE !! Il Search Key deve essere == al codice Promozione specificato nelle Promotion"/>
+ </row>
+ <row trl="N" uuid="01682baf-6504-4bb8-9279-6040cede06db">
+  <value column="Name" original="LIT_Months">LIT_Months</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b11a1f91-e1d6-46d6-be31-b3a95c57e3a6">
+  <value column="Name" original="LIT_FEPA_DOCTYPE">LIT_FEPA_DOCTYPE</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b76281b6-81eb-4dc3-91be-78dd252eb6b3">
+  <value column="Name" original="LIT_XMLInvoice_TaxType">LIT_XMLInvoice_TaxType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="23b8f78d-b9fd-4d9f-9e1a-5b9a73fb4f20">
+  <value column="Name" original="LIT_PoReference">LIT_PoReference</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5d6cb09c-3fe2-461d-b4da-ed20ac7d6a9d">
+  <value column="Name" original="S_Resource Assignment">S_Resource Assignment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9b104a18-d9df-4bb6-ace3-018973b460f4">
+  <value column="Name" original="LIT_VATFormParamType">LIT_VATFormParamType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9624806a-d1d7-42a1-b2f9-b1c0b5fe7ed5">
+  <value column="Name" original="C_InvoiceSODraft">C_InvoiceSODraft</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1b658d44-9408-4d70-8dde-5d13ed66a1b5">
+  <value column="Name" original="LIT_REPORT_PARAM_Client_BP">LIT_REPORT_PARAM_Client_BP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4a64a546-7ea3-49c4-bd50-54be89fc7130">
+  <value column="Name" original="_Posting Type ASSET">_Posting Type ASSET</value>
+  <value column="Description" original="x gestione IAS"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="30a0bc11-825e-4e48-91d3-f73820f4fb2b">
+  <value column="Name" original="LIT_BpStatus">LIT_BpStatus</value>
+  <value column="Description" original="LIT_BpStatus">LIT_BpStatus</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="28e96763-c0bb-4ca6-99ab-824b0220b44a">
+  <value column="Name" original="LIT_RequestSubType">LIT_RequestSubType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="02a09d0d-3bdd-40e6-a488-bb0756bb2d77">
+  <value column="Name" original="JP AD_Org">JP AD_Org</value>
+  <value column="Description" original="JPIERE-0114:JPCS">JPIERE-0114:JPCS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f75d5cc7-7bd1-4d27-bb63-792122d60612">
+  <value column="Name" original="JP C_Project">JP C_Project</value>
+  <value column="Description" original="JPIERE-0127:JPCS">JPIERE-0127:JPCS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d53a7079-fe4f-4048-8f7e-b4a5074fa6da">
+  <value column="Name" original="JP_ToDo_Status">JP_ToDo_Status</value>
+  <value column="Description" original="JPIERE-0469:JPPS">JPIERE-0469:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f63b85d7-63df-4267-b8a4-6e9bd131d927">
+  <value column="Name" original="JP_DefaultCalendarView">JP_DefaultCalendarView</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="339e3425-9e94-4307-a1d4-708072bc0c91">
+  <value column="Name" original="JP_ToDo_Status_For_Report">JP_ToDo_Status_For_Report</value>
+  <value column="Description" original="JPIERE-0469:JPPS">JPIERE-0469:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a53b960c-abc0-47cc-b2dd-82335553abbf">
+  <value column="Name" original="JP_ToDo_Type">JP_ToDo_Type</value>
+  <value column="Description" original="JPIERE-0469:JPPS">JPIERE-0469:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e22360d4-e450-42bd-9a9d-236155afe7f4">
+  <value column="Name" original="JP_Repetition_Interval">JP_Repetition_Interval</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7eb089c3-8b3a-4252-a314-b4d0786bc5c0">
+  <value column="Name" original="JP_Statistics _Choice">JP_Statistics _Choice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bbbd924c-7c6f-4b5a-b763-cca9adbfb650">
+  <value column="Name" original="JP_ToDo_Main_Calendar">JP_ToDo_Main_Calendar</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0fcd7f5d-576a-4509-a376-dd9fb43ef4f8">
+  <value column="Name" original="JP_ToDo_Calendar">JP_ToDo_Calendar</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3dd54b71-a133-4ff5-b74e-ae16f181ed37">
+  <value column="Name" original="JP C_Calendar">JP C_Calendar</value>
+  <value column="Description" original="JPIERE-0061">JPIERE-0061</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="20c735b7-0028-42af-bab2-b3e2027df677">
+  <value column="Name" original="JP_NonBusinessDayToDoHandling">JP_NonBusinessDayToDoHandling</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="871c167c-af5e-47a3-8b35-9742bfed6616">
+  <value column="Name" original="JP_BroadcastMessage_Frequency">JP_BroadcastMessage_Frequency</value>
+  <value column="Description" original="Frequency of Broadcast">Frequency of Broadcast</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3111fc86-e452-46df-903f-60684a8664fd">
+  <value column="Name" original="JP_MailFrequency">JP_MailFrequency</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="af05206a-d1ac-454f-89f2-674491e20e08">
+  <value column="Name" original="JP_ToDo_RemindTarget">JP_ToDo_RemindTarget</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bc653271-f877-419c-a68b-27780158076a">
+  <value column="Name" original="JP_ToDo_Category_Client_Level">JP_ToDo_Category_Client_Level</value>
+  <value column="Description" original="JPIERE-0469:JPPS">JPIERE-0469:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="24ead916-5bbe-45f8-90d2-548ffaf3db9e">
+  <value column="Name" original="JP_Mandatory_Statistics_Info">JP_Mandatory_Statistics_Info</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0c883aa9-102e-4650-b5e1-8f5b91deeced">
+  <value column="Name" original="JP AD_User">JP AD_User</value>
+  <value column="Description" original="JPIERE-0117:JPCS">JPIERE-0117:JPCS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bbb13f99-d0d7-4fcb-9f49-ee8638bbb357">
+  <value column="Name" original="JP_ToDo_Team">JP_ToDo_Team</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fb571c66-8d34-494f-8518-b6bf9b26871e">
+  <value column="Name" original="JP_ToDo_ReminderType">JP_ToDo_ReminderType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0088fad2-1cbe-4cbf-aaa7-16063e8325e5">
+  <value column="Name" original="JP_ToDo_Related">JP_ToDo_Related</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="260370d2-489a-4524-9b1d-d50535202d24">
+  <value column="Name" original="JP AD_Org - AD_Org_ID=0  OR IsSummary='N'">JP AD_Org - AD_Org_ID=0 OR IsSummary='N'</value>
+  <value column="Description" original="JPIERE-0114:JPCS">JPIERE-0114:JPCS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="041bf080-1a7d-49f2-8958-2796c13f332f">
+  <value column="Name" original="LIT_ExcludeLIPE">LIT_ExcludeLIPE</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a08bddd7-4fd1-4ee9-8429-e210bbcacbf2">
+  <value column="Name" original="LIT_CategoryPurpose_lst">LIT_CategoryPurpose_lst</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d0b0232c-1ed0-45f6-87d4-350153652e5e">
+  <value column="Name" original="C_InvoiceLine">C_InvoiceLine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6475cdc5-18bd-4bd6-87e4-a4f517dbb235">
+  <value column="Name" original="LIT_LocInstr">LIT_LocInstr</value>
+  <value column="Description" original="Local Instrument">Tipologia Addebito</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d7e13248-a37d-4dad-9d2a-0fe3db16c211">
+  <value column="Name" original="LIT_SequenceType">LIT_SequenceType</value>
+  <value column="Description" original="Sequence Type">Sequence Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2385bf11-b01a-44b3-af63-ca6651decc6a">
+  <value column="Name" original="LIT_CatPurp SDD">LIT_CatPurp SDD</value>
+  <value column="Description" original="Category Purpose SDD">Category Purpose SDD</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6b17390a-529e-4ef1-bf2c-98e2b4cfea1b">
+  <value column="Name" original="LIT_Purpose">LIT_Purpose</value>
+  <value column="Description" original="Purpose">Causale transazione</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="765ad0ed-594c-4082-9a03-54bd9db7ca88">
+  <value column="Name" original="LIT_DoNotInvoiceList">Da non fatturare - LISTA</value>
+  <value column="Description" original="">Da non fatturare - LISTA</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="56b2a0b4-1dcf-4058-902c-b1492011ccaf">
+  <value column="Name" original="LIT_Notes">LIT_Notes</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="de1bddbb-2cd7-45d1-96dc-520c3cb6f3e6">
+  <value column="Name" original="LIT_MasterSOParagraph">LIT_MasterSOParagraph</value>
+  <value column="Description" original="LIT_MasterSOParagraph">LIT_MasterSOParagraph</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="501f42a7-7a8c-427d-9677-7b8f9ff99c56">
+  <value column="Name" original="LIT_MasterSOSection">LIT_MasterSOSection</value>
+  <value column="Description" original="LIT_MasterSOSection">LIT_MasterSOSection</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
