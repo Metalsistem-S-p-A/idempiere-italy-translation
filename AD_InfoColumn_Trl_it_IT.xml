@@ -1,13 +1,467 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_InfoColumn">
- <row id="200005" trl="N">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_InfoColumn">
+ <row id="200005" trl="Y">
   <value column="Name" original="Vendor">Fornitore</value>
-  <value column="Description" original="Current Vendor">Fornitore Corrente</value>
+  <value column="Description" original="Current Vendor">Fornitore corrente</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200006" trl="N">
+ <row id="200006" trl="Y">
   <value column="Name" original="D">D</value>
-  <value column="Description" original="This product is no longer available">This product is no longer available</value>
-  <value column="Help" original="The Discontinued check box indicates a product that has been discontinued.">The Discontinued check box indicates a product that has been discontinued.</value>
+  <value column="Description" original="This product is no longer available">Prodotto fuori produzione</value>
+  <value column="Help" original="The Discontinued check box indicates a product that has been discontinued.">La casella di controllo fuori produzione indica un prodotto che è stato interrotto.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200135" trl="Y">
+  <value column="Name" original="Document Type">Fattura da</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200155" trl="Y">
+  <value column="Name" original="Role Name">Nome ruolo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="90abf6da-0206-474d-a356-86f6dc0e6fb6">
+  <value column="Name" original="Bank">Banca business partner</value>
+  <value column="Description" original="Bank">Banca business partner</value>
+  <value column="Help" original="The Bank is a unique identifier of a Bank for this Organization or for a Business Partner with whom this Organization transacts.">La banca identifica univocamente un istituto di credito utilizzato dall'organizzazione o da un business partner che ha rapporti con essa.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7c5a997a-e0d7-4a57-923c-d5a1cf49a98b">
+  <value column="Name" original="From User">Da utente</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Utente nel sistema - Interno oppure Contatto di un Business Partner</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Identifica univocamente un utente nel sistema. Può trattarsi di un utente interno oppure un contatto associato ad un business partner.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="551f17ab-30f0-4858-8b52-fd62afefad19">
+  <value column="Name" original="From User">Da utente</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">User within the system - Internal or Business Partner Contact</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Identifica univocamente un utente nel sistema. Può trattarsi di un utente interno oppure un contatto associato ad un business partner.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c2affcf0-8506-4d8f-90e9-6f2ac2794948">
+  <value column="Name" original="Name Tab">Nome tab</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Identificativo alfanumerico del record</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Il nome di un entità (Record) è utilizzato come opzione di ricerca predefinita in aggiunta alla chiave.  Il nome è lungo fino a 60 caratteri.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b289b746-d0ce-41f1-907c-a909d4c4843e">
+  <value column="Name" original="Business Partner">Business partner</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Identifica un business partner</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ea9155f4-09f0-4933-a325-eb960af91cd8">
+  <value column="Name" original="Description PA">Descrizione FE</value>
+  <value column="Description" original="Optional short description of the record">Descrizione FE</value>
+  <value column="Help" original="A description is limited to 255 characters.">Descrizione FE</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="0ff12825-2e3d-444b-baa5-3515f6f4e108">
+  <value column="Name" original="Business Partner">Business partner</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Identifica un business partner</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d8ce10fc-590e-4ede-a823-c6f09b73c7ca">
+  <value column="Name" original="c_order_documentno">N. Documento ODA</value>
+  <value column="Description" original="">N. Documento ODA</value>
+  <value column="Help" original="">L'ordine è un documento di controllo. È completo quando la quantità ordinata è uguale a quella spedita e fatturata. Quando si chiude un ordine le quantità inevase vengono cancellate.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ea808a2e-025e-4872-9442-0f37c16b671f">
+  <value column="Name" original="Document No">N. Documento EM</value>
+  <value column="Description" original="Document sequence number of the document">Numero di sequenza associato al documento</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)." xml:space="preserve"><![CDATA[In genere il numero documento viene generato in automatico dal sistema ed è determinato dal tipo documento associato. Il numero provvisorio, visualizzato sui nuovi documenti prima che vengano salvati, è circondato dai simboli <>. Se non viene associato un numero di sequenza al tipo documento il campo resta vuoto quando si crea un nuovo record. Questo è comune per i documenti che hanno una numerazione esterna al sistema (Ad esempio le fatture fornitori). Se si lascia il campo vuoto il sistema assegnerà comunque un numero in base a quanto stabilito nella finestra di mantenimento dei numeri di sequenza utilizzando un record col nome "documentno_<nometabella>", dove  nometabella è quello reale definito nel'a.D. (Es. C_order).]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f5638814-701a-46ae-9fda-05274143daea">
+  <value column="Name" original="Sales Transaction">Tipo selezione</value>
+  <value column="Description" original="This is a Sales Transaction"/>
+  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3aace404-6525-436b-b35c-718263045c0a">
+  <value column="Name" original="Search Key">Ubicazione/indirizzo</value>
+  <value column="Description" original="Search key for the record in the format required - must be unique"/>
+  <value column="Help" original="A search key allows you a fast method of finding a particular record.&#10;If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="53a30cfe-17d6-4ad3-9bff-313c27220d29">
+  <value column="Name" original="Reserved Quantity">Quantità Riservata (ODV)</value>
+  <value column="Description" original="Reserved Quantity">Quantità Riservata</value>
+  <value column="Help" original="">Indica la quantità di un Prodotto che è stata riservata.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="87e7ad81-7f8b-4231-a203-ef900292c754">
+  <value column="Name" original="Ordered Quantity">Quantità Ordinata (ODA)</value>
+  <value column="Description" original="Ordered Quantity">Quantità Ordinata</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">Indica la quantità di un Prodotto che è stata ordinata.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="44714755-ecf1-457e-8c2f-936547e24294">
+  <value column="Name" original="Document No">N. Documento DDT</value>
+  <value column="Description" original="Document sequence number of the document">Numero di sequenza del documento</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)." xml:space="preserve"><![CDATA[Il numero del documento viene solitamente generato automaticamente dal sistema e determinato dal tipo di documento del documento. Se il documento non viene salvato, il numero preliminare viene visualizzato in "<>".
+
+Se il tipo di documento del tuo documento non ha una sequenza di documenti automatica definita, il campo è vuoto se crei un nuovo documento. Questo vale per i documenti che solitamente hanno un numero esterno (come la fattura del fornitore). Se lasci il campo vuoto, il sistema genererà un numero di documento per te. La sequenza di documenti utilizzata per questo numero di fallback è definita nella finestra "Maintain Sequence" con il nome "DocumentNo_<TableName>", dove TableName è il nome effettivo della tabella (ad esempio C_Order).]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e8fb8e3a-7e6d-4998-9a09-15e7715be514">
+  <value column="Name" original="Document Type">Fattura da</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="4006eda6-7abd-46f6-990a-a4d40e941cea">
+  <value column="Name" original="Generate Invoices From DDT (manual)">Spedizione/Ricezione</value>
+  <value column="Description" original="">Spedizione/Ricezione</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="645694de-b076-4b1b-b9f8-09ba7b3774cc">
+  <value column="Name" original="Business Partner Vendor">Business partner fornitore</value>
+  <value column="Description" original="Identifies a Business Partner Vendor"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor..."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="591369a1-05d2-4095-b16d-3823460ef2dc">
+  <value column="Name" original="Planned Quantity">Q.tà pianificata</value>
+  <value column="Description" original="Planned quantity for this project">Q.tà pianificata</value>
+  <value column="Help" original="The Planned Quantity indicates the anticipated quantity for this project or project line">Indica la quantità prevista per questo progetto o riga di progetto.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="df31277e-69e4-4ec5-b747-3f23a96fd7a8">
+  <value column="Name" original="Delivered Quantity">Q.tà parziale prelevata</value>
+  <value column="Description" original="Delivered Quantity">Quantità parziale prelevata</value>
+  <value column="Help" original="The Delivered Quantity indicates the quantity of a product that has been delivered.">Indica la quantità di un prodotto che è stata spedita.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="824609ce-b318-4267-b577-5670ae23f0ed">
+  <value column="Name" original="Product">Prodotto conto lavoro</value>
+  <value column="Description" original="Product, Service, Item">Prodotto, servizio, articolo</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Il prodotto identifica un articolo che è o acquistato o venduto da questa organizzazione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f4ba1d81-2701-4590-8770-3a71601fa036">
+  <value column="Name" original="Planned Quantity">Q.tà pianificata</value>
+  <value column="Description" original="Planned quantity for this project">Quantità pianificata per questo progetto</value>
+  <value column="Help" original="The Planned Quantity indicates the anticipated quantity for this project or project line">Indica la quantità prevista per questo progetto o riga di progetto.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9f7f8a26-464c-49d0-b3c5-68e0e659d343">
+  <value column="Name" original="Production Quantity">Q.tà in produzione</value>
+  <value column="Description" original="Quantity of products to produce">Quantità di prodotti da produrre</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">Il campo identifica il numero di prodotti che si vogliono produrre.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="cbca359b-61f6-4dc2-b22d-6494a5a731fa">
+  <value column="Name" original="Quantity Used">Q.tà da utilizzare</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7882a820-cd66-4ff9-a3f5-57cab150717d">
+  <value column="Name" original="Business Partner Vendor">Business partner fornitore</value>
+  <value column="Description" original="Identifies a Business Partner Vendor"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor..."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f448b7f1-90aa-4a27-b656-d110c4f691b8">
+  <value column="Name" original="Movement Quantity">Q.tà residua da dichiarare</value>
+  <value column="Description" original="Quantity of a product moved.">Q.tà residua da dichiarare</value>
+  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">Indica la quantità del prodotto che è stata movimentata.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e8c0c1a4-c74e-400e-a18e-653eedcb74ca">
+  <value column="Name" original="Pick Component">Prelievo componenti</value>
+  <value column="Description" original="">Prelievo componenti</value>
+  <value column="Help" original="">L'elaborazione della spedizione (Ricevuta) Richiede la conferma del prelievo (Aq). Si noti che le spedizioni di documenti automatici come gli ordini pos/magazzino non possono avere conferme!</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a4c4ba59-8956-42f8-9587-44b4dc6edf98">
+  <value column="Name" original="Product Declaration">Dichiarazione prodotto finito</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e1c2e019-5b3a-47e9-aed2-3395f2638989">
+  <value column="Name" original="Current Quantity">Q.tà residua da prelevare</value>
+  <value column="Description" original="Current Quantity">Q.tà residua da prelevare</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c6f81a60-cec8-42c8-ae8b-5c5b314c1d78">
+  <value column="Name" original="Delivered Quantity">Q.tà prelevata</value>
+  <value column="Description" original="Delivered Quantity">Q.tà prelevata</value>
+  <value column="Help" original="The Delivered Quantity indicates the quantity of a product that has been delivered.">Indica la quantità di un prodotto che è stata spedita.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c59847f6-8f77-46a3-be01-177e10b01d8a">
+  <value column="Name" original="Current Quantity">Q.tà residua</value>
+  <value column="Description" original="Current Quantity">Quantità residua</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d8c7495c-ef95-47d8-b5ac-f99c06c6cd61">
+  <value column="Name" original="IsDocComplete">Ordini completati</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="29c566ef-559c-45e7-b1b1-48855c27ddf5">
+  <value column="Name" original="Last Date Ordered">Data ultimo ordine</value>
+  <value column="Description" original="Last Date Ordered">Data ultimo ordine</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="53bba7ef-2144-41fd-8e7d-405e3e118ffa">
+  <value column="Name" original="qtyeffective">Quantità ordinata</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3d7e0434-85db-40c4-b7e0-928ded589bd0">
+  <value column="Name" original="total_mrp_rda">Totale MRP-RDA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d56071ce-908a-48d5-bf6e-5832f2b69b16">
+  <value column="Name" original="total_mrp_production">Totale MRP-produzione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a4c8ef16-0b1d-4622-b0cd-eb334cb3dd7a">
+  <value column="Name" original="bom_id">Prodotto distinta</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="057c2bd4-e4c3-408a-a957-83b4b4e0efb6">
+  <value column="Name" original="Parent">Semilavorato</value>
+  <value column="Description" original="Parent of Entity">Semilavorato</value>
+  <value column="Help" original="The Parent indicates the value used to represent the next level in a hierarchy or report to level for a record"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="44d38ac8-67cc-485b-8d2f-79db7482084f">
+  <value column="Name" original="Parent Key">Chiave padre</value>
+  <value column="Description" original="Key if the Parent">Chiave se padre</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5fe1e399-bd59-4b7e-ac7a-13b52dcb07d9">
+  <value column="Name" original="child_id">Componente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="24803655-c80b-4c02-a389-aaa747a6b40b">
+  <value column="Name" original="childname">Nome componente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b79a8f18-f37c-44c8-b867-47e9577f34c4">
+  <value column="Name" original="parentname">Nome distinta</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a63a6418-552e-43b3-8a9e-144b1b8aa1ed">
+  <value column="Name" original="Quantity">Quantità</value>
+  <value column="Description" original="Quantity">Quantità</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="4c286dc1-eab5-4134-b69f-4f28ffbb180c">
+  <value column="Name" original="Business Partner ">Escludi business partner</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ffe6292d-931b-4e9c-b9cb-6a459b662341">
+  <value column="Name" original="Delivered Quantity">Q.tà prelevata</value>
+  <value column="Description" original="Delivered Quantity">Q.tà prelevata</value>
+  <value column="Help" original="The Delivered Quantity indicates the quantity of a product that has been delivered."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="94e42f9e-fbe4-4c48-8867-477caf1750e3">
+  <value column="Name" original="Planned Quantity">Q.tà pianificata</value>
+  <value column="Description" original="Planned quantity for this project">Q.tà pianificata</value>
+  <value column="Help" original="The Planned Quantity indicates the anticipated quantity for this project or project line">Q.tà pianificata</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b293c919-dc50-4ceb-a09b-ccfab4afefd2">
+  <value column="Name" original="Movement Quantity">Q.tà residua da dichiarare</value>
+  <value column="Description" original="Quantity of a product moved.">Q.tà residua da dichiarare</value>
+  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">Q.tà residua da dichiarare</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="10742aba-67cd-480f-ae04-4df726d1f8ec">
+  <value column="Name" original="Business Partner Vendor">Business partner fornitore</value>
+  <value column="Description" original="Identifies a Business Partner Vendor">Business partner fornitore</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor...">Business partner fornitore</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="46e307ae-2050-43c9-9ce1-702d4a146559">
+  <value column="Name" original="Current Quantity">Q.tà residua da prelevare</value>
+  <value column="Description" original="Current Quantity">Q.tà residua da prelevare</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f85de446-8fcb-470e-9d7c-c517f5c41b85">
+  <value column="Name" original="Production Quantity">Q.tà in produzione</value>
+  <value column="Description" original="Quantity of products to produce">Q.tà in produzione</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="abe50863-cdd1-489f-abc3-baf14d641de0">
+  <value column="Name" original="Product">Prodotto componente</value>
+  <value column="Description" original="Product, Service, Item">Prodotto componente</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Il prodotto identifica un articolo che è o acquistato o venduto da questa organizzazione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="fcd52960-bde8-46ba-b1e0-b845dbbdfa9f">
+  <value column="Name" original="Business Partner Vendor">Business partner fornitore</value>
+  <value column="Description" original="Identifies a Business Partner Vendor">Business partner fornitore</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor...">Business partner fornitore</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="cf1969af-56ab-4fc5-a61f-effccdcbc72a">
+  <value column="Name" original="Product">Prodotto DiBa</value>
+  <value column="Description" original="Product, Service, Item">Prodotto DiBa</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Identifica un articolo che viene acquistato o venduto in questa organizzazione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d11e7aa3-98f2-46d5-b3da-51b8830190f5">
+  <value column="Name" original="Planned Quantity">Q.tà pianificata</value>
+  <value column="Description" original="Planned quantity for this project">Q.tà pianificata</value>
+  <value column="Help" original="The Planned Quantity indicates the anticipated quantity for this project or project line">La quantità pianificata indica la quantità prevista per questo progetto o riga di progetto.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f1b0f26f-9ddf-414b-8f29-25606cc97334">
+  <value column="Name" original="Quantity Used">Q.tà da utilizzare</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="370e0e82-5854-4df0-9a37-c8284077e90a">
+  <value column="Name" original="Current Quantity">Q.tà residua</value>
+  <value column="Description" original="Current Quantity">Q.tà residua</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e36d9a2a-cc17-48e7-8901-f400a13e361e">
+  <value column="Name" original="Delivered Quantity">Q.tà parziale prelevata</value>
+  <value column="Description" original="Delivered Quantity">Q.tà parziale prelevata</value>
+  <value column="Help" original="The Delivered Quantity indicates the quantity of a product that has been delivered."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="2bb6c775-99df-41bf-ab5f-41b983974a20">
+  <value column="Name" original="Locator From">Ubicazione da</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9c4e86a4-adb6-4f92-8637-6b50b4932b44">
+  <value column="Name" original="View Contact Data">Visualizza contatti</value>
+  <value column="Description" original="View Contat data in search output">Visualizza il dettaglio dei contatti nell'output della ricerca</value>
+  <value column="Help" original="">Se si seleziona SI il sistema visualizzerà nell'output anche i dati dei contatti e permetterà la ricerca per contatto. In questo caso il medesimo business partner potrebbe essere riportato più di una volta</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="dbfac20e-05fb-44ba-afd5-6da448f27111">
+  <value column="Name" original="NameParent">Nome cat.Padre</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Nome cat.Padre</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Nome cat.Padre</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7cb71c73-c086-459d-8559-d932d1967f58">
+  <value column="Name" original="Parent">Cat. Padre</value>
+  <value column="Description" original="Parent of Entity">Cat. Padre</value>
+  <value column="Help" original="The Parent indicates the value used to represent the next level in a hierarchy or report to level for a record">Il padre indica il valore utilizzato per rappresentare un livello sommario o dei report di un record.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1ceb2d84-394f-4360-9f17-cbf822b17cbd">
+  <value column="Name" original="Business Partner">Business partner</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Identifica un business partner</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d6c44e97-f076-490a-a90a-0c9d8d644517">
+  <value column="Name" original="UOM Name">UdM</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
 </idempiereTrl>

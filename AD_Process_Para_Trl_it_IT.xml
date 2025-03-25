@@ -1,358 +1,2191 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Process_Para">
- <row id="227" trl="N">
-  <value column="Name" original="Delete existing Accounting Entries">Delete existing Accounting Entries</value>
-  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">The selected accounting entries will be deleted!  DANGEROUS !!!</value>
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Process_Para">
+ <row id="133" trl="Y">
+  <value column="Name" original="Warehouse">Magazzino</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Magazzino e punto di servizio</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Il magazzino/punto di servizio identifica dove i prodotti vengono conservati o i servizi erogati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Movement Type">Tipo di movimento</value>
+  <value column="Description" original="Method of moving the inventory">Tipologia di movimento delle merci</value>
+  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">Specifica il tipo di movimentazione delle merci (entrata, uscita, in produzione, ecc).</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Product">Prodotto</value>
+  <value column="Description" original="Product, Service, Item">prodotto, servizio, articolo</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Il prodotto identifica un articolo che è o acquistato o venduto da questa organizzazione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Product Category">Categoria del prodotto</value>
+  <value column="Description" original="Category of a Product">Categoria a cui appartiene questo prodotto</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection.">Categoria a cui appartiene questo prodotto. Le categorie sono utilizzate per i prezzi e la selezione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Product">Prodotto</value>
+  <value column="Description" original="Product, Service, Item">Prodotto, servizio, articolo</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Il prodotto identifica un articolo che è o acquistato o venduto da questa organizzazione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Product Category">Categoria del prodotto</value>
+  <value column="Description" original="Category of a Product">Categoria a cui appartiene questo prodotto</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection.">Categoria a cui appartiene questo prodotto. Le categorie sono utilizzate per i prezzi e la selezione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="190" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Tenant">Azienda (Client)</value>
+  <value column="Description" original="Tenant for this installation.">Client per questa installazione</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">Un client è una azienda o un'entità legale. Due client non possono condividere gli stessi dati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="225" trl="Y">
+  <value column="Name" original="Tenant">Azienda (Client)</value>
+  <value column="Description" original="Tenant for this installation.">Client per questa installazione</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">Un client è una Azienda o un'entità legale. Due client non possono condividere gli stessi dati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Delete existing Accounting Entries">Elimina voci contabili esistenti</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">Le voci contabili selezionate saranno cancellate! PERICOLO!!!</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="233" trl="N">
-  <value column="Name" original="Pricelist Version">Pricelist Version</value>
-  <value column="Description" original="Only used if Price List is used to set future/standard cost price">Only used if Price List is used to set future/standard cost price</value>
+ <row id="230" trl="Y">
+  <value column="Name" original="Warehouse">Magazzino</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Magazzino e punto di servizio</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Il Magazzino/punto di servizio identifica dove i prodotti vengono conservati o i servizi erogati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Pricelist Version">Versione listino prezzi</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">Utilizzato solo se il listino prezzi viene utilizzato per impostare il prezzo di costo futuro/standard.</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="302" trl="N">
-  <value column="Name" original="Overwrite Payment Rule">Overwrite Payment Rule</value>
-  <value column="Description" original="Overwrite how to pay the invoice">Overwrite how to pay the invoice</value>
-  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.</value>
+ <row id="240" trl="Y">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="315" trl="N">
-  <value column="Name" original="From User">From User</value>
-  <value column="Description" original="Send EMail from user">Send EMail from user</value>
-  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">The email is sent from the user selected - otherwise it is sent from the request email address of the client</value>
+ <row id="241" trl="Y">
+  <value column="Name" original="Product">Prodotto</value>
+  <value column="Description" original="Product, Service, Item">Prodotto, servizio, articolo</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Il prodotto identifica un articolo che è o acquistato o venduto da questa organizzazione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="452" trl="N">
-  <value column="Name" original="Maintenance Mode">Maintenance Mode</value>
-  <value column="Description" original="Language Maintenance Mode">Language Maintenance Mode</value>
+ <row id="302" trl="Y">
+  <value column="Name" original="Overwrite Payment Rule">Sovrascrivi regola pagamento</value>
+  <value column="Description" original="Overwrite how to pay the invoice">Sovrascrivi come verrà pagata la fattura</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">La regola di pagamento indica il modo in cui verrà saldata la fattura - è possibile sovrascrivere il valore della fattura.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="From User">Da utente</value>
+  <value column="Description" original="Send EMail from user">Invia email da utente</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the tenant">L'e-mail viene inviata dall'utente selezionato, altrimenti viene inviata dall'indirizzo e-mail di richiesta del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="Maintenance Mode">Modalità manutenzione</value>
+  <value column="Description" original="Language Maintenance Mode">Modalità manutenzione lingua</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="467" trl="N">
-  <value column="Name" original="Existing Organization">Existing Organization</value>
-  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">Organizational entity within client - set to empty if you want to create a new organization</value>
-  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.</value>
+ <row id="467" trl="Y">
+  <value column="Name" original="Existing Organization">Organizzazione esistente</value>
+  <value column="Description" original="Organizational entity within tenant - set to empty if you want to create a new organization">Entità organizzativa all'interno del cliente - impostare su vuoto se si vuole creare una nuova organizzazione</value>
+  <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department. You can share data between organizations.">Un'organizzazione è un'unità del cliente o di un'entità legale, ad esempio un negozio o un reparto. È possibile condividere i dati tra le organizzazioni.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="469" trl="N">
-  <value column="Name" original="Limit Access to Role">Limit Access to Role</value>
-  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">If no Role is selected, grant access to all (non-manual) roles of the Client</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">The Role determines security and access a user who has this Role will have in the System.</value>
+ <row id="469" trl="Y">
+  <value column="Name" original="Limit Access to Role">Limita accesso al ruolo</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Tenant">Se non viene selezionato alcun ruolo, si concede l'accesso a tutti i ruoli (non manuali) del Cliente.</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Il ruolo determina la sicurezza e l'accesso al sistema da parte dell'utente che ha questo ruolo.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="493" trl="N">
-  <value column="Name" original="New User/Contact">New User/Contact</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">User within the system - Internal or Business Partner Contact</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">The User identifies a unique user in the system. This could be an internal user or a business partner contact</value>
+ <row id="493" trl="Y">
+  <value column="Name" original="New User/Contact">Nuovo utente/contatto</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Utente all'interno del sistema - Contatto interno o business partner</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">L'utente identifica un utente unico nel sistema. Potrebbe trattarsi di un utente interno o di un contatto con un business partner.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="494" trl="N">
-  <value column="Name" original="New Workflow Responsible">New Workflow Responsible</value>
-  <value column="Description" original="Responsible for Workflow Execution">Responsible for Workflow Execution</value>
-  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.</value>
+ <row id="494" trl="Y">
+  <value column="Name" original="New Workflow Responsible">Nuovo responsabile workflow</value>
+  <value column="Description" original="Responsible for Workflow Execution">Responsabile esecuzione workflow</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">La responsabilità finale di un workflow è di un utente effettivo. Permette di definire i modi per trovare quell'utente effettivo.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="496" trl="N">
-  <value column="Name" original="New User/Contact">New User/Contact</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">User within the system - Internal or Business Partner Contact</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">The User identifies a unique user in the system. This could be an internal user or a business partner contact</value>
+ <row id="496" trl="Y">
+  <value column="Name" original="New User/Contact">Nuovo utente/contatto</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Utente all'interno del sistema - Contatto interno o business partner</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">L'utente identifica un utente unico nel sistema. Potrebbe trattarsi di un utente interno o di un contatto con un business partner.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="497" trl="N">
-  <value column="Name" original="New Workflow Responsible">New Workflow Responsible</value>
-  <value column="Description" original="Responsible for Workflow Execution">Responsible for Workflow Execution</value>
-  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.</value>
+ <row id="497" trl="Y">
+  <value column="Name" original="New Workflow Responsible">Nuovo responsabile workflow</value>
+  <value column="Description" original="Responsible for Workflow Execution">Responsabile esecuzione workflow</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">La responsabilità finale di un workflow è di un utente effettivo. Permette di definire i modi per trovare quell'utente effettivo.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="523" trl="N">
-  <value column="Name" original="Default Sales Rep">Default Rappresentante di Vendita</value>
-  <value column="Description" original="If not defined on Business Partner Level">Se non definito su Business Partner Level</value>
+ <row id="523" trl="Y">
+  <value column="Name" original="Default Sales Rep">Default rappresentante di vendita</value>
+  <value column="Description" original="If not defined on Business Partner Level">Se non definito a livello business partner</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="524" trl="N">
+ <row id="524" trl="Y">
   <value column="Name" original="Dunning Currency">Valuta sollecito</value>
   <value column="Description" original="Currency to create Dunning Letters">Valuta per creare lettere di sollecito</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="50001" trl="Y">
-  <value column="Name" original="Role To">Ruolo Destinazione</value>
-  <value column="Description" original="Responsibility Role">Responsibility Role</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Il Ruolo determina la sicurezza e gli accessi di un Utente nel Sistema</value>
- </row>
- <row id="50002" trl="Y">
-  <value column="Name" original="Role From">Ruolo Origine</value>
-  <value column="Description" original="Responsibility Role">Ruolo Origine</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Il Ruolo determina la sicurezza e gli accessi di un utente nel Sistema.</value>
- </row>
- <row id="50008" trl="N">
-  <value column="Name" original="IMAP Password">IMAP Password</value>
+ <row id="50008" trl="Y">
+  <value column="Name" original="IMAP Password">Password IMAP</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="50009" trl="N">
-  <value column="Name" original="Request Folder">Request Folder</value>
-  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">After take email form inbox folder, and process it success, email will move to this folder</value>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Request Folder">Cartella richiesta</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">Dopo aver prelevato l'e-mail dalla cartella della posta in arrivo e averla elaborata con successo, l'e-mail verrà spostata in questa cartella.</value>
   <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder">folder can define as hierarchy, use "\" to separate folder. example customer\vietnam
 will read email from folder vietnam under folder customer
 after take email form inbox folder, and process it success, email will move to this folder</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="50010" trl="N">
-  <value column="Name" original="Inbox Folder">Inbox Folder</value>
-  <value column="Description" original="Mail folder, where process will take email and make request">Mail folder, where process will take email and make request</value>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Inbox Folder">Cartella posta in arrivo</value>
+  <value column="Description" original="Mail folder, where process will take email and make request">Cartella di posta elettronica, dove il processo prenderà l'e-mail e farà la richiesta.</value>
   <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer">folder can define as hierarchy, use "\" to separate folder. example customer\vietnam
 will read email from folder vietnam under folder customer</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="50011" trl="N">
-  <value column="Name" original="Error Folder">Error Folder</value>
-  <value column="Description" original="Mail folder to push unsuccess email  ">Mail folder to push unsuccess email  </value>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Error Folder">Cartella errore</value>
+  <value column="Description" original="Mail folder to push unsuccess email  ">Cartella di posta in cui mettere le email fallite</value>
   <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer">folder can define as hierarchy, use "\" to separate folder. example customer\error\vietnam
 will puss email can't process to folder vietnam under folder error under folder customer</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="50019" trl="N">
-  <value column="Name" original="Shipment Date">Shipment Date</value>
-  <value column="Description" original="Date printed on shipment">Date printed on shipment</value>
-  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">The Shipment Date indicates the date printed on the shipment.</value>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Shipment Date">Data del movimento</value>
+  <value column="Description" original="Date printed on shipment"/>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53011" trl="N">
-  <value column="Name" original="Print Unprocessed Entries Only">Stampa Solo Elementi non Processati</value>
-  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">Stampa Solo Elementi non Processati</value>
-  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.</value>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Print Unprocessed Entries Only">Stampa solo elementi non processati</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">SStampa solo elementi non processati</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Stampa solo le voci non elaborate (non stampate) della corsa di sollecito. Ciò consente di ristampare solo alcune voci di sollecito.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53025" trl="N">
-  <value column="Name" original="Purchase Price List Version">Purchase Price List Version</value>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Purchase Price List Version">Versione listino di acquisto</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53030" trl="N">
-  <value column="Name" original="New Product">New Product</value>
+ <row id="53030" trl="Y">
+  <value column="Name" original="New Product">Nuovo prodotto</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53032" trl="N">
-  <value column="Name" original="Action">Action</value>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Action">Azione</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53066" trl="N">
-  <value column="Name" original="Is Print Pack &amp; Tools List"><![CDATA[Is Print Pack & Tools List]]></value>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Is Print Pack &amp; Tools List" xml:space="preserve"><![CDATA[Pacchetto stampa & lista strumenti]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53068" trl="N">
-  <value column="Name" original="Is Print Pick List">Is Print Pick List</value>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Is Print Pick List">È stampa lista prelievo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53069" trl="N">
-  <value column="Name" original="Is Print Workflow">Is Print Workflow</value>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Is Print Workflow">È stampa workflow</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53127" trl="N">
-  <value column="Name" original="Generate Fields">Generate Fields</value>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Generate Fields">Genera campi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53131" trl="N">
-  <value column="Name" original="Scripts Path">Scripts Path</value>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Scripts Path">Percorso script</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53142" trl="N">
-  <value column="Name" original="Includes only the Tabs that Insert records">Includes only the Tabs that Insert records</value>
-  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">Generated Export Format for the Tabs with Insert Record is Yes</value>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Includes only the Tabs that Insert records">Includi solo i tab che inseriscono record</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">Il formato di esportazione generato per le schede con record inserito è Sì</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53143" trl="N">
-  <value column="Name" original="Includes only the mandatory columns">Includes only the mandatory columns</value>
-  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">Generated an Export Format Line  if the column is mandatory </value>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Includes only the mandatory columns">Includi solo colonne obbligatorie</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">Viene generata una riga di formato di esportazione se la colonna è obbligatoria.</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53219" trl="N">
-  <value column="Name" original="Based in DRP Demand">Based in DRP Demand</value>
-  <value column="Description" original="Based in DRP Demand">Based in DRP Demand</value>
+ <row id="53205" trl="Y">
+  <value column="Name" original="Date Format">Formato data</value>
+  <value column="Description" original="Date format used in the input format">Formato della data da importare</value>
+  <value column="Help" original="The date format is usually detected, but sometimes need to be defined.">Il formato della data di solito è dedotto, ma a volte va definito.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53219" trl="Y">
+  <value column="Name" original="Based in DRP Demand">Basato sulla domanda DRP</value>
+  <value column="Description" original="Based in DRP Demand">Basato sulla domanda DRP</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
  <row id="53232" trl="Y">
-  <value column="Name" original="Bank Account From">Da Conto Bancario</value>
+  <value column="Name" original="Bank Account From">Da conto bancario</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53233" trl="N">
-  <value column="Name" original="Bank Account To">A Conto Bancario</value>
+ <row id="53233" trl="Y">
+  <value column="Name" original="Bank Account To">A conto bancario</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53243" trl="N">
-  <value column="Name" original="Valid from">Valid from</value>
-  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range">The Valid From date indicates the first day of a date range</value>
+ <row id="53243" trl="Y">
+  <value column="Name" original="Valid from">Valido da</value>
+  <value column="Description" original="Valid from including this date (first day)">Valido da questa data inclusa (primo giorno)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">Primo giorno dell'intervallo</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53246" trl="N">
-  <value column="Name" original="Bank Account From">Bank Account From</value>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Bank Account From">Da conto bancario</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53247" trl="N">
-  <value column="Name" original="Bank Account To">Bank Account To</value>
+ <row id="53247" trl="Y">
+  <value column="Name" original="Bank Account To">A conto bancario</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53263" trl="N">
-  <value column="Name" original="Account Date">Account Date</value>
-  <value column="Description" original="Optional account date range">Optional account date range</value>
-  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">Only documents within this date range which are also in open periods will be reset.</value>
+ <row id="53263" trl="Y">
+  <value column="Name" original="Account Date">Data conto</value>
+  <value column="Description" original="Optional account date range">Intervallo opzionale data conto</value>
+  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">Solo i documenti all'interno di questo intervallo di date che sono anche in periodi aperti saranno reimpostati.</value>
+  <value column="Placeholder" original="From">Da</value>
+  <value column="Placeholder2" original="To">A</value>
  </row>
- <row id="53282" trl="N">
-  <value column="Name" original="Client Name">Client Name</value>
+ <row id="53282" trl="Y">
+  <value column="Name" original="Tenant Name">Nome client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53284" trl="N">
-  <value column="Name" original="Administrative User Name">Administrative User Name</value>
+ <row id="53284" trl="Y">
+  <value column="Name" original="Administrative User Name">Nome utente amministrativo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53285" trl="N">
-  <value column="Name" original="Normal User Name">Normal User Name</value>
+ <row id="53285" trl="Y">
+  <value column="Name" original="Normal User Name">Nome utente normale</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53289" trl="N">
-  <value column="Name" original="City Name">City Name</value>
+ <row id="53289" trl="Y">
+  <value column="Name" original="City Name">Città</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53291" trl="N">
-  <value column="Name" original="BP Accounting">BP Accounting</value>
-  <value column="Description" original="Use BP accounting dimension">Use BP accounting dimension</value>
-  <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ <row id="53291" trl="Y">
+  <value column="Name" original="BP Accounting">Contabilità BP</value>
+  <value column="Description" original="Use BP accounting dimension">Usa dimensione contabile BP</value>
+  <value column="Help" original="Define if this tenant will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Definire se questo cliente utilizzerà la dimensione contabile business partner. Questo può essere modificato in seguito nella finestra schema contabile del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53292" trl="N">
-  <value column="Name" original="Product Accounting">Product Accounting</value>
-  <value column="Description" original="Use Product accounting dimension">Use Product accounting dimension</value>
-  <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ <row id="53292" trl="Y">
+  <value column="Name" original="Product Accounting">Contabilità prodotto</value>
+  <value column="Description" original="Use Product accounting dimension">Usa dimensione contabile prodotto</value>
+  <value column="Help" original="Define if this tenant will use product accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Definire se questo cliente utilizzerà la dimensione contabile prodotto. Questo può essere modificato in seguito nella finestra schema contabile del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53293" trl="N">
-  <value column="Name" original="Project Accounting">Project Accounting</value>
-  <value column="Description" original="Use Project accounting dimension">Use Project accounting dimension</value>
-  <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ <row id="53293" trl="Y">
+  <value column="Name" original="Project Accounting">Contabilità progetto</value>
+  <value column="Description" original="Use Project accounting dimension">Usa dimensione contabile progetto</value>
+  <value column="Help" original="Define if this tenant will use project accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Definire se questo cliente utilizzerà la dimensione contabile progetto. Questo può essere modificato in seguito nella finestra schema contabile del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53294" trl="N">
-  <value column="Name" original="Campaign Accounting">Campaign Accounting</value>
-  <value column="Description" original="Use Campaign accounting dimension">Use Campaign accounting dimension</value>
-  <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ <row id="53294" trl="Y">
+  <value column="Name" original="Campaign Accounting">Contabilità campagna</value>
+  <value column="Description" original="Use Campaign accounting dimension">Usa dimensione contabile campagna</value>
+  <value column="Help" original="Define if this tenant will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Definire se questo cliente utilizzerà la dimensione contabile campagna. Questo può essere modificato in seguito nella finestra schema contabile del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53295" trl="N">
-  <value column="Name" original="Sales Region Accounting">Sales Region Accounting</value>
-  <value column="Description" original="Use Sales Region accounting dimension">Use Sales Region accounting dimension</value>
-  <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ <row id="53295" trl="Y">
+  <value column="Name" original="Sales Region Accounting">Contabilità regione di vendita</value>
+  <value column="Description" original="Use Sales Region accounting dimension">Usa dimensione contabile regione di vendita</value>
+  <value column="Help" original="Define if this tenant will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Definire se questo cliente utilizzerà la dimensione contabile regione di vendita. Questo può essere modificato in seguito nella finestra schema contabile del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53296" trl="N">
-  <value column="Name" original="Chart of Accounts File">Chart of Accounts File</value>
-  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.</value>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Chart of Accounts File">File piano dei conti</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this tenant.  At this stage just the default accounts will be created.">Posizione del piano dei conti da utilizzare con questo cliente. In questa fase verranno creati solo i conti predefiniti.</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53314" trl="N">
-  <value column="Name" original="Full rebuild">Full rebuild</value>
-  <value column="Description" original="Delete all existing summary data and recalculate.">Delete all existing summary data and recalculate.</value>
-  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">If not selected, only those periods with recently posted accounting facts will be recalculated.</value>
+ <row id="53314" trl="Y">
+  <value column="Name" original="Full rebuild">Ricostruzione totale</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">Elimina tutti i dati di riepilogo esistenti e ricalcola.</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">Se non selezionato, solo i periodi con registrazioni contabili recenti saranno ricalcolati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53316" trl="N">
-  <value column="Name" original="Force">Force</value>
-  <value column="Description" original="Force rebuild of cube even if locked.">Force rebuild of cube even if locked.</value>
+ <row id="53316" trl="Y">
+  <value column="Name" original="Force">Forza</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">Forza ricostruzione del cubo anche se bloccato.</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53485" trl="N">
-  <value column="Name" original="Periodicity">Periodicity</value>
+ <row id="53485" trl="Y">
+  <value column="Name" original="Periodicity">Periodicità</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53486" trl="N">
-  <value column="Name" original="Repetitions">Repetitions</value>
+ <row id="53486" trl="Y">
+  <value column="Name" original="Repetitions">Ripetizioni</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53516" trl="N">
-  <value column="Name" original="Recreate">Recreate</value>
-  <value column="Description" original="Overwrite existing production lines">Overwrite existing production lines</value>
+ <row id="53516" trl="Y">
+  <value column="Name" original="Recreate">Ricrea</value>
+  <value column="Description" original="Overwrite existing production lines">Sovrascrivi righe produzione esistenti</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
  <row id="53517" trl="Y">
-  <value column="Name" original="Production Quantity">Quantità in Produzione</value>
-  <value column="Description" original="Quantity of products to produce">Quantità di Prodotti da produrre</value>
-  <value column="Help" original="The Production Quantity identifies the number of products to produce">Il campo identifica il numero di Prodotti che si vogliono produrre.</value>
+  <value column="Name" original="Production Quantity">Quantità in produzione</value>
+  <value column="Description" original="Quantity of products to produce">Quantità di prodotti da produrre</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">Il campo identifica il numero di prodotti che si vogliono produrre.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53526" trl="N">
+ <row id="53526" trl="Y">
   <value column="Name" original="Is Kanban">Kanban</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="53582" trl="N">
-  <value column="Name" original="CreateOpportunity">CreateOpportunity</value>
-  <value column="Description" original="Create Opportunity">Create Opportunity</value>
-  <value column="Help" original="Create a new Sales Opportunity when converting a lead">Create a new Sales Opportunity when converting a lead</value>
+ <row id="53582" trl="Y">
+  <value column="Name" original="CreateOpportunity">Crea opportunità</value>
+  <value column="Description" original="Create Opportunity">Crea opportunità</value>
+  <value column="Help" original="Create a new Sales Opportunity when converting a lead">Crea una nuova opportunità di vendita quando si converte un lead</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200005" trl="N">
-  <value column="Name" original="New EMail Confirm">New EMail Confirm</value>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Project">Progetto</value>
+  <value column="Description" original="Financial Project">Identifica un progetto unico</value>
+  <value column="Help" original="A Project allows you to track and control internal or external activities.">Un progetto permette di tracciare e controllare attività interne od esterne.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="New EMail Confirm">Nuova conferma email</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
  <row id="200007" trl="Y">
-  <value column="Name" original="Reset Existing Access">Resetta Accessi Esistenti</value>
-  <value column="Description" original="Reset Existing Access">Resetta Accessi Esistenti</value>
+  <value column="Name" original="Reset Existing Access">Resetta accessi esistenti</value>
+  <value column="Description" original="Reset Existing Access">Resetta accessi esistenti</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
  <row id="200055" trl="Y">
   <value column="Name" original="Product">Prodotto</value>
-  <value column="Description" original="Please enter the product (component) you wish to search for">Prodotto, Servizio </value>
-  <value column="Help" original="">Identifies an item which is either purchased or sold in this organization.</value>
- </row>
- <row id="200060" trl="N">
-  <value column="Name" original="Financial Year Month">Financial Year Month</value>
-  <value column="Description" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
-  <value column="Help" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
- </row>
- <row id="200062" trl="N">
-  <value column="Name" original="Financial Year Month">Financial Year Month</value>
-  <value column="Description" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
-  <value column="Help" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
- </row>
- <row id="200071" trl="N">
-  <value column="Name" original="Document Type">Document Type</value>
-  <value column="Description" original="Inventory Cost Adjustment Document Type">Inventory Cost Adjustment Document Type</value>
+  <value column="Description" original="Please enter the product (component) you wish to search for">Prodotto, servizio</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200074" trl="N">
-  <value column="Name" original="Administrative User Email">Administrative User Email</value>
+ <row id="200060" trl="Y">
+  <value column="Name" original="Financial Year Month">Anno mese finanziario</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">L'unico formato data è: YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">L'unico formato data è: YYYY-MM</value>
+  <value column="Placeholder" original="From">Da</value>
+  <value column="Placeholder2" original="To">A</value>
+ </row>
+ <row id="200062" trl="Y">
+  <value column="Name" original="Financial Year Month">Anno mese finanziario</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">L'unico formato data è: YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">L'unico formato data è: YYYY-MM</value>
+  <value column="Placeholder" original="From">Da</value>
+  <value column="Placeholder2" original="To">A</value>
+ </row>
+ <row id="200071" trl="Y">
+  <value column="Name" original="Document Type">Tipo documento</value>
+  <value column="Description" original="Inventory Cost Adjustment Document Type">Tipo documenti aggiustamento costo inventario</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200074" trl="Y">
+  <value column="Name" original="Administrative User Email">Email utente amministrativo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200075" trl="N">
-  <value column="Name" original="Normal User Email">Normal User Email</value>
+ <row id="200075" trl="Y">
+  <value column="Name" original="Normal User Email">Email utente normale</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200077" trl="N">
-  <value column="Name" original="Created Since">Created Since</value>
+ <row id="200077" trl="Y">
+  <value column="Name" original="Created Since">Creato da</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200084" trl="N">
-  <value column="Name" original="Use Default CoA">Use Default CoA</value>
-  <value column="Description" original="Use Default Chart of Accounts">Use Default Chart of Accounts</value>
+ <row id="200084" trl="Y">
+  <value column="Name" original="Use Default CoA">Usa piano dei conti predefinito</value>
+  <value column="Description" original="Use Default Chart of Accounts">Usa piano dei conti predefinito</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200085" trl="N">
-  <value column="Name" original="Activity Accounting">Activity Accounting</value>
-  <value column="Description" original="Use Activity accounting dimension">Use Activity accounting dimension</value>
-  <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ <row id="200085" trl="Y">
+  <value column="Name" original="Activity Accounting">Contabilità attività</value>
+  <value column="Description" original="Use Activity accounting dimension">Usa dimensione contabile attività</value>
+  <value column="Help" original="Define if this tenant will use activity accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Definire se questo cliente utilizzerà la dimensione contabile attività. Questo può essere modificato in seguito nella finestra schema contabile del cliente.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200086" trl="N">
-  <value column="Name" original="Inactivate Defaults">Inactivate Defaults</value>
-  <value column="Description" original="Inactivate Defaults after Created">Inactivate Defaults after Created</value>
+ <row id="200086" trl="Y">
+  <value column="Name" original="Inactivate Defaults">Disattiva predefiniti</value>
+  <value column="Description" original="Inactivate Defaults after Created">Disattiva predefiniti dopo creazione</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200102" trl="N">
-  <value column="Name" original="Cost Adjustment Document Type">Cost Adjustment Document Type</value>
+ <row id="200102" trl="Y">
+  <value column="Name" original="Cost Adjustment Document Type">Tipo documento aggiustamento costi</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
- <row id="200121" trl="N">
-  <value column="Name" original="Inbox As Root Folder">Inbox As Root Folder</value>
-  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">True if other folder (request, error,..) occupy in inbox folder</value>
-  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
-this field define where request, error,.. occupy.</value>
+ <row id="200121" trl="Y">
+  <value column="Name" original="Inbox As Root Folder">Posta in entrata come cartella principale</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">Vero se altre cartelle (richieste, errore,..) sono nella cartella posta in entrata</value>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Alcuni server di posta elettronica come Outlook, ogni cartella occupa la posta in arrivo, con la posta Web come Google, creiamo facilmente la mia cartella al di fuori della cartella della posta in arrivo. Questo campo definisce dove occupano richiesta, errore,...</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200226" trl="Y">
+  <value column="Name" original="Folder">Cartella</value>
+  <value column="Description" original="Path on the server where the pack in files are located">Percorso sul server dove si trovano i file pack</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200287" trl="Y">
+  <value column="Name" original="Tenant">Client</value>
+  <value column="Description" original="Tenant for this installation.">Client per questa installazione.</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">Un client è una azienda o un'entità legale. Due client non possono condividere gli stessi dati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200293" trl="Y">
+  <value column="Name" original="Delete old/existing files">Elimina vecchi/esistenti file</value>
+  <value column="Description" original="Delete the records from the old storage provider after moved">Elimina i record dal vecchio archivio dopo la migrazione</value>
+  <value column="Help" original="WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.">ATTENZIONE! Questa opzione non può essere annullata! Sii cauto, esegui backup. Se non abilitata, l'amministratore di sistema può/deve rimuovere manualmente i vecchi file dal precedente provider di archiviazione in seguito.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200359" trl="Y">
+  <value column="Name" original="Create 'Value' column">Crea colonna 'ValuÈ</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200360" trl="Y">
+  <value column="Name" original="Create 'Name' column">Crea colonna 'NamÈ</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200361" trl="Y">
+  <value column="Name" original="Create KeyColumn">Crea colonna chiave</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200362" trl="Y">
+  <value column="Name" original="Create a Workflow">Crea in Workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200363" trl="Y">
+  <value column="Name" original="Create a Translation Table">Crea tabella traduzione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200364" trl="Y">
+  <value column="Name" original="Create 'Description' column">Crea colonna 'Description'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200365" trl="Y">
+  <value column="Name" original="Create 'Help' column">Crea colonna 'Help'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200366" trl="Y">
+  <value column="Name" original="Create 'DocumentNo' column">Crea colonna 'DocumentNo'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200367" trl="Y">
+  <value column="Name" original="Create 'DocAction' column">Crea colonna 'DocAction'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200368" trl="Y">
+  <value column="Name" original="Create 'DocStatus' column">Crea colonna 'DocStatus'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200369" trl="Y">
+  <value column="Name" original="Create 'Processed' column">Crea colonna 'Processed'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200370" trl="Y">
+  <value column="Name" original="Create 'ProcessedOn' column">Crea colonna 'ProcessedOn'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200371" trl="Y">
+  <value column="Name" original="Create 'Processing' column">Crea colonna 'Processing'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200372" trl="Y">
+  <value column="Name" original="Create 'C_DocTypeTarget_ID' column">Crea colonna 'C_DocTypeTarget_ID'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200373" trl="Y">
+  <value column="Name" original="Create 'C_DocType_ID' column">Crea colonna 'C_DocType_ID'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200374" trl="Y">
+  <value column="Name" original="Create 'C_Currency_ID' column">Crea colonna 'C_Currency_ID'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200375" trl="Y">
+  <value column="Name" original="Create 'DateTrx' column">Crea colonna 'DateTrx'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200376" trl="Y">
+  <value column="Name" original="Create 'DateAcct' column">Crea colonna 'DateAcct'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200377" trl="Y">
+  <value column="Name" original="Create 'Posted' column">Crea colonna 'Posted'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200378" trl="Y">
+  <value column="Name" original="Create 'IsApproved' column">Crea colonna 'IsApproved'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200379" trl="Y">
+  <value column="Name" original="Create 'SalesRep_ID' column">Crea colonna 'SalesRep_ID'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200380" trl="Y">
+  <value column="Name" original="Create 'AD_User_ID' column">Crea colonna 'AD_User_ID'</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200384" trl="Y">
+  <value column="Name" original="Also Without Postings">Ance senza registrazioni</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200392" trl="Y">
+  <value column="Name" original="Shipment Date">Data spedizione</value>
+  <value column="Description" original="Date printed on shipment">Data stampata su spedizione</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">Indica la data stampata sulla spedizione.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200393" trl="Y">
+  <value column="Name" original="Orders with unconfirmed Shipments">Ordini con spedizioni non confermate</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">Genera spedizioni per gli ordini con conferme di spedizione aperte?</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">Puoi anche includere gli ordini che hanno conferme in sospeso (ad esempio ordinato=10 - spedizioni non confermate=4 - creerebbe una nuova spedizione di 6 se disponibile).</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200417" trl="Y">
+  <value column="Name" original="AD_Language">AD_Language</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200418" trl="Y">
+  <value column="Name" original="Date To">Data a</value>
+  <value column="Description" original="Last Date to verify Change Log">Ultima data per verificare il log delle modifiche</value>
+  <value column="Help" original="The change log is verified until this date (useful for example to exclude the application of some 2Packs)">Il log delle modifiche è verificato fino a questa data (utile ad esempio per escludere l'applicazione di alcuni 2Pack)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200433" trl="Y">
+  <value column="Name" original="Link Column">Colonna link</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Colonna di collegamento per tabelle multi-genitore</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">La colonna link indica quale colonna è la chiave primaria per quelle situazioni in cui c'è più di un genitore. Definiscila solo se la tabella ha più di una colonna genitore (ad esempio AD_User_Roles).</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200441" trl="Y">
+  <value column="Name" original="Table Like">Table Like</value>
+  <value column="Description" original="You can use % or a comma separated list of table names enclosed within single quotes (case sensitive)">È possibile utilizzare % o un elenco di nomi di tabelle separati da virgole racchiusi tra virgolette singole (con distinzione tra maiuscole e minuscole)</value>
+  <value column="Help" original="The DB Table Name indicates the name of the table in database.">Nome della tabella nel database.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200447" trl="Y">
+  <value column="Name" original="Keep Log Days">Giorni di log da conservare</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200448" trl="Y">
+  <value column="Name" original="Partitioning Method">Metodo partizione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200449" trl="Y">
+  <value column="Name" original="Table Name">Nome tabella</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="41c6faad-c71e-4d44-9aa4-7875afc31845">
+  <value column="Name" original="Business Partner">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d41a6163-a9f5-43bb-89ab-ac5020497d9d">
+  <value column="Name" original="Applica solo ai prodotti con Sconto=0.0">a</value>
+  <value column="Description" original="Applica solo ai prodotti con Sconto=0.0"/>
+  <value column="Help" original="Applica solo ai prodotti con Sconto=0.0"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e72bfa91-1645-4466-9005-62e377eeff10">
+  <value column="Name" original="End Date">Data fine</value>
+  <value column="Description" original="Last effective date (inclusive)">Ultima data utile (inclusa)</value>
+  <value column="Help" original="The End Date indicates the last date in this range.">L'ultima data dell'intervallo</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8bd00067-8e7a-4e05-a81a-57c4002adcc5">
+  <value column="Name" original="Resource">Risorsa</value>
+  <value column="Description" original="Resource">Risorsa</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="fa3d72c3-f3b7-41c5-9cf1-01f295d1d4c2">
+  <value column="Name" original="Template Res_Attendance">Template rilevamento ore</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="97885956-e0ba-4c08-936e-6efc0db7a679">
+  <value column="Name" original="Start Date">Data inizio</value>
+  <value column="Description" original="First effective day (inclusive)">Prima data utile (inclusa)</value>
+  <value column="Help" original="The Start Date indicates the first or starting date">Data di inizio</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="499d5518-d08e-4c3b-8581-45ff4935205e">
+  <value column="Name" original="Order">Ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9a8d9486-a2fb-4f1f-a631-00d0ee62d935">
+  <value column="Name" original="Append to existing order">Accoda a ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c6a0659e-246f-4882-8890-c5d1718fdd41">
+  <value column="Name" original="To User">A utente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="adf30631-41f0-4e93-81c1-f2e479ede9af">
+  <value column="Name" original="Upd_DifferentVAT">Aggiorna P.IVA differenti</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="2e20ee61-dd98-4beb-bdfc-372b71b8fc2e">
+  <value column="Name" original="Upd_NewVAT">Aggiorna nuove P.IVA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b6013afc-49b1-49dd-9dfa-fea4102b7c62">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5edcc6bd-9ce2-4358-a657-dc2d07c89582">
+  <value column="Name" original="VATLegderDate2">Data di registrazione IVA 2</value>
+  <value column="Description" original="VATLegderDate2">Data di registrazione IVA 2</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b89759e3-b94d-4935-bfa3-fdd374256163">
+  <value column="Name" original="VATLegderDate1">Data di registrazione IVA 1</value>
+  <value column="Description" original="VATLegderDate1">Data di registrazione IVA 1</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1d36aa0b-ef2c-4a1b-b9e6-fa81d7208358">
+  <value column="Name" original="IsStampaRiBa">È stampa RIBA</value>
+  <value column="Description" original="IsStampaRiBa">È stampa RIBA</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3902a85e-24ab-4048-af25-e98bd0510047">
+  <value column="Name" original="DateOpenValue">Valore data apertura</value>
+  <value column="Description" original="DateOpenValue">Valore data apertura</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="77c6dc67-185d-454c-9854-675680a6d1d9">
+  <value column="Name" original="C_job_ID">C_job_ID</value>
+  <value column="Description" original="C_job_ID">C_job_ID</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="bb55c5ca-aa36-4d7d-bc5d-7d7a806c2020">
+  <value column="Name" original="IsOnlyDue">È solo dovuto</value>
+  <value column="Description" original="IsOnlyDue">È solo dovuto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="40b8924f-08f0-4c47-a3fa-421aef1a7538">
+  <value column="Name" original="DueDate2">Data dovute 2</value>
+  <value column="Description" original="DueDate2">Data dovute 2</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6904d78c-4931-40b0-8b34-e96d79b470bd">
+  <value column="Name" original="DueDate1">Data dovute 1</value>
+  <value column="Description" original="DueDate1">Data dovute 1</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="98be5883-78a1-4855-b755-646e58f8d046">
+  <value column="Name" original="C_BPartner_ID">C_BPartner_ID</value>
+  <value column="Description" original="C_BPartner_ID">C_BPartner_ID</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="95f2f143-836f-4850-a5ca-1e6aa99fa878">
+  <value column="Name" original="C_Invoice_ID">C_Invoice_ID</value>
+  <value column="Description" original="C_Invoice_ID">C_Invoice_ID</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="bb9c074f-dc24-4ea3-8a60-c544e6dc7baa">
+  <value column="Name" original="IsSOTrx">È transazione di vendita</value>
+  <value column="Description" original="IsSOTrx">È transazione di vendita</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="76d1fcdc-6712-4955-bb4a-b4bf42f6ec78">
+  <value column="Name" original="AD_ORG_ID">AD_ORG_ID</value>
+  <value column="Description" original="AD_ORG_ID">AD_ORG_ID</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="871dede0-2e76-4422-b00a-9380ff8699d8">
+  <value column="Name" original="Date From">Data al</value>
+  <value column="Description" original="Date From">Data al</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c9501d17-401f-43bb-9162-5709729ddf68">
+  <value column="Name" original="Date To">Data dal</value>
+  <value column="Description" original="Date To">Data dal</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="036e54de-9456-47f2-96a9-5e6ef566f3f0">
+  <value column="Name" original="Date To">Data al</value>
+  <value column="Description" original="Date To">Data al</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f06b02b8-aeb2-4eb7-9b8c-bda984cfc091">
+  <value column="Name" original="Date From">Data dal</value>
+  <value column="Description" original="Date From">Data dal</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="06a8de96-98a0-42d3-80f7-535c21f6258e">
+  <value column="Name" original="Date from">Data dal</value>
+  <value column="Description" original="Date from">Data dal</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1b4e7719-55a1-44c0-a39b-aba48edc498d">
+  <value column="Name" original="Date to">Data al</value>
+  <value column="Description" original="Date to">Data al</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5f775be4-d0e4-436a-b970-c49b4a776b46">
+  <value column="Name" original="Date from">Data dal</value>
+  <value column="Description" original="Date from">Data dal</value>
+  <value column="Help" original="">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="16963baa-d0a4-4638-98d3-3cd26089289a">
+  <value column="Name" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Description" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="325b19f9-e300-485c-9fd7-29f06a044ce8">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original="Organization">Organizzazione</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="495f1db2-5b3d-4291-a4df-3b534451dad7">
+  <value column="Name" original="Date to">Data al</value>
+  <value column="Description" original="Date to">Data al</value>
+  <value column="Help" original="">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ad7241e2-cb9b-40e4-95f5-dcbf83ae5a0f">
+  <value column="Name" original="ExcludeVoided">Escludi saldi con valore zero</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="63f84949-9e65-4332-b623-ccdf05a4298c">
+  <value column="Name" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Description" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="01d6f2cc-aa38-41ee-b9e3-77a935f51885">
+  <value column="Name" original="Date from">Data dal</value>
+  <value column="Description" original="Date from">Data dal</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="0f81872b-7c54-476d-bf0c-dff4cb21cb29">
+  <value column="Name" original="Date to">Data al</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9829995d-7da5-4597-b4ae-9896e763b7c3">
+  <value column="Name" original="Account Schema">Schema contabile</value>
+  <value column="Description" original="">Schema contabile</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a1c6610a-ce4b-4af1-9280-599547f01dce">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original="Organization"/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f64cf4b2-7d3e-4a77-8630-de4f29bdd262">
+  <value column="Name" original="Partner">Partner</value>
+  <value column="Description" original="Partner">Partner</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="da603180-94ba-4017-8db4-e1bf31feb2be">
+  <value column="Name" original="Omit Detail">Ometti dettagli</value>
+  <value column="Description" original="Omit Detail">Ometti dettagli</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9b1e31b2-9a79-4241-a043-ec2ce45d6289">
+  <value column="Name" original="Element Value ID1">Valore dell'elemento ID1 </value>
+  <value column="Description" original="Element Value ID1">Valore dell'elemento ID1</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5fa5a903-dfb0-4371-98b1-e666ba284b24">
+  <value column="Name" original="Omit CarryOvers">Ometti i riporti</value>
+  <value column="Description" original="Omit CarryOvers">Ometti i riporti</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d00558c2-a273-449b-ae59-166187a07562">
+  <value column="Name" original="Account Schema">Schema contabile</value>
+  <value column="Description" original="Account Schema">Schema contabile</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1a4fcc98-1c76-4c93-a374-9e6142e9eb37">
+  <value column="Name" original="Element Value ID2">Valore dell'elemento ID 2</value>
+  <value column="Description" original="Element Value ID2">Valore dell'elemento ID 2</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b2fae2f9-418c-41ea-a76a-329a286148a5">
+  <value column="Name" original="Project">Progetto</value>
+  <value column="Description" original="Project">Progetto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="79d71693-7519-4b4b-9be6-2c5a62634c69">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original="Organization">Organizzazione</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3003d74a-45ea-4a3f-a581-848e298ff46a">
+  <value column="Name" original="EcludeVoided">Escludi saldi con valore zero</value>
+  <value column="Description" original="ExcludeVoided"/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="26e3e77b-4838-4408-b361-43457eba8017">
+  <value column="Name" original="Date from">Data dal</value>
+  <value column="Description" original="Date from">Data dal</value>
+  <value column="Help" original="">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8c5364fa-25e4-47de-8150-a223a250081b">
+  <value column="Name" original="Date to">Data al</value>
+  <value column="Description" original="Date to">Data al</value>
+  <value column="Help" original="">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8bacfc3e-d388-4cf7-a644-775cfae441d5">
+  <value column="Name" original="Print Vendor">Stampa venditore</value>
+  <value column="Description" original="Print Vendor">Stampa venditore</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="82999a75-6d95-41a6-b2c5-e1820083ede7">
+  <value column="Name" original="Print Customer">Stampa cliente</value>
+  <value column="Description" original="Print Customer">Stampa cliente</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="397f1b0f-cf51-4251-9231-2b63a51bd785">
+  <value column="Name" original="Data Acct">Dalla data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f0b83a2d-865a-49e0-8a81-831388916b62">
+  <value column="Name" original="Business Partner ">Business partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifica un business partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un business partner è qualunque soggetto con cui si hanno rapporti. Questo include fornitori, clienti, dipendenti o agenti</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="aa5912ac-4733-47cc-a1c5-47a77362a468">
+  <value column="Name" original="Date Format">Formato data</value>
+  <value column="Description" original="">Formato della data da importare</value>
+  <value column="Help" original="">Il Formato della data di solito è dedotto, ma a volte va definito.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5a656082-e36b-4f72-8e85-e663ef39896e">
+  <value column="Name" original="Contract">Contratto</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c9083233-5982-41a2-b73a-9846ac914d3f">
+  <value column="Name" original="BusinessPartner">Business partner</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ba5fc0a8-864b-44da-a3fa-f9f2e2992ddc">
+  <value column="Name" original="Sales Order">Ordine di vendita</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ede7f821-2187-4160-9a07-25f2feece992">
+  <value column="Name" original="Business Partner">Business partner</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="93503cfd-b99d-403b-97d3-9cb55ac46064">
+  <value column="Name" original="Order">Ordini di acquisto</value>
+  <value column="Description" original="Order">Ordini di acquisto</value>
+  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9b2aa452-4c17-4bb9-b65c-89f1dce23d71">
+  <value column="Name" original="Append to existing order">Accoda a ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6b2c58bb-90cf-4b8b-9aaf-0e0a4a0a597d">
+  <value column="Name" original="Order">Ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="817a8e45-021f-427d-bc3f-d11d1e8e2944">
+  <value column="Name" original="Append to existing order">Accoda a ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c0292e27-ad3f-4458-9764-2dbd8dff09dc">
+  <value column="Name" original="Order">Ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e3eddb8d-e22a-4068-aa0b-bef15abd1527">
+  <value column="Name" original="Append to existing order">Accoda a ordine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="df7badcb-1ad6-486f-a475-149886c4d224">
+  <value column="Name" original="Merge for BPartner">Unire per business partner e data scadenza</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="0893ae75-294a-4241-9589-3f2fb56f151c">
+  <value column="Name" original="Document Type">Tipo documento</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d875dbda-4c5f-434e-b39a-a50c563e866b">
+  <value column="Name" original="Merge for BPartner">Unire file per BP senza tenere conto delle scadenze</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="166d7407-5c95-4b2f-bc2e-47efa003b0b8">
+  <value column="Name" original="Get Log of Update SQL 0">Get Log of Update SQL 0</value>
+  <value column="Description" original="Determine if a column must be recorded into the change log">Determina se una colonna deve essere registrata nel log delle modifiche</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a00304af-ec2e-496a-b939-f8ef99a71781">
+  <value column="Name" original="Client ID">Client ID</value>
+  <value column="Description" original="Client/Tenant for this installation.">Client per questa installazione</value>
+  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">Un client è una azienda o un'entità legale. Due client non possono condividere gli stessi dati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="028b698a-b107-4c18-ac4a-d106496d9ada">
+  <value column="Name" original="Display All Tables">Mostra tutte le tabella</value>
+  <value column="Description" original="Display All Tables">Mostra tutte le tabella</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9e828891-c389-40a3-bfda-544a43cf0467">
+  <value column="Name" original="Referenced Table">Tabella referenziata</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d7f93530-b73f-4f86-bf45-858765023b9d">
+  <value column="Name" original="Cancel Contact Interest?">Cancellare contatti dell'area d'interesse?</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d84ed070-d7a9-4069-95ee-f9f17189e30a">
+  <value column="Name" original="Target Document Type">Tipo documento</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8de9f7f8-74ef-4cc7-84ea-8595e7575811">
+  <value column="Name" original="Mandatory Charge or Product">Spese/commissioni</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="109a0be2-36ad-494f-8ec4-bdc790faafb0">
+  <value column="Name" original="Consuming component">Consuma componenti</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="86828fc2-0c77-4e22-b16a-fb1f22f34a29">
+  <value column="Name" original="Daily Quantity">Quantità giornaliera</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f66d7f74-7338-4e17-bcc6-c29d918ca70d">
+  <value column="Name" original="Restore Last DB">Ripristina ultimo database</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f9482dd4-b959-469e-9c76-ba7454b02cf6">
+  <value column="Name" original="NameDB">Nome DB da ripristinare</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7ea172f7-95a1-4211-95df-dc880d4cc47e">
+  <value column="Name" original="Target Document Type">Tipo documento</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8701ea33-b3ed-49ff-88e3-c3c687621480">
+  <value column="Name" original="Mandatory Charge or Product">Spese/commissioni</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="979f8858-881a-4371-b112-f6c12f48991f">
+  <value column="Name" original="Mandatory Charge or Product">Spese/commissioni</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="146fd70b-efc7-4e58-a2c8-2be8dc2591b8">
+  <value column="Name" original="Date Invoiced To">Data fattura a</value>
+  <value column="Description" original="Date printed on Invoice">Data fattura a</value>
+  <value column="Help" original="The Date Invoice indicates the date printed on the invoice."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ea4bf347-8972-49d9-a5eb-f6f0f5a89ad6">
+  <value column="Name" original="Date Invoiced From">Data fattura da</value>
+  <value column="Description" original="Date printed on Invoice">Data fattura da</value>
+  <value column="Help" original="The Date Invoice indicates the date printed on the invoice."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c5dc83b5-e757-4702-9ea2-96b2846e8963">
+  <value column="Name" original="Generate Intra Purchases">Genera intra acquisti</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="523da419-ee2c-410e-aefd-dfbf3a7071fb">
+  <value column="Name" original="Generate Intra Sale">Genera intra vendita</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="4b0c3faa-9391-4ff9-901f-8e07eb3fac9f">
+  <value column="Name" original="Price List Version">Versione del listino prezzi</value>
+  <value column="Description" original="Identifies a unique instance of a Price List">Identifica una istanza unica di un listino prezzi</value>
+  <value column="Help" original="Each Price List can have multiple versions.  The most common use is to indicate the dates that a Price List is valid for.">Ciascun Listino può avere diverse versioni. In genere l'uso più comune è quello di indicare la data a partire della quale un listino è valido.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c176b6fc-8a54-46d7-b174-0c6312d36b58">
+  <value column="Name" original="Valuation Date">Data di valutazione</value>
+  <value column="Description" original="Date of valuation">Data di valutazione</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="12a64684-3e87-49bc-8675-3d10697a3df5">
+  <value column="Name" original="Currency">Valuta</value>
+  <value column="Description" original="">Restringe la gestione a questa valuta</value>
+  <value column="Help" original="">Il campo valuta indica che questa banca accetta solo questa valuta.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1ff2ad4a-4aab-435d-873e-92d3546446c2">
+  <value column="Name" original="Warehouse">Magazzino</value>
+  <value column="Description" original="">Magazzino e punto di servizio</value>
+  <value column="Help" original="">Il magazzino/punto di servizio identifica dove i prodotti vengono conservati o i servizi erogati.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="2aa25c8e-9aaf-494a-a9af-155905b3135f">
+  <value column="Name" original="VAT Period">Periodo IVA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original="">Selezionare il primo mese del Trimestre</value>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d2a5fccc-cbdc-4f8c-a2db-94bcafe4b622">
+  <value column="Name" original="UOM">UdM da sostituire</value>
+  <value column="Description" original="Unit of Measure">Unità di Misura</value>
+  <value column="Help" original="The UOM defines a unique non monetary Unit of Measure">L'unità di misura identifica una unità di misura non monetaria unica</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f0592db4-3691-4094-ba43-8c8da75471e5">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original="Organizational entity within client">Entità organizzativa all'interno dell'azienda</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">Un'organizzazione rappresenta un settore dell'azienda o entità legale - esempi sono un negozio o dipartimento. È possibile condividere dati tra le diverse organizzazioni.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e02f9719-f87c-40ed-8ffd-2f160e350bd3">
+  <value column="Name" original="Extend 1 year only this record">Estendi 1 anno solo record corrente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="4ce03afa-9d69-4842-bbf4-ca9fd517b3d0">
+  <value column="Name" original="From Year ">Anno da</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="311d4371-9d67-42d4-b566-1dbfbf1105d2">
+  <value column="Name" original="To Year ">Anno a</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3305b3e9-3cf8-4a7c-85c4-39a99f038c18">
+  <value column="Name" original="Document Type">Tipo documento</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="08c9eb8c-5507-4f56-ac82-0408abbbddf2">
+  <value column="Name" original="Close order by difference">Chiudi ordine per differenza</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ee52c286-9c90-4829-865c-93443447dd10">
+  <value column="Name" original="Discount">Sconto</value>
+  <value column="Description" original="Additional document charges"/>
+  <value column="Help" original="The Charge indicates a type of Charge (Handling, Shipping, Restocking)"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6f75131d-1bd8-4e39-90ee-8f0a2fdd2583">
+  <value column="Name" original="ActualQty">Quantità effettiva finale</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9514159d-8aad-4688-97a5-7aedefacbe67">
+  <value column="Name" original="Deferred/Accrual Registration">Registra risconto/rateo</value>
+  <value column="Description" original="">Registra risconto/rateo</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="12035ec2-5366-4f03-a546-4bb34448f3ce">
+  <value column="Name" original="Account Date Deferred/Accrual">Data della registrazione risconto/rateo</value>
+  <value column="Description" original="Accounting Date">Data della registrazione risconto/rateo</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">Indica la data utilizzata nelle registrazioni contabili generate da questo documento. È anche utilizzata nelle conversioni valutarie.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="991814dc-de23-4d6a-891a-d53d37041b1d">
+  <value column="Name" original="Opening Registration">Registra apertura conto</value>
+  <value column="Description" original="">Registra apertura conto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b1fc35ae-1215-494a-ab8d-f5feaf4624ad">
+  <value column="Name" original="Opening Date">Data della registrazione apertura</value>
+  <value column="Description" original="Opening Date">Data della registrazione apertura</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6a3372d0-c6e9-4b37-b10e-357e869fefe9">
+  <value column="Name" original="Only Current Record">Solo il record corrente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f21a355a-9945-4468-9f49-ce5e4a802e7f">
+  <value column="Name" original="Cost ZERO">No ultimo Acq. a ZERO</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="31128e46-1223-44da-9dd9-4fcf3d3818db">
+  <value column="Name" original="Importo">Importo totale</value>
+  <value column="Description" original="">Totale di tutte le righe del documento</value>
+  <value column="Help" original="">Mostra il Totale delle righe nella valuta del documento.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e3ba1de5-feb3-45d3-9ef4-b647a7dd15e6">
+  <value column="Name" original="NR">Righe selezionate</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c3d4265f-af4a-4b49-8e13-1933113c6547">
+  <value column="Name" original="Overwrite Qty by Zero">Forza q.tà da consumare a 0</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="0fcfd44b-8524-4ebc-92ea-bd9c5dcc072a">
+  <value column="Name" original="Document Type Movement">Tipo documento movimento</value>
+  <value column="Description" original="Document type or rules">Tipo documento o regole</value>
+  <value column="Help" original="The Document Type determines document sequence and processing rules">Il tipo di documento determina la sequenza del documento e le regole di elaborazione</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6b357fc3-0df0-4061-82c9-fdc4d27c0a00">
+  <value column="Name" original="Document Type Inventory">Tipo documento inventario</value>
+  <value column="Description" original="Document type or rules">Tipo documento o regole</value>
+  <value column="Help" original="The Document Type determines document sequence and processing rules">Il tipo di documento determina la sequenza del documento e le regole di elaborazione</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b06c36fe-0e88-4f1a-beab-c1452a649ffc">
+  <value column="Name" original="Document Type Movement">Tipo documento movimento</value>
+  <value column="Description" original="Document type or rules">Tipo documento o regole</value>
+  <value column="Help" original="The Document Type determines document sequence and processing rules">Il tipo di documento determina la sequenza del documento e le regole di elaborazione</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7c0db50b-ebbb-4883-ae22-e18d5bb3a553">
+  <value column="Name" original="Document Type Inventory">Tipo documento inventario</value>
+  <value column="Description" original="Document type or rules">Tipo documento o regole</value>
+  <value column="Help" original="The Document Type determines document sequence and processing rules">Il tipo di documento determina la sequenza del documento e le regole di elaborazione</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a508c7d9-c914-45f7-9421-828027114166">
+  <value column="Name" original="Cost Manual PO">Prendi ultimo acquisto manuale se ZERO (tab acquisti)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9a1d9622-5792-4f5b-9294-d8aed31720f6">
+  <value column="Name" original="Date To">Data a</value>
+  <value column="Description" original="End date of a date range">Data finale dell'intervallo</value>
+  <value column="Help" original="The Date To indicates the end date of a range (inclusive)">Indica l'ultima data dell'intervallo (inclusa)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="abe5ec38-dd7e-4bfa-a165-1adb4c162394">
+  <value column="Name" original="Date From">Data da</value>
+  <value column="Description" original="Starting date for a range">Data iniziale intervallo</value>
+  <value column="Help" original="The Date From indicates the starting date of a range.">Indica la prima data dell'intervallo (inclusa)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="baf455b2-b9d5-4e5e-8437-ee83822a8a20">
+  <value column="Name" original="Dateto">Al</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="add74a7a-f0de-4cbd-a53d-c39e00f90388">
+  <value column="Name" original="Datefrom">Dal</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f01a53ab-df0f-4280-978e-5fc093e7ebcf">
+  <value column="Name" original="Dateto">Al</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8dc9edda-8cf0-485e-bc31-a91b07da9a8c">
+  <value column="Name" original="Datefrom">Dal</value>
+  <value column="Description" original="">Data iniziale intervallo</value>
+  <value column="Help" original="">Indica la prima data dell'intervallo (inclusa)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="936ed654-05a7-4083-b92b-01af618b0313">
+  <value column="Name" original="IsOnlyActual">Solo reg. effettivo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="881b83cf-d145-40aa-b2c6-1f9cf857b921">
+  <value column="Name" original="Dateopenamt">Saldo aperto alla data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="eda46374-f244-4644-ad20-69b1ecb44a88">
+  <value column="Name" original="Vendor">Tutti i fornitori</value>
+  <value column="Description" original="Indicates if this Business Partner is a Vendor"/>
+  <value column="Help" original="The Vendor checkbox indicates if this Business Partner is a Vendor.  If it is selected, additional fields will display which further identify this vendor."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="fbb7436b-fdd6-4f7b-b356-8720d1f0e853">
+  <value column="Name" original="Customer">Tutti i clienti</value>
+  <value column="Description" original="Indicates if this Business Partner is a Customer"/>
+  <value column="Help" original="The Customer checkbox indicates if this Business Partner is a customer.  If it is select additional fields will display which further define this customer."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7fe12bc0-c47f-42f4-ada3-49f94281fecd">
+  <value column="Name" original="Date To">Alla data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7016d75e-775c-43f7-b9c1-df16b61e4cdd">
+  <value column="Name" original="Date From">Dalla data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="514fa27c-d6cf-4c3a-b9b3-3ca34e09eae1">
+  <value column="Name" original="Is Kanban">Kanban</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="70f03af4-140e-4a80-92b6-77d18ae227df">
+  <value column="Name" original="Search Key">Modello</value>
+  <value column="Description" original="Search key for the record in the format required - must be unique">Chiave di ricerca del record nel formato richiesto, deve essere univoca</value>
+  <value column="Help" original="A search key allows you a fast method of finding a particular record.&#10;If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)." xml:space="preserve"><![CDATA[Una Chiave di Ricerca e un metodo veloce di ricerca di un articolare Record. Se si lascia il campo vuoto il sistema assegnerà comunque un numero in base a quanto stabilito nella finestra di Mantenimento dei Numeri di Sequenza utilizzando un Record col nome "DocumentNo_<NomeTabella>", dove  NomeTabella è quello reale definito nel'A.D. (es. C_Order).]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="01bead15-6483-45e4-8d1d-cc8f26c3ceda">
+  <value column="Name" original="Delete QtyToOrder = 0">Cancella quantità da ordinare a 0</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f34431b0-9eef-41b2-9d1b-d7c7a3e72b50">
+  <value column="Name" original="Stampa Totale">Stampa totale</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ee7a8c73-38a4-4ae1-8356-9ab2a657c591">
+  <value column="Name" original="Description">Descrizione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8e77e045-c051-4e0b-b575-ed056ef1da9c">
+  <value column="Name" original="ResetData">Cancella dati esistenti</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8c163063-5d53-433f-9111-17234e5874e3">
+  <value column="Name" original="Append to existing Shipment">Accoda a DDT esistente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c3dd3aaf-d27c-4b7d-b577-6eacffe8037a">
+  <value column="Name" original="Shipment">Documento di trasporto</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ecd483fd-73fa-477a-8468-1d58e1f43b45">
+  <value column="Name" original="IsExistingOrder">Accoda a ordine esistente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f2ddddaa-e249-4b54-9ad9-14b8b57985f7">
+  <value column="Name" original="Start Date">Data inizio</value>
+  <value column="Description" original="First effective day (inclusive)">Data iniziale intervallo</value>
+  <value column="Help" original="The Start Date indicates the first or starting date">Indica la prima data dell'intervallo (inclusa)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b7f02d14-3d1c-459a-8e82-6b1f3751a5fa">
+  <value column="Name" original="End Date">Data fine</value>
+  <value column="Description" original="Last effective date (inclusive)">Data finale intervallo</value>
+  <value column="Help" original="The End Date indicates the last date in this range.">Indica l'ultima data dell'intervallo (inclusa)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7a71413c-cd8d-410c-b208-f6cf44520c11">
+  <value column="Name" original="Current vendor">Usa fornitore abituale dei prodotti</value>
+  <value column="Description" original="Use this Vendor for pricing and stock replenishment"/>
+  <value column="Help" original="The Current Vendor indicates if prices are used and Product is reordered from this vendor"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7c8e8a6d-ed77-4a59-a476-19c5deb835f9">
+  <value column="Name" original="DATE FROM">DATA DAL</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="0c702c65-2764-4694-8920-f160ee031322">
+  <value column="Name" original="SHOW DESC">Mostra descrizione</value>
+  <value column="Description" original="SHOW_DESCRIPTION">MOSTRA DESCRIZIONE</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1b6aeaf2-0a03-4ca4-880b-55316b2d752d">
+  <value column="Name" original="DATE TO">DATA AL</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="83929a11-a840-4273-b26e-4536d7d6a23c">
+  <value column="Name" original="RESOURCE ID">ID RISORSA</value>
+  <value column="Description" original="S_Resource_ID">S_Resource_ID</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="de482c4b-e807-4dfb-9070-525985cbae6a">
+  <value column="Name" original="Only Invoices Exclude Allocation">Solo fatture (escludi incassi non abbinati)</value>
+  <value column="Description" original="">Solo fatture (escludi incassi non abbinati)</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1e2c3d4f-d266-4bfc-9422-be955d062dd4">
+  <value column="Name" original="Document Type">Tipo documento</value>
+  <value column="Description" original="Document type or rules"/>
+  <value column="Help" original="The Document Type determines document sequence and processing rules"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3043598c-5de1-4d9e-9a12-aa1b2d443d4c">
+  <value column="Name" original="In Pay Selection Line">Presente in distinta</value>
+  <value column="Description" original="">Presente in seleziona fatture per pagamento</value>
+  <value column="Help" original="">Presente in seleziona fatture per pagamento</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="29af34f0-b024-449b-b3e8-4c881c5e54e7">
+  <value column="Name" original="Bank Account">Conto bancario</value>
+  <value column="Description" original="">Seleziona banca</value>
+  <value column="Help" original="">Seleziona banca</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="50cc8821-d6c9-43c7-bffe-146c1977695d">
+  <value column="Name" original="PLUGIN DISABLED">PLUGIN NON INSTALLATO !!!!</value>
+  <value column="Description" original="The record is active in the system"/>
+  <value column="Help" original="There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.&#10;There are two reasons for de-activating and not deleting records:&#10;(1) The system requires the record for audit purposes.&#10;(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="720ea6b7-9c3b-43c3-bf11-b3424ca76919">
+  <value column="Name" original="Print Price">Stampa prezzi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1a4bda95-e31f-4070-b3c5-abbfc6e74c00">
+  <value column="Name" original="Use this BPartner for billing">Utilizza questo business partner per la fatturazione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b0401c62-9315-446b-87ef-22d8ee63bc43">
+  <value column="Name" original="isdate">Utilizza intervallo di date</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="21d0cb1b-bb9f-4a76-9986-a33a200747bd">
+  <value column="Name" original="Append to existing Invoice">Accoda a fattura di vendita esistente</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e702f030-386c-43d5-8e49-3a46295095ed">
+  <value column="Name" original="Exclude LIPE">Escludi LIPE</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b5a88ddc-8c19-419b-9c04-8bf5710cf2e6">
+  <value column="Name" original="Is Weekly Plan">Utilizza riapprovvigionamento settimanale</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d276b5cc-6dc6-4738-8dfd-41508e0b5934">
+  <value column="Name" original="OnlyTotal">Solo totale</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6373f063-15ae-4d86-b450-ef32b3b4e1ba">
+  <value column="Name" original="IsOnlyActual">Solo reg. Effettivo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="63a6d939-f160-4f5e-9317-f85e8e6c0ea2">
+  <value column="Name" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Description" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a7e812ae-88c3-4e3d-ba9a-20ea2f90eafb">
+  <value column="Name" original="Account Schema">Schema contabile</value>
+  <value column="Description" original="">Schema contabile</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8429adbb-5e51-4972-b0b5-84f6df6d8dcd">
+  <value column="Name" original="ExcludeVoided">Escludi saldi con valore zero</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a260758d-717b-45db-bf68-8b6caea22896">
+  <value column="Name" original="Date to">Data al</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c37b200e-0d30-4acc-8f7a-8c4c3a6e0645">
+  <value column="Name" original="Date from">Data dal</value>
+  <value column="Description" original="Date from">Data dal</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3b623d78-bc97-4691-9926-fc4505e641e0">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original="Organization"/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b2fc65be-02f1-4202-ac08-e463e847cfe1">
+  <value column="Name" original="IsOnlyActual">Solo reg. effettivo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9bf91f04-6507-4759-a79f-0e2b5f2afd5b">
+  <value column="Name" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Description" original="Print Subaccount">Stampa sottoconto</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3df24e67-0fcf-41cc-b081-786c74a2da1d">
+  <value column="Name" original="Account Schema">Schema contabile</value>
+  <value column="Description" original="">Schema contabile</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="b18d0845-16d5-4aa5-a26e-c854129445fc">
+  <value column="Name" original="ExcludeVoided">Escludi saldi con valore zero</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="8c7e519b-ba28-4f4c-9daf-1b132033879a">
+  <value column="Name" original="Date to">Data al</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d1118ea6-35c3-499b-9e06-2b30faa14eb7">
+  <value column="Name" original="Date from">Data dal</value>
+  <value column="Description" original="Date from">Data dal</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="02ce9925-7f76-49a0-9e1f-0dd26372c572">
+  <value column="Name" original="Organization">Organizzazione</value>
+  <value column="Description" original="Organization"/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f1a39cbc-064a-4445-8dc0-d18f2a9f515b">
+  <value column="Name" original="Stampa Dettaglio">Stampa dettaglio</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d6820b30-34a8-43d7-b344-1e98eccb06af">
+  <value column="Name" original="Print Detail">Stampa dettaglio</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d356e3e1-8025-4b28-8155-438de8bec4b6">
+  <value column="Name" original="Category Purpose">Causale bancaria</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1dedf0bb-7b22-408d-badb-701ead96e379">
+  <value column="Name" original="isnotax">Persone fisiche (no P.IVA)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6e703e81-a63e-4a86-b972-2054ec15ca49">
+  <value column="Name" original="Sql For Jasper">SELECT SQL per invio allegato</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="27a9db71-bdef-4674-8b78-665c7a2d5978">
+  <value column="Name" original="Update column">SQL aggiornamento</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="64f8938d-8514-4022-81f0-589b84e86eb7">
+  <value column="Name" original="Sql Search">SQL di ricerca</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="aba37d73-8282-45fa-95e6-b844436d495d">
+  <value column="Name" original="NotPrintClosingPosting">Non stampare scritture di chiusura</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="325da09d-ad4d-4c72-b693-cab9f77dbba1">
+  <value column="Name" original="NotPrintClosingPosting">Non stampare scritture di chiusura</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ceeb2ba2-a126-4113-bcc6-f4a474bfa08d">
+  <value column="Name" original="Price">Stampa prezzo</value>
+  <value column="Description" original="Price">Prezzo</value>
+  <value column="Help" original="The Price indicates the Price for a product or service."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="7b8e12a2-dc36-45db-be1f-201f1ba5c637">
+  <value column="Name" original="isnotax">Stampa IVA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f1b8a1e8-dc10-44ff-97dc-7254c3c93095">
+  <value column="Name" original="IsDiscount">Stampa sconto</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6af36d72-fa2b-4ece-8275-c8493df8ce9e">
+  <value column="Name" original="Print Price">Stampa prezzi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="15bdaeeb-5738-425a-9453-a893168f560a">
+  <value column="Name" original="Auto Generated">Crea in automatico il calendario</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Record is Auto Generated by System."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="19e23b6c-3dec-484f-8447-8c42f7a048d7">
+  <value column="Name" original="Date Promised">Nuova data prevista consegna</value>
+  <value column="Description" original="Date Order was promised">Nuova data prevista consegna</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="23885cf5-85bb-436b-b897-e1e3686919eb">
+  <value column="Name" original="Quantity For Split">Quantità per lo split</value>
+  <value column="Description" original="Quantity">Quantità</value>
+  <value column="Help" original="The Quantity indicates the number of a specific product or item for this document.">La quantità indica il numero di uno specifico prodotto o articolo all'interno del documento</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="adebcab1-375b-4149-b0cd-498b98627870">
+  <value column="Name" original="Invio Notifica NC">Invio notifica NC</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="d22cd9a0-6ca2-4480-bd18-cd1cb6836bbc">
+  <value column="Name" original="Allocation Transaction Date">Data transazione abbinamento</value>
+  <value column="Description" original="Allocation Transaction Date">Data transazione abbinamento</value>
+  <value column="Help" original="The Transaction Date indicates the date of the allocation."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="baf4ba20-07e5-4f93-90eb-b0471ae0ff22">
+  <value column="Name" original="Grand Total">Importo</value>
+  <value column="Description" original="Total amount of document">Importo totale del documento</value>
+  <value column="Help" original="The Grand Total displays the total amount including Tax and Freight in document currency">Il totale generale mostra l'importo totale, comprese tasse e spese di trasporto, nella valuta del documento</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="45c82fc6-2b3a-4bc7-b0ef-1089b3b5d037">
+  <value column="Name" original="Grand Total">Importo</value>
+  <value column="Description" original="Total amount of document">Importo totale del documento</value>
+  <value column="Help" original="The Grand Total displays the total amount including Tax and Freight in document currency">Il totale generale mostra l'importo totale, comprese tasse e spese di trasporto, nella valuta del documento</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
  </row>
 </idempiereTrl>

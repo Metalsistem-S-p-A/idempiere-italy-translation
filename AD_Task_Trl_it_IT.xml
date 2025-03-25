@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Task">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Task">
  <row id="102" trl="Y">
-  <value column="Name" original="Java Version">Versione Java</value>
-  <value column="Description" original="Displays the version of the default Java VM">Visualizza la versione della  Java VM</value>
-  <value column="Help" original="The java version used by the application might be different.">Visualizza la versione della  Java VM</value>
+  <value column="Name" original="Java Version">Versione Java [VJ00]</value>
+  <value column="Description" original="Displays the version of the default Java VM">Versione Java [VJ00]</value>
+  <value column="Help" original="The java version used by the application might be different.">Visualizza la versione della Java VM</value>
  </row>
  <row id="103" trl="Y">
-  <value column="Name" original="Database export">Export Database </value>
-  <value column="Description" original="Export (save) the database">Export Database </value>
-  <value column="Help" original="Run this command from the server">Esegue questo comando dal server </value>
+  <value column="Name" original="Database export">Esporta database [ED00]</value>
+  <value column="Description" original="Export (save) the database">Esporta database [ED00]</value>
+  <value column="Help" original="Run this command from the server">Esegue questo comando dal server</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Database transfer">Trasferimento Database</value>
-  <value column="Description" original="Transfer the database">Trasferimento Database</value>
-  <value column="Help" original="Run this command from the server">Esegue questo comando dal server </value>
+  <value column="Name" original="Database transfer">Trasferimento database [TD00]</value>
+  <value column="Description" original="Transfer the database">Trasferimento database [TD00]</value>
+  <value column="Help" original="Run this command from the server">Esegue questo comando dal server</value>
+ </row>
+ <row trl="Y" uuid="6e35e889-a365-4d36-93ac-0308014c5507">
+  <value column="Name" original="Postgresql Restart">Commit database postgres</value>
+  <value column="Description" original="Postgresql Restart">Commit database postgres</value>
+  <value column="Help" original="Postgresql restart">Commit database postgres</value>
+ </row>
+ <row trl="Y" uuid="2ffe9f76-7fcc-4f3e-b97a-813901867b3d">
+  <value column="Name" original="View DB Bakup">Visualizzazione backup produzione [VBP00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="803a0c47-b1ba-433f-8a32-dc174125857f">
+  <value column="Name" original="Task EDI - Import Currency Rate">T8 - Task EDI - Importazione del tasso di valuta</value>
+  <value column="Description" original="&quot;Import Currency Rate&quot; con Talend">"Import Currency Rate" con Talend</value>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

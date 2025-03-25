@@ -1,63 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_PrintColor">
- <row id="100" trl="N">
-  <value column="Name" original="Black">Black</value>
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_PrintColor">
+ <row id="100" trl="Y">
+  <value column="Name" original="Black">Nero</value>
  </row>
- <row id="102" trl="N">
-  <value column="Name" original="Red">Red</value>
+ <row id="102" trl="Y">
+  <value column="Name" original="Red">Rosso</value>
  </row>
- <row id="103" trl="N">
-  <value column="Name" original="Green">Green</value>
+ <row id="103" trl="Y">
+  <value column="Name" original="Green">Verde</value>
  </row>
- <row id="104" trl="N">
-  <value column="Name" original="Blue">Blue</value>
+ <row id="104" trl="Y">
+  <value column="Name" original="Blue">Blu</value>
  </row>
- <row id="105" trl="N">
-  <value column="Name" original="Gray dark">Gray dark</value>
+ <row id="105" trl="Y">
+  <value column="Name" original="Gray dark">Grigio scuro</value>
  </row>
- <row id="106" trl="N">
-  <value column="Name" original="Gray">Gray</value>
+ <row id="106" trl="Y">
+  <value column="Name" original="Gray">Grigio</value>
  </row>
- <row id="107" trl="N">
-  <value column="Name" original="Gray light">Gray light</value>
+ <row id="107" trl="Y">
+  <value column="Name" original="Gray light">Grigio chiaro</value>
  </row>
- <row id="108" trl="N">
-  <value column="Name" original="White">White</value>
+ <row id="108" trl="Y">
+  <value column="Name" original="White">Bianco</value>
  </row>
- <row id="109" trl="N">
-  <value column="Name" original="Cyan">Cyan</value>
+ <row id="109" trl="Y">
+  <value column="Name" original="Cyan">Ciano</value>
  </row>
- <row id="110" trl="N">
+ <row id="110" trl="Y">
   <value column="Name" original="Magenta">Magenta</value>
  </row>
- <row id="111" trl="N">
-  <value column="Name" original="Orange">Orange</value>
+ <row id="111" trl="Y">
+  <value column="Name" original="Orange">Arancione</value>
  </row>
- <row id="112" trl="N">
-  <value column="Name" original="Pink">Pink</value>
+ <row id="112" trl="Y">
+  <value column="Name" original="Pink">Rosa</value>
  </row>
- <row id="113" trl="N">
-  <value column="Name" original="Yellow">Yellow</value>
+ <row id="113" trl="Y">
+  <value column="Name" original="Yellow">Giallo</value>
  </row>
- <row id="114" trl="N">
-  <value column="Name" original="Blue dark">Blue dark</value>
+ <row id="114" trl="Y">
+  <value column="Name" original="Blue dark">Blu scuro</value>
  </row>
- <row id="115" trl="N">
-  <value column="Name" original="Gray white">Gray white</value>
+ <row id="115" trl="Y">
+  <value column="Name" original="Gray white">Grigio bianco</value>
  </row>
- <row id="116" trl="N">
-  <value column="Name" original="Green dark">Green dark</value>
+ <row id="116" trl="Y">
+  <value column="Name" original="Green dark">Verde scuro</value>
  </row>
- <row id="117" trl="N">
-  <value column="Name" original="Green black">Green black</value>
+ <row id="117" trl="Y">
+  <value column="Name" original="Green black">Verde nero</value>
  </row>
- <row id="119" trl="N">
-  <value column="Name" original="Blue black">Blue black</value>
+ <row id="119" trl="Y">
+  <value column="Name" original="Blue black">Blu nero</value>
  </row>
- <row id="120" trl="N">
-  <value column="Name" original="Brown">Brown</value>
+ <row id="120" trl="Y">
+  <value column="Name" original="Brown">Marrone</value>
  </row>
- <row id="121" trl="N">
-  <value column="Name" original="Brown dark">Brown dark</value>
+ <row id="121" trl="Y">
+  <value column="Name" original="Brown dark">Marrone scuro</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Metabase Red">Rosso metabase</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Metabase Yellow">Giallo metabase</value>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Metabase Green">Verde metabase</value>
+ </row>
+ <row trl="Y" uuid="321ed582-e4b5-4630-9421-286e3afd80ff">
+  <value column="Name" original="JPiere Blue">Blu JPiere</value>
  </row>
 </idempiereTrl>

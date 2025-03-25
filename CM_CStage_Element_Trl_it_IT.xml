@@ -100,7 +100,7 @@
  </row>
  <row id="114" trl="Y">
   <value column="Name" original="headline1">headline1</value>
-  <value column="ContentHTML" original=" "> </value>
+  <value column="ContentHTML" original=" "></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

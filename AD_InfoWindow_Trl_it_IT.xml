@@ -1,42 +1,403 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_InfoWindow">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_InfoWindow">
  <row id="200000" trl="Y">
-  <value column="Name" original="Product Info">Ricerca Prodotto</value>
+  <value column="Name" original="Product Info">Info prodotto [IPT00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
-  <value column="Name" original="Business Partner Info">Ricerca Business Partner</value>
+  <value column="Name" original="Business Partner Info">Info business partner, indirizzo e contatto [IBI00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
-  <value column="Name" original="Order Info">Ricerca Ordini</value>
+  <value column="Name" original="Order Info">Info ordine di vendita [ION00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200003" trl="Y">
-  <value column="Name" original="Invoice Info">Ricerca Fattura</value>
+  <value column="Name" original="Invoice Info">Info fattura di vendita [IFA00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200004" trl="Y">
-  <value column="Name" original="Shipment Info">Ricerca Spedizioni</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Shipment Info">Info documento di trasporto (DDT) [IDDT01]</value>
+  <value column="Description" original="">Info documento di trasporto (DDT) [IDDT01]</value>
   <value column="Help" original=""/>
  </row>
  <row id="200005" trl="Y">
-  <value column="Name" original="Payment Info">Ricerca Pagamenti / Incassi</value>
+  <value column="Name" original="Payment Info">Info pagamento o incasso [IPI00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200006" trl="Y">
-  <value column="Name" original="Resource Info">Ricerca Risorse</value>
+  <value column="Name" original="Resource Info">Info risorsa [IRS00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200007" trl="Y">
-  <value column="Name" original="Asset Info">Ricerca Cespiti</value>
+  <value column="Name" original="Asset Info">Info cespite [ICE00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Generate Shipments (manual) [IGS12]">Info crea documento di trasporto (DDT) manuale [DDTM00]</value>
+  <value column="Description" original="Select and generate shipments">Info crea documento di trasporto (DDT) manuale [DDTM00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200011" trl="Y">
+  <value column="Name" original="Generate Invoices (manual) [IGF12]">Info crea fattura di vendita [IGF12]</value>
+  <value column="Description" original="Select and generate invoices">Info crea fattura di vendita [IGF12]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200013" trl="Y">
+  <value column="Name" original="Role (All)">Ruolo (tutti)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Support Users vs Roles">Info utente e ruolo [IUR00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200019" trl="Y">
+  <value column="Name" original="Period Control Management">Gestione controllo del periodo [GCP00]</value>
+  <value column="Description" original="Management of Calendars, Years and Periods">Gestione controllo del periodo [GCP00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Create lines from Shipment/Receipt">Crea righe da spedizione/ricezione</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200023" trl="Y">
+  <value column="Name" original="Create lines from RMA">Crea righe da RMA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200024" trl="Y">
+  <value column="Name" original="Create lines from Invoice">Crea righe da fattura</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a84270d1-479e-4162-930c-db6ceece72cc">
+  <value column="Name" original="Order Info PO">Info ordine di acquisto [IOA00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7b5a30ac-db06-4ed3-be73-92933b9caf3d">
+  <value column="Name" original="Order Info SO">Info ordine di vendita [IOV01]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="495e0681-83a9-47ae-b0f2-cf7ce2d1daff">
+  <value column="Name" original="Order Info Detail">Info dettaglio ordine di vendita o acquisto  [IDO00]</value>
+  <value column="Description" original="">Info dettaglio ordine di vendita o acquisto  [IDO00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d3c2c29f-5eb0-4dbf-bad7-88700239d9ee">
+  <value column="Name" original="Invoice Info Detail">Info dettaglio fattura di vendita [IDF00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d4033960-e0a1-426c-b35c-4cab87aeac4c">
+  <value column="Name" original="Shipment Info Detail">Info dettaglio documento di trasporto (DDT) [IDDT00]</value>
+  <value column="Description" original="">Info dettaglio documento di trasporto (DDT) [IDDT00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4c4f8c31-162d-4766-87b9-f54830d11232">
+  <value column="Name" original="RIBA Generate Payments">Registra incasso RIBA [RIB00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="de7a5cc4-7fc1-4d84-a680-2830b3ab3358">
+  <value column="Name" original="WF Activity Info [IAW12]">Approvazione workflow [IAW12]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="eb030114-7736-47d8-95b9-2ff9e6e3f8d9">
+  <value column="Name" original="Generate Shimpment From Order Linee [IGSR12]">Info crea documento di trasporto (DDT)  [IGSR12]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="75c90771-94e2-4a8e-8fd4-a009a28d9472">
+  <value column="Name" original="Generate Invoices from DDT (manual) [IGFD12]">Info crea fattura di vendita da ddt [IGFD12]</value>
+  <value column="Description" original="Select and generate invoices">Info crea fattura di vendita da ddt [IGFD12]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4a047c50-527c-4d4f-b2fb-9d798f5c7a38">
+  <value column="Name" original="Generate invoice progressive [IGFA12]">Crea fattura di vendita ad avanzamento [IGFA12]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a3ea3b57-e946-4880-811d-fa8c4336c933">
+  <value column="Name" original="Copy Tab Customization Info">Info copia tab utente [ICTU00]</value>
+  <value column="Description" original="">Info copia tab utente [ICTU00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="69fdeeb2-df0c-46f1-9a92-d81dc51c015e">
+  <value column="Name" original="Complete Sales Order Info">Info completa ordine di vendita [ICOV00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2f81df4b-8f2d-42df-a6a6-4d339a774580">
+  <value column="Name" original="Contract Info SO">Info contratto di vendita [ICV00]</value>
+  <value column="Description" original="Contract Info">Ricerca contratto di vendita</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c331f0a2-703c-4c71-aa2b-4b4e89aedfb6">
+  <value column="Name" original="Contract Info PO">Info contratto di acquisto [ICA00]</value>
+  <value column="Description" original="Contract Info PO">Ricerca contratto di acquisto</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d53655a7-226f-419f-a845-4e614b281f41">
+  <value column="Name" original="Info Contact Activity [TAK10]">Info attività risorsa [ITR10]</value>
+  <value column="Description" original="">Info attività risorsa [ITR10]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0bc8a57c-3cf1-464c-aa7a-42b80147b213">
+  <value column="Name" original="Complete Purchase Order Info">Info completa ordine di acquisto [ICOA00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fc6d9c71-915e-4172-80ed-3862d6daf882">
+  <value column="Name" original="Complete Invoice Customer Info">Info completa fattura di vendita [ICFV00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0ab9abcd-e97d-491b-94d7-f2cf0ce6246d">
+  <value column="Name" original="Complete Invoice Vendor Info">Info completa fattura di acquisto [ICFA00]</value>
+  <value column="Description" original="">Info completa fattura di acquisto [ICFA00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="46a58946-2735-4ab6-b863-eb642e94ee2e">
+  <value column="Name" original="Material Transaction InOut Info">Movimento magazzino clienti [MOVAC00]</value>
+  <value column="Description" original="">Movimento magazzino clienti [MOVAC00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="18866e85-b6f6-4626-8d07-6226a8a18fe4">
+  <value column="Name" original="BI Invoice Tot Info">Info BI fatturato [NBIF00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fab8dc9e-926c-44a4-968b-6028a04b535b">
+  <value column="Name" original="Sending invoices PA">Info crea fattura di vendita elettronica [IGFE01]</value>
+  <value column="Description" original="">Info crea fattura di vendita elettronica [IGFE01]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2f88353f-ffc8-4825-833b-05e4ba945acc">
+  <value column="Name" original="Create Production From Order Line [ICOP13]">Crea ordine di produzione da riga ordine [ICOP13]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7df6779c-574b-4c80-93bf-eb56b19998ba">
+  <value column="Name" original="Generate Invoices PO from Material Receipt [IGFM12]">Crea fattura acquisto da entrata merce [IGFM12]</value>
+  <value column="Description" original="Select and generate invoices"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="98ad7df5-4914-4ab2-aec5-d8caabae697c">
+  <value column="Name" original="Generating Data Files Invoices (IGDF02)">Crea file dato fattura (spesometro) [CFDS00]</value>
+  <value column="Description" original="">Crea file dato fattura (spesometro) [CFDS00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="aa4b3cac-ee0d-4ef0-a672-ec8ab69ad5bb">
+  <value column="Name" original="Generating Data Files Invoices (IGDF03)">Crea file dato fattura (esterometro) [CFDE00]</value>
+  <value column="Description" original="">Crea file dato fattura (esterometro) [CFDE00]</value>
+  <value column="Help" original="">Generazione file dati fatture 2019 (esterometro)</value>
+ </row>
+ <row trl="Y" uuid="afb04b8b-f26a-448a-b36c-9aba46326a7a">
+  <value column="Name" original="MIPAAF Movement">Info movimento MIPAAF [IMM00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6df2b29b-476a-448b-8e48-8e43ce419026">
+  <value column="Name" original="Shipment Info Detail (Generate Self-Invoice)">Info crea autofattura da DDT [IGA12]</value>
+  <value column="Description" original="">Info crea autofattura da DDT [IGA12]</value>
+  <value column="Help" original="Impostare il &quot;BusinessPartner Autofattura&quot; su AD_OrgInfo"/>
+ </row>
+ <row trl="Y" uuid="2d056b5b-3586-4acf-9312-3a53472b14f0">
+  <value column="Name" original="PO/SO Generate Payments">Registra pagamento incasso da fattura [RPIF00]</value>
+  <value column="Description" original="">Registra pagamento incasso da fattura [RPIF00]</value>
+  <value column="Help" original="">psc.C_Payment_ID IS NULL AND psc.C_PaySelection_ID IN (
+SELECT C_PaySelection_ID from C_PaySelection
+WHERE
+EXISTS (SELECT 1 from C_PaySelectionLine psl WHERE PaymentRule='D' AND C_PaySelectionCheck_ID IS NOT NULL AND psl.C_PaySelection_ID=C_PaySelection.C_PaySelection_ID)
+AND NOT EXISTS (SELECT 1 from C_PaySelectionLine psl WHERE PaymentRule!='D' AND psl.C_PaySelection_ID=C_PaySelection.C_PaySelection_ID)
+AND EXISTS (SELECT 1 from c_payselectioncheck psc WHERE C_Payment_ID IS NULL AND psc.C_PaySelection_ID=C_PaySelection.C_PaySelection_ID)
+)</value>
+ </row>
+ <row trl="Y" uuid="238f9adc-29b1-4268-b856-9a78999e84e0">
+  <value column="Name" original="Inventory Product Info [IGM01]">Info giacenza prodotto [IGM01]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f5ae532f-3096-4387-bb36-e87fdb2f6355">
+  <value column="Name" original="Production">Dichiarazione/prelievo ordine di produzione [ODP13]</value>
+  <value column="Description" original="">Dichiarazione/prelievo ordine di produzione [ODP13]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="37bf4942-7e29-459e-9344-b6b1bb5015a6">
+  <value column="Name" original="Production Line">Dettaglio dichiarazione/prelievo ordine di prod. [DDPP00]</value>
+  <value column="Description" original="">Dettaglio dichiarazione/prelievo ordine di prod. [DDPP00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6ef96101-fb8f-4073-a39c-15806419811d">
+  <value column="Name" original="Sales Order Prepayment">Info ordine di vendita con pagamento anticipato [RODVPA00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1e2fabfa-d2bb-4582-82e0-3236427c0a15">
+  <value column="Name" original="Purchase Order Prepayment">Info ordine di acquisto con pagamento anticipato [ROAPN00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="717e41db-1d79-446e-963a-77f3baaac160">
+  <value column="Name" original="Info Accruals [IRA20]">Info rateo [IRA20]</value>
+  <value column="Description" original="Ratei (Contract)"/>
+  <value column="Help" original="Plugn Contract"/>
+ </row>
+ <row trl="Y" uuid="a21a598a-f112-4fa1-bff6-80f335f10a04">
+  <value column="Name" original="Inventory Move (Reverse Transfert) - DDTM">Storno documento di trasporto (DDT) di magazzino [IGD13]</value>
+  <value column="Description" original="">Storno documento di trasporto (DDT) di magazzino [IGD13]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c50a503d-cc0e-4202-967e-748c7b6a1c4d">
+  <value column="Name" original="Create Contract From Order [CCO20]">Info crea/accoda contratto da ordine di vendita [CCO20]</value>
+  <value column="Description" original="">Info crea/accoda contratto da ordine di vendita [CCO20]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4304d6bd-f97a-456a-9e60-9c0c4cbc792e">
+  <value column="Name" original="Copy Product BOM">Copia prodotto DiBa da DiBa standard [CPBOS00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f63ff04e-fb22-4083-979a-a8ca6acd1163">
+  <value column="Name" original="Master Plan Info">Info master plan [IMP00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="783fe8c9-fe51-42c1-826c-860a086debc0">
+  <value column="Name" original="Master Plan Info MRP">Info MRP master plan [MPI00]</value>
+  <value column="Description" original="">Info MRP master plan [MPI00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e29001cd-fa5f-4a8f-bf31-74fd456e6702">
+  <value column="Name" original="Master Plan Create ODP/RDA From MRP">Crea ODP / RDA da MRP [ORMRP00]</value>
+  <value column="Description" original="">Crea ODP / RDA da MRP [ORMRP00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4a17c99e-9474-491b-a8df-090c4aad3896">
+  <value column="Name" original="Create PO from Requisition Line">Crea ordine di acquisto da richiesta riga [COAR00]</value>
+  <value column="Description" original="">Crea ordine di acquisto da richiesta riga [COAR00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a7c77202-08bf-4b97-80d3-603959ad358d">
+  <value column="Name" original="Replenish incl. Production">Info riapprovigionamento produzione [R.351]</value>
+  <value column="Description" original="">Info riapprovigionamento produzione [R.351]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="53395e39-5a85-4595-9d18-5ef619b069e9">
+  <value column="Name" original="BI Resoure Attendance DayofMonth Info">Info BI rileva ore giorno/mese [IRO00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="01720248-08dd-4bc3-8335-2d6272f65fb2">
+  <value column="Name" original="Resource Assignment Info [ROI10]">Info rilevamento ore [NOI10]</value>
+  <value column="Description" original="Resource Assignment Info - #RESATT#IC">Ricerca rilevamento ore - #RESATT#IC</value>
+  <value column="Help" original="">Ricerca rilevamento ore</value>
+ </row>
+ <row trl="Y" uuid="4ddbeeb1-2a13-457e-8864-940229c93185">
+  <value column="Name" original="Business Partner Light Info">Info business partner [IBR00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="61b2dda3-5681-4698-a5c9-223c80c34d89">
+  <value column="Name" original="Info Deferrals [IRI14]">Info risconto fattura di vendita [IRI14]</value>
+  <value column="Description" original="Risconti (GL_Journal)">Info risconto fattura di vendita [IRI14]</value>
+  <value column="Help" original="Plugin GL_Journal"/>
+ </row>
+ <row trl="Y" uuid="c2c02ef2-f3a8-40b0-811d-c4bdba25f3ce">
+  <value column="Name" original="Info Production [IOP13]">Info ordine di produzione [IOP13]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e3c2aa7f-f42f-4e9f-a3e1-41626e926a73">
+  <value column="Name" original="Indo Production Detail [IPL13]">Info dettaglio ordine di produzione [IPL13]</value>
+  <value column="Description" original="">Info dettaglio ordine di produzione [IPL13]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7e2f11ca-69f0-4a34-993c-17277e1ced5a">
+  <value column="Name" original="Info Inventory Line [ICSI01]">Info dettaglio carico/scarico e inventario [ICSI00]</value>
+  <value column="Description" original="">Info dettaglio carico/scarico e inventario [ICSI00]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="68858fb7-a965-4ede-a519-3931ff5caa38">
+  <value column="Name" original="GL Jornal Detail Info">Info riga prima nota [IRP01]</value>
+  <value column="Description" original="">Info riga prima nota [IRP01]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="23ef0fa4-49fa-46a2-be80-f26111dd7096">
+  <value column="Name" original="Product Category Info [ICP01]">Ricerca categoria prodotto [ICP01]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="954b8507-d11f-41ac-8b65-eeff1f4be71e">
+  <value column="Name" original="Invoice Info Open Item">Ricerca partite aperte</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5fce3faa-fa96-4a16-bc57-86fe75c5c220">
+  <value column="Name" original="Generate Invoices from DDT_Lines (manual) [IGFD13]">Info crea fattura di vendita  da riga DDT [CFRD13]</value>
+  <value column="Description" original="">Info crea fattura di vendita  da riga DDT [CFRD13]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="06c2a432-a8fc-4586-987d-54683b05c7ae">
+  <value column="Name" original="Info Deferrals Contract [IRI16]">Info risconto contratto [IRI16]</value>
+  <value column="Description" original="">Info risconto contratto [IRI16]</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="021c931a-5b69-4157-875e-306a69f21fce">
+  <value column="Name" original="Organization Search">Cerca organizzazione</value>
+  <value column="Description" original="JPIERE-0114:JPPS">JPIERE-0114:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6ebeaaad-e901-4c61-a4af-02d575cbd163">
+  <value column="Name" original="Project Search">Cerca progetto</value>
+  <value column="Description" original="JPIERE-0127:JPCS">JPIERE-0127:JPCS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d37bb437-1400-484f-935e-9070cd034081">
+  <value column="Name" original="Personal ToDo Search">Cerca ToDo personali</value>
+  <value column="Description" original="JPIERE-0478:JPPS">JPIERE-0478:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="be947169-aede-4d82-87b1-f5c4f19c6810">
+  <value column="Name" original="Team ToDo Search">Cerca team ToDo</value>
+  <value column="Description" original="JPIERE-0478:JPPS">JPIERE-0478:JPPS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="cdab3de5-5c3e-4c46-b486-c21cdfda9027">
+  <value column="Name" original="Generate Shipment From Order Linee - Suppl. Product [IGSR42]">Genera spedizioni da ordine riga (KIT) [IGSR42]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Utilizzato nel caso di gestione KIT (Supplementary Product)"/>
+ </row>
+ <row trl="Y" uuid="984f93fe-c340-4b51-8bf6-cfcba769fe3e">
+  <value column="Name" original="Info WMS Logistic Unit [IULM00]">Info unità logistica magazzino [IULM00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2c178055-b2f0-4bc3-b993-741029a30f96">
+  <value column="Name" original="Info Return Creation">Info crea resi [ICR00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1da228e9-5e78-474d-84fb-d23c0e508d8d">
+  <value column="Name" original="Invoice Info Open Item POTrx">Ricerca partite aperte FORNITORI [RPAF00]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ac0fa75b-1904-4e55-b9ee-ef177326fb99">
+  <value column="Name" original="Invoice Info Open Item SOTrx">Ricerca partite aperte CLIENTI [RPAC00]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

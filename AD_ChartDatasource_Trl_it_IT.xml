@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_ChartDatasource">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Total">Totale</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Opportunity">Opportunità</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Expected">Atteso</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Current">Corrente</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Previous">Precedente</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Number of Requests">Numero di richieste</value>
+ </row>
+ <row trl="Y" uuid="744fede6-1d52-42e7-b14c-17fc2dfe7348">
+  <value column="Name" original="Hours Resource">Ore risorsa</value>
+ </row>
+ <row trl="Y" uuid="326606e8-46ac-4f6f-8af9-2d03207f9631">
+  <value column="Name" original="Hours Resource 2">Ora risorsa 2</value>
+ </row>
+</idempiereTrl>

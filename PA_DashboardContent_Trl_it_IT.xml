@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="PA_DashboardContent">
+<!--iDempiere(r) Release 11_2023-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2024 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="PA_DashboardContent">
  <row id="50000" trl="Y">
   <value column="Name" original="Activities">Attività</value>
   <value column="Description" original="Workflow activities, notices and requests">Attività</value>
@@ -16,18 +16,13 @@
   <value column="HTML" original=""/>
  </row>
  <row id="50003" trl="Y">
-  <value column="Name" original="Performance">Cruscotto</value>
-  <value column="Description" original="Performance meters">Cruscotto</value>
-  <value column="HTML" original=""/>
- </row>
- <row id="50004" trl="Y">
-  <value column="Name" original="Calendar">Calendar</value>
-  <value column="Description" original="Request Calendar">Request Calendar</value>
+  <value column="Name" original="Performance">Dashboard</value>
+  <value column="Description" original="Performance meters">Dashboard</value>
   <value column="HTML" original=""/>
  </row>
  <row id="200000" trl="Y">
-  <value column="Name" original="Recent Items">Schede Recenti</value>
-  <value column="Description" original="Recent items">Schede Recenti</value>
+  <value column="Name" original="Recent Items">Schede recenti</value>
+  <value column="Description" original="Recent items">Schede recenti</value>
   <value column="HTML" original=""/>
  </row>
  <row id="200001" trl="Y">
@@ -35,13 +30,69 @@
   <value column="Description" original="Menu">Menu</value>
   <value column="HTML" original=""/>
  </row>
- <row id="200002" trl="N">
-  <value column="Name" original="Running Jobs">Running Jobs</value>
-  <value column="Description" original="Running Jobs">Running Jobs</value>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Running Jobs">Lavori in esecuzione</value>
+  <value column="Description" original="Running Jobs">Lavori in esecuzione</value>
   <value column="HTML" original=""/>
  </row>
- <row id="200003" trl="N">
-  <value column="Name" original="Activities">Activities</value>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Activities">Attività</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Donate">Donate</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original="&lt;iframe src=&quot;https://www.idempiere.org/short-donate/&quot; style=&quot;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;width: 100%;height: 450px;&quot;&gt;&lt;/iframe&gt;" xml:space="preserve"><![CDATA[<iframe src="https://www.idempiere.org/short-donate/" style="border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;width: 100%;height: 450px;"></iframe>]]></value>
+ </row>
+ <row trl="Y" uuid="263abde6-a22b-42b0-975d-20a470009500">
+  <value column="Name" original="Idempiere Consulting ENTERPRISE ERP">Idempiere Consulting ENTERPRISE ERP</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original="48.dat|string" xml:space="preserve"><![CDATA[<div><span style="font-size:16px"><strong>Visita i nostri siti WEB:</strong></span></div>
+
+<div>&nbsp;</div>
+
+<div>
+<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<tbody>
+		<tr>
+			<td>
+			<p style="text-align:center">Sito ufficiale</p>
+			</td>
+			<td>
+			<p style="text-align:center"><a href="http://www.idempiere.consulting" target="Prova">idempiere.consulting</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center">Video</p>
+			</td>
+			<td>
+			<p style="text-align:center"><a href="http://www.idempiere.consulting/video" target="Prova">Documentazione</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center">Comunity Italia</p>
+			</td>
+			<td>
+			<p style="text-align:center"><a href="http://www.idempiereitalia.org" target="Prova">Idempiere Italia</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center">Comunity internazionale</p>
+			</td>
+			<td>
+			<p style="text-align:center"><a href="http://www.idempiere.org/" target="Prova">Idempiere</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>]]></value>
+ </row>
+ <row trl="Y" uuid="441cb876-34f3-4c80-af85-37355176155e">
+  <value column="Name" original="ToDo">ToDo</value>
   <value column="Description" original=""/>
   <value column="HTML" original=""/>
  </row>
