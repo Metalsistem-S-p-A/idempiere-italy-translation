@@ -1,7 +1,13 @@
+- [Linee guida per la nomenclatura e lo stile in Idempiere](#linee-guida-per-la-nomenclatura-e-lo-stile-in-idempiere)
+  - [Tabella delle scelte stilistiche](#tabella-delle-scelte-stilistiche)
+  - [Regole grammaticali e stilistiche generali](#regole-grammaticali-e-stilistiche-generali)
+  - [Tabella delle scelte di abbreviazioni](#tabella-delle-scelte-di-abbreviazioni)
+  - [Tabella delle scelte di sinonimi](#tabella-delle-scelte-di-sinonimi)
+
+
 # Linee guida per la nomenclatura e lo stile in Idempiere
 
-## Motivazione della scelta dello stile
-Idempiere utilizza per scelta anglosassone la **Title Case** (es. "Questo È Un Campo"), uno stile tipico dei titoli in inglese. Tuttavia, questa scelta non è ottimale per l'italiano.
+IDempiere utilizza per scelta anglosassone la **Title Case** (es. "Questo È Un Campo"), uno stile tipico dei titoli in inglese. Tuttavia, questa scelta non è ottimale per l'italiano.
 
 Si è deciso di adottare la **Sentence case** (es. "Questo è un campo") per le seguenti ragioni:
 
