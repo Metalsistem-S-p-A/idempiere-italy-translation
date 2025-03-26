@@ -1,11 +1,10 @@
-- [Linee guida per la nomenclatura e lo stile in Idempiere](#linee-guida-per-la-nomenclatura-e-lo-stile-in-idempiere)
-  - [Tabella delle scelte stilistiche](#tabella-delle-scelte-stilistiche)
-  - [Regole grammaticali e stilistiche generali](#regole-grammaticali-e-stilistiche-generali)
-  - [Tabella delle scelte di abbreviazioni](#tabella-delle-scelte-di-abbreviazioni)
-  - [Tabella delle scelte di sinonimi](#tabella-delle-scelte-di-sinonimi)
-
-
 # Linee guida per la nomenclatura e lo stile in Idempiere
+
+## Perché tradurre e uniformare lo stile?
+
+Una traduzione ben curata contribuisce a migliorare la percezione del prodotto, rendendolo più professionale e competitivo rispetto alle soluzioni proprietarie. Un'interfaccia coerente e ben strutturata aumenta la facilità d'uso, riduce la confusione e migliora l'adozione da parte degli utenti.
+
+Una corretta gestione della terminologia e dello stile non è solo una questione estetica, ma influisce direttamente sull'usabilità del sistema, sulla qualità della documentazione e sulla chiarezza delle informazioni fornite agli utenti.
 
 IDempiere utilizza per scelta anglosassone la **Title Case** (es. "Questo È Un Campo"), uno stile tipico dei titoli in inglese. Tuttavia, questa scelta non è ottimale per l'italiano.
 
