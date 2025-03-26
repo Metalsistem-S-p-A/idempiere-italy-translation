@@ -1793,10 +1793,10 @@ Se più ordini di distribuzione di un partner commerciale hanno la stessa ubicaz
 Operazione costo manodopera = (Tempo di installazione / Quantità dimensione lotto) * Durata * Tariffa manodopera per questa risorsa
 Operazione costo generale = (Tempo di installazione / Quantità dimensione lotto) * Durata * Tariffa manodopera per questa risorsa
 
-Flusso di lavoro costo manodopera = Somma di ogni operazione costo manodopera
-Flusso di lavoro costo generale = Somma di ogni operazione costo generale
+Workflow costo manodopera = Somma di ogni operazione costo manodopera
+Workflow costo generale = Somma di ogni operazione costo generale
 
-Flusso di lavoro costo = Flusso di lavoro costo manodopera + Flusso di lavoro costo generale</value>
+Workflow costo = Workflow costo manodopera + Workflow costo generale</value>
   <value column="ParameterValue" original=""/>
  </row>
  <row id="53060" trl="Y">

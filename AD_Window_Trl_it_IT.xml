@@ -1405,7 +1405,7 @@ Risponde principalmente alla domanda: dove viene fabbricato il prodotto?
 Un impianto di produzione specifico costituito da una o più persone e/o macchine che possono essere considerate come un'unità ai fini della pianificazione della capacità e della programmazione dettagliata.</value>
  </row>
  <row id="53005" trl="Y">
-  <value column="Name" original="Manufacturing Workflows">Flusso di lavoro di produzione [FLP00]</value>
+  <value column="Name" original="Manufacturing Workflows">Workflow di produzione [FLP00]</value>
   <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Flusso di lavoro di produzione [FLP00]</value>
   <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Workflow di produzione (routing) è un insieme di informazioni che descrivono il metodo di fabbricazione di un particolare articolo. Comprende le operazioni da eseguire, la loro sequenza, i vari centri di lavoro da coinvolgere e gli standard per l'impostazione e il funzionamento. In alcune aziende, il routing include anche informazioni sui livelli di competenza degli operatori delle attrezzature per l'ispezione e i requisiti di collaudo operativo, ecc.</value>
  </row>
@@ -1436,8 +1436,8 @@ Risponde alla domanda: quali sono i componenti del prodotto?</value>
   <value column="Help" original="">Pezzo di ricambio</value>
  </row>
  <row id="53011" trl="Y">
-  <value column="Name" original="Activity Control Report"> Avanzamento di produzione [ADP00]</value>
-  <value column="Description" original="Activity Control"> Avanzamento di produzione [ADP00]</value>
+  <value column="Name" original="Activity Control Report">Avanzamento di produzione [ADP00]</value>
+  <value column="Description" original="Activity Control">Avanzamento di produzione [ADP00]</value>
   <value column="Help" original="This window is reported the real issue the shop floor"/>
  </row>
  <row id="53012" trl="Y">
@@ -2666,7 +2666,7 @@ Risponde alla domanda: quali sono i componenti del prodotto?</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="dd364cef-bb90-4fcd-bb17-4db94d721ee5">
-  <value column="Name" original="Angrafica Unità di Carico (UDC)[AUDC]">Angrafica unità di carico (UDC)[AUDC]</value>
+  <value column="Name" original="Angrafica Unità di Carico (UDC)[AUDC]">Angrafica unità di carico (UDC) [AUDC]</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

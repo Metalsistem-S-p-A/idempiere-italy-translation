@@ -65,3 +65,4 @@ Per lo stesso motivo mantenere coerenza tra i sinonimi scelti. Salvo eccezioni, 
 | approfondimento       | drill                                 |
 | ubicazione            | area di stoccaggio                    |
 | finestre informative  | info window, finestre di informazione |
+| workflow              | flusso di lavoro                      |
