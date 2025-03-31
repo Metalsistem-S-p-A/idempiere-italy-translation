@@ -42046,8 +42046,8 @@ Prodotto: utilizzato per aggiungere rapidamente prodotti all'ordine POS</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200023" trl="Y">
-  <value column="Name" original="Auto expand menu">Espandi Menù Automaticamente</value>
-  <value column="PrintName" original="Auto expand menu">Espandi Menù Automaticamente</value>
+  <value column="Name" original="Auto expand menu">Espandi menù automaticamente</value>
+  <value column="PrintName" original="Auto expand menu">Espandi menù automaticamente</value>
   <value column="Description" original="If ticked, the menu is automatically expanded">Se selezionata, il menu viene automaticamente espanso</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

@@ -1217,10 +1217,10 @@ Puoi anche ricevere un pagamento parziale (pagamento inferiore). Se decidi di no
   <value column="Help" original="The History Tab displays changes of a Request. The data displayed are the OLD (changed from) values. The new data is in the request.">Il tab mostra ogni azione intrapresa per una richiesta.</value>
  </row>
  <row id="349" trl="Y">
-  <value column="Name" original="Allocation Line">Annullamento imputazione</value>
+  <value column="Name" original="Allocation Line">Righe abbinamento</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="View Allocation Lines">Annullamento imputazione</value>
-  <value column="Help" original="View Allocation Line Details">Il tab annullamento imputazione indica la imputazione del pagamento in storno</value>
+  <value column="Description" original="View Allocation Lines">Righe abbinamento</value>
+  <value column="Help" original="View Allocation Line Details">Indica i pagamenti abbinati</value>
  </row>
  <row id="351" trl="Y">
   <value column="Name" original="Org Access">Accesso organizzazione</value>
