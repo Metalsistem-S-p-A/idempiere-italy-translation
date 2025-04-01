@@ -7536,9 +7536,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1380" trl="Y">
-  <value column="Name" original="Allocation">Imputazione</value>
-  <value column="PrintName" original="Allocation">Imputazione</value>
-  <value column="Description" original="Payment allocation">Imputazione del pagamento</value>
+  <value column="Name" original="Allocation">Abbinamento</value>
+  <value column="PrintName" original="Allocation">Abbinamento</value>
+  <value column="Description" original="Payment allocation">Abbinamento del pagamento</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -16248,10 +16248,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2270" trl="Y">
-  <value column="Name" original="Allocation Strategy">Strategia di imputazione</value>
-  <value column="PrintName" original="Allocation">Imputazione</value>
-  <value column="Description" original="Allocation Strategy">Strategia di imputazione</value>
-  <value column="Help" original="Allocation from incoming to outgoing transactions">Imputazione tra le transazioni di entrata e di uscita</value>
+  <value column="Name" original="Allocation Strategy">Strategia di abbinamento</value>
+  <value column="PrintName" original="Allocation">abbinamento</value>
+  <value column="Description" original="Allocation Strategy">Strategia di abbinamento</value>
+  <value column="Help" original="Allocation from incoming to outgoing transactions">Abbinamento tra le transazioni di entrata e di uscita</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18988,10 +18988,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2534" trl="Y">
-  <value column="Name" original="Allocation Line">Riga di imputazione</value>
-  <value column="PrintName" original="Allocation Line">Riga di imputazione</value>
-  <value column="Description" original="Allocation Line">Riga di imputazione</value>
-  <value column="Help" original="Allocation of Cash/Payment to Invoice">Imputazione del pagamento alla fattura</value>
+  <value column="Name" original="Allocation Line">Riga di abbinamento</value>
+  <value column="PrintName" original="Allocation Line">Riga di abbinamento</value>
+  <value column="Description" original="Allocation Line">Riga di abbinamento</value>
+  <value column="Help" original="Allocation of Cash/Payment to Invoice">Abbinamento del pagamento alla fattura</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20497,7 +20497,7 @@
  <row id="2678" trl="Y">
   <value column="Name" original="Available Amount">Importo disponibile</value>
   <value column="PrintName" original="Available Amt">Importo disponibile</value>
-  <value column="Description" original="Amount available for allocation for this document">Importo disponibile per l'imputazione per questo documento</value>
+  <value column="Description" original="Amount available for allocation for this document">Importo disponibile per l'abbinamento per questo documento</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -21958,9 +21958,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2819" trl="Y">
-  <value column="Name" original="Landed Cost Allocation">Imputazione costi di importazione</value>
-  <value column="PrintName" original="Landed Cost Allocation">Imputazione costi di importazione</value>
-  <value column="Description" original="Allocation for Land Costs">Imputazione costi di importazione</value>
+  <value column="Name" original="Landed Cost Allocation">Abbinamento costi di importazione</value>
+  <value column="PrintName" original="Landed Cost Allocation">Abbinamento costi di importazione</value>
+  <value column="Description" original="Allocation for Land Costs">Abbinamento costi di importazione</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -62495,8 +62495,8 @@ Distribuire l'imposta con la spesa pertinente: l'importo dell'imposta viene aggi
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203347" trl="Y">
-  <value column="Name" original="Create Allocation">Crea imputazione</value>
-  <value column="PrintName" original="Create Allocation">Crea imputazione</value>
+  <value column="Name" original="Create Allocation">Crea abbinamento</value>
+  <value column="PrintName" original="Create Allocation">Crea abbinamento</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

@@ -1301,7 +1301,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="467" trl="Y">
-  <value column="Name" original="Payment Allocation">Imputazione pagamento</value>
+  <value column="Name" original="Payment Allocation">Abbinamento pagamento</value>
   <value column="Description" original=""/>
  </row>
  <row id="468" trl="Y">

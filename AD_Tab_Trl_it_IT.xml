@@ -3177,7 +3177,7 @@ Se si definisce una classe di processo, questa deve essere implementata in org.c
  <row id="686" trl="Y">
   <value column="Name" original="Allocations">Pagamenti</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Imputazione dei pagamenti/incassi delle fatture</value>
+  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Abbinamento dei pagamenti/incassi delle fatture</value>
   <value column="Help" original=""/>
  </row>
  <row id="687" trl="Y">
@@ -3251,7 +3251,7 @@ Selezionare una ricevuta, una riga di ricevuta o un prodotto specifico a cui all
  <row id="698" trl="Y">
   <value column="Name" original="Landed Cost Allocation">Abbinamento trasporti e costi accessori</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Allocation of Landed Costs to Product">Imputazione trasporti e costi accessori</value>
+  <value column="Description" original="Allocation of Landed Costs to Product">Abbinamento trasporti e costi accessori</value>
   <value column="Help" original="Calculated when preparing the Invoice">Calcolato durante la preparazione della fattura</value>
  </row>
  <row id="699" trl="Y">
@@ -3542,19 +3542,19 @@ Indiretti: utenti con ruolo, abbonati degli aggiornamenti per categoria, tipo, g
  <row id="749" trl="Y">
   <value column="Name" original="Attributes">Attributi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Instance Attribute Material Allocation">Imputazione attributo materiale del prodotto</value>
+  <value column="Description" original="Product Instance Attribute Material Allocation">Abbinamento attributo materiale del prodotto</value>
   <value column="Help" original=""/>
  </row>
  <row id="750" trl="Y">
   <value column="Name" original="Attributes">Attributi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Instance Attribute Material Allocation">Imputazione attributo materiale del prodotto</value>
+  <value column="Description" original="Product Instance Attribute Material Allocation">Abbinamento attributo materiale del prodotto</value>
   <value column="Help" original=""/>
  </row>
  <row id="751" trl="Y">
   <value column="Name" original="Attributes">Attributi</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Instance Attribute Material Allocation">Imputazione attributo materiale del prodotto</value>
+  <value column="Description" original="Product Instance Attribute Material Allocation">Abbinamento attributo materiale del prodotto</value>
   <value column="Help" original=""/>
  </row>
  <row id="752" trl="Y">
@@ -3576,12 +3576,12 @@ Indiretti: utenti con ruolo, abbonati degli aggiornamenti per categoria, tipo, g
   <value column="Help" original="Create a record, if you want to exclude the ability to create Serial Numbers in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache."/>
  </row>
  <row id="755" trl="Y">
-  <value column="Name" original="Allocate">Imputa</value>
+  <value column="Name" original="Allocate">Abbinamento</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Allocate Payments to Invoices">Imputa pagamenti alle fatture</value>
+  <value column="Description" original="Allocate Payments to Invoices">Abbinamento pagamenti alle fatture</value>
   <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">Puoi allocare direttamente i pagamenti alle fatture con la stessa valuta quando crei il pagamento.
 Nota che puoi sovra- o sotto-allocare il pagamento.
-Quando elabori il pagamento, l'imputazione viene creata.</value>
+Quando elabori il pagamento, l'abbinamento viene creato.</value>
  </row>
  <row id="756" trl="Y">
   <value column="Name" original="BP Access">Accesso business partner</value>
@@ -7456,17 +7456,17 @@ Se hai un pagamento "superiore", cioè se hai ricevuto più soldi del dovuto per
 Puoi anche ricevere un pagamento parziale (pagamento inferiore). Se decidi di non cancellare l'importo rimanente della fattura, inserisci l'importo "inferiore" come un valore positivo.]]></value>
  </row>
  <row trl="Y" uuid="82c47d8a-ccc9-488c-9348-378fe981a14a">
-  <value column="Name" original="Allocate">Imputa</value>
+  <value column="Name" original="Allocate">Abbinamento</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Allocate Payments to Invoices">Imputa pagamenti alle fatture</value>
+  <value column="Description" original="Allocate Payments to Invoices">Abbinamento pagamenti alle fatture</value>
   <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">Puoi allocare direttamente i pagamenti alle fatture con la stessa valuta quando crei il Pagamento.
 Nota che puoi sovra- o sotto-allocare il pagamento.
-Quando elabori il pagamento, l'imputazione viene creata.</value>
+Quando elabori il pagamento, l'abbinamento viene creata.</value>
  </row>
  <row trl="Y" uuid="84e0e036-25ff-48f4-8f60-999481f7ff03">
   <value column="Name" original="Allocations">Pagamenti</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Imputazione dei pagamenti/incassi delle fatture</value>
+  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Abbinamento dei pagamenti/incassi delle fatture</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="77ba0d94-997e-4bb4-aa3d-6c8e9563c163">

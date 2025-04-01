@@ -272,8 +272,8 @@ Righe con una sequenza più alta sovrascrivono i prezzi esistenti. La sequenza d
   <value column="ParameterValue" original=""/>
  </row>
  <row id="148" trl="Y">
-  <value column="Name" original="Allocation">Report imputazione del pagamento [R.61]</value>
-  <value column="Description" original="Payment - Invoice - Allocation">Report pagamento - fattura - allocazioni [R.61]</value>
+  <value column="Name" original="Allocation">Report abbinamento pagamento [R.61]</value>
+  <value column="Description" original="Payment - Invoice - Allocation">Report abbinamento pagamento [R.61]</value>
   <value column="Help" original="The report displays invoice allocations to payments and cash journals.  Previous allocations are displayed as reversed."/>
   <value column="ParameterValue" original=""/>
  </row>
@@ -284,7 +284,7 @@ Righe con una sequenza più alta sovrascrivono i prezzi esistenti. La sequenza d
   <value column="ParameterValue" original=""/>
  </row>
  <row id="150" trl="Y">
-  <value column="Name" original="Process Allocation">Inversione imputazione</value>
+  <value column="Name" original="Process Allocation">Inversione abbinamento</value>
   <value column="Description" original="">Inverte la ripartizione e ti permette di  ridistribuire la fattura e il pagamento.</value>
   <value column="Help" original=""/>
   <value column="ParameterValue" original=""/>
@@ -1384,7 +1384,7 @@ Si noti che il supporto è limitato alla configurazione e al test, ma non al rec
  <row id="331" trl="Y">
   <value column="Name" original="Product Cost Detail">Report dettaglio costo di produzione [R.75]</value>
   <value column="Description" original="Product Invoice Cost Detail Report">Report dettaglio costo di produzione [R.75]</value>
-  <value column="Help" original="The Product Invoice Cost Detail Report lists the products with the individual invoice cost allocation">Il report dettaglio costo fattura prodotto elenca i prodotti con l'imputazione del costo della singola fattura.</value>
+  <value column="Help" original="The Product Invoice Cost Detail Report lists the products with the individual invoice cost allocation">Il report dettaglio costo fattura prodotto elenca i prodotti con l'abbinamento del costo della singola fattura.</value>
   <value column="ParameterValue" original=""/>
  </row>
  <row id="332" trl="Y">

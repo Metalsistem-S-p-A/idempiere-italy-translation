@@ -1161,7 +1161,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="391" trl="Y">
-  <value column="MsgText" original="Payment Allocation">Imputazione del pagamento</value>
+  <value column="MsgText" original="Payment Allocation">Abbinamento del pagamento</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="392" trl="Y">
@@ -4197,7 +4197,7 @@
   <value column="MsgTip" original=" "/>
  </row>
  <row id="52255" trl="Y">
-  <value column="MsgText" original="Payment Allocation">Imputazione del pagamento</value>
+  <value column="MsgText" original="Payment Allocation">Abbinamento del pagamento</value>
   <value column="MsgTip" original=" "/>
  </row>
  <row id="52256" trl="Y">
@@ -4681,7 +4681,7 @@
   <value column="MsgTip" original=" "/>
  </row>
  <row id="52376" trl="Y">
-  <value column="MsgText" original="Payment Allocations History">Storico imputazione pagamenti</value>
+  <value column="MsgText" original="Payment Allocations History">Storico abbinamento pagamenti</value>
   <value column="MsgTip" original=" "/>
  </row>
  <row id="52377" trl="Y">
@@ -5297,7 +5297,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53044" trl="Y">
-  <value column="MsgText" original="Payment Allocate must not exists if the payment header has charge/invoice/order.">Non possono essere righe di imputazione del pagamento se in intestazione è indicato un addebito/fattura/ordine</value>
+  <value column="MsgText" original="Payment Allocate must not exists if the payment header has charge/invoice/order.">Non possono essere righe di abbinamento del pagamento se in intestazione è indicato un addebito/fattura/ordine</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53045" trl="Y">
@@ -5773,15 +5773,15 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200060" trl="Y">
-  <value column="MsgText" original="Invoice Processed: ">Fattura processata :</value>
+  <value column="MsgText" original="Invoice Processed: ">Fattura processata:</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200061" trl="Y">
-  <value column="MsgText" original="Payment Allocated: ">Imputazione pagamento già eseguita</value>
+  <value column="MsgText" original="Payment Allocated: ">Abbinamento pagamento già eseguito</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200062" trl="Y">
-  <value column="MsgText" original="Allocation Processed: ">Imputazione processata:</value>
+  <value column="MsgText" original="Allocation Processed: ">Abbinamento processato:</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200063" trl="Y">
@@ -6693,7 +6693,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200395" trl="Y">
-  <value column="MsgText" original="Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}">Non è possibile l'imputazione della valuta {0} alla valuta base {1} - Tipo Conversione : {2} / Data Conversione  : {3}</value>
+  <value column="MsgText" original="Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}">Non è possibile l'abbinamento della valuta {0} alla valuta base {1} - Tipo Conversione : {2} / Data Conversione  : {3}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200396" trl="Y">
@@ -7173,7 +7173,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200592" trl="Y">
-  <value column="MsgText" original="Allocation date updated">Data imputazione aggiornata</value>
+  <value column="MsgText" original="Allocation date updated">Data abbinamento aggiornata</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200593" trl="Y">
